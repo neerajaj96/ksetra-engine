@@ -1,0 +1,33 @@
+id: SESHA-P7V41B-kalashafill
+claim_en: >-
+  Kalasha filling: eight/nine/five vessels with chandana-adi through mamsi and
+  all ashtagandhas (Bhairavi: five or nine of all ashtagandhas; Matris: nine);
+  by the seventeen-dravya rule set a padma, fill the middle nine rich with pure
+  water, five in the field-corner-cut manner; five pranava-mantra letters fill
+  the five.
+claim_sa: ... अष्टौ ... पञ्चकं नवकं वापि ... अष्टगन्धकैः ... सप्तदशद्रव्यन्यायेन
+  ... मध्ये शुद्धजलाढ्यं नवकं पूरयतु ... पञ्चप्रणवमन्त्रस्य वर्णः पञ्चकपूरणम् ...
+  ।। ४१-४३ ।।
+rule_type: material
+params:
+  vessels: [8, 9, 5]
+  dravyas: [chandana_set, mamsi, ashtagandha_all, seventeen_dravya]
+  middle: shuddha_jala_nine
+  pranava_fill: 5
+applicability: Seshasamuccaya Patala 7, verses 41-43.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 41
+  passage_chars: 500
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0166 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 41-43 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Kalasha-fill programs (8/9/5 vessels + 17-dravya + pranava);
+  snapana inventory content.'
+status: partial
+review: hand

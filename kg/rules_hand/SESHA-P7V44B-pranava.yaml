@@ -1,0 +1,30 @@
+id: SESHA-P7V44B-pranava
+claim_en: >-
+  The five-pranava mantra: Vak (vagbhava Aim), Shakti (Bhuvaneshvari),
+  Indira (Shri-bija), Jiva-Agni-El with bindu (Sakara + Ra + ... ), and
+  Jiva-Sarga-Vyoma (Ha + visarga) as the fifth bija; fill the five and the nine
+  (navarna) vessels in order with these five pranava letters.
+claim_sa: ... पञ्चप्रणवमन्त्रस्य पञ्चभिर्वर्णैः पञ्चकपूरणं नवार्णवर्णं नवकानां
+  पूरणं ... वाक् ... शक्तिः ... इन्दिरा ... जीव ... अग्नी ... लवो विन्दुः ...
+  जीवसर्गान्वितं व्योम पञ्चमं बीजम् ... ।। ४४-४५ ।।
+rule_type: deity
+params:
+  pancha_pranava_bijas: [Vak_Aim, Shakti_Bhuvaneshvari, Indira_Shri, Jiva_Agni_El_bindu, Jiva_Sarga_Vyoma]
+  fill: [five, nine_navarna]
+applicability: Seshasamuccaya Patala 7, verses 44-45.
+  300dpi tesseract san/psm6 OCR (bija syllables approximate). Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 44
+  passage_chars: 500
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0167 (render dpi300, -l san --psm 6)
+  note: OCR layer; bija readings approximate; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Pancha-pranava mantra set (5 bijas); mantra audio/text
+  content for Matri rites.'
+status: partial
+review: hand

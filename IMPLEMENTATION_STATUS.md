@@ -476,3 +476,12 @@
 
 ## 2026-10-05 (cont.142) — Matri snapana (464 rules)
 - Rule SESHA-P7V38B (3 bath-mandala dravya options).
+
+## 2026-10-05 (cont.143) — kalasha fills (465 rules)
+- Rule SESHA-P7V41B (8/9/5 vessels, 17-dravya, pranava fill).
+
+## 2026-10-05 (cont.144) — pranava bijas (466 rules)
+- Rule SESHA-P7V44B (5-bija construction + vessel fills).
+
+## 2026-10-05 (cont.145) — Matri adhivasana (467 rules)
+- Rule SESHA-P7V47B (eve ajya/sampata/adhivasana + day mandapa/torana program).
