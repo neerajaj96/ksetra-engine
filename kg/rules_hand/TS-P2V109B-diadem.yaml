@@ -1,0 +1,24 @@
+id: TS-P2V109B-diadem
+claim_en: >-
+  All deities bear a well-decorated head diadem eight angulas high, with three,
+  five or seven crowns, shaped like an egg, lotus, umbrella or tortoise.
+rule_type: measure
+params:
+  diadem_height_angula: 8
+  crowns: [3, 5, 7]
+  shapes: [egg, lotus, umbrella, tortoise]
+  scope: all_deities
+applicability: Tantrasamuccaya Patala 2, verses 109-110; Unni EN + commentaries.
+  Hand-reviewed (bimba batch). Anchored at V109.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 109
+  passage_chars: 1013
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Murti-crown selector (count + shape); deity-figure generator input.'
+status: gated
+review: hand

@@ -1,0 +1,25 @@
+id: TS-P4V46-material
+claim_en: ''
+rule_type: material
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 4, verse 46; Sanskrit verse line (translation
+  pending, not invented).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 46
+  passage_chars: 900
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Inventory: consume/provide [] on rite step. Translation pending;
+  use verse + commentaries at build review.'
+status: partial
+review: auto-seed
+claim_sa: स्रुवप्रभृतिसंस्करणमाज्यसंस्कारादिकं' कृत्वा कल्याणरेतसमग्निं परिभूष्य गन्धपुष्पादिभिरलङ्कृत्य
+  अथास्याग्नेः गर्भाधानादिसंस्कृतिं क्रमशः कुर्यात् ।। 46 ।।

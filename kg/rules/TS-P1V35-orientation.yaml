@@ -1,0 +1,24 @@
+id: TS-P1V35-orientation
+claim_en: ''
+rule_type: orientation
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 1, verse 35; Sanskrit verse line (translation
+  pending, not invented).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 35
+  passage_chars: 786
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Site constraint: facing see claim; quarter rule to be resolved
+  per verse 2 mapping. Translation pending; use verse + commentaries at build review.'
+status: partial
+review: auto-seed
+claim_sa: चतसृष्वपि दिक्षु वर्तिकास्तनुयाद् वर्णवशात् सितादिकाः ।। 35 ।।

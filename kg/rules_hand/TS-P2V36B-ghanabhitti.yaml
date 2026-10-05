@@ -1,0 +1,23 @@
+id: TS-P2V36B-ghanabhitti
+claim_en: >-
+  The wall around the shrine (ghanabhitti) shall be built solid from base to
+  beam with hard substances - stone or bricks and the like.
+rule_type: material
+params:
+  wall: solid_base_to_beam
+  substances: [hard_stone, bricks]
+applicability: Tantrasamuccaya Patala 2, verse 36; Unni EN + commentaries.
+  Hand-reviewed (wall batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 36
+  passage_chars: 1127
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Material rule: pada walls solid stone/brick base-to-beam
+  (laterite permitted by Kerala custom as hard-stone analogue - note).'
+status: gated
+review: hand

@@ -1,0 +1,25 @@
+id: TS-P4V65-structure
+claim_en: For Śankaranārāyana, Swastika, lotus, conch, pot, mirror, utpala (blue lotus)
+  Nandyārvarta flower and Śrīvatsa (8 items).
+rule_type: structure
+params:
+  numbers:
+  - 8
+  directions: []
+  materials:
+  - flower
+  actors: []
+applicability: Tantrasamuccaya Patala 4, verse 65; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 65
+  passage_chars: 1722
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Spec node: structure type from claim; relations + provenance to
+  TS-P4V65.'
+status: partial
+review: auto-seed

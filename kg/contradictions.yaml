@@ -1,0 +1,60 @@
+# Contradictions are preserved, never merged. Each: topic, positions, sources, resolution policy.
+contradictions:
+- id: C-ANGULA-HASTA
+  topic: Hasta definition in angulas
+  positions:
+    - claim: "1 hasta = 24 angulas (TS II.1 Unni: 'a measure of 24 angulas')"
+      source: {work: Tantrasamuccaya, patala: 2, verse: 1, layer: TRANSLATION}
+    - claim: "Prajapatya hasta 25 matrangulas for vimana; dhanurmushti 26 angulas (secondary literature, Prabha Ramakrishnan)"
+      source: {work: INTERPRETATION, note: "https://exa.ai/library/publication/xqwv0t2q1zd (truncated); needs primary confirmation", layer: INTERPRETATION}
+  policy: Builder defaults to 24;38alternate hastas kept as named variants, never silently substituted.
+
+- id: C-PATALA-COUNT
+  topic: Number of Patalas / silpa-vs-ritual division
+  positions:
+    - claim: "12 Patalas total (WisdomLib summary; Unni Part I covers 1-4)"
+      source: {work: Tantrasamuccaya, note: "Unni contents: I 1-83, II 84-192(global), III 193-248, IV 249-316", layer: TRANSLATION}
+    - claim: "Silpabhaga 11 chapters + ritual Patalas 5-8 (WisdomLib phrasing mixes adhyaya/patala)"
+      source: {work: INTERPRETATION, note: "https://www.wisdomlib.org/hinduism/essay/iconography-in-prayogamanjari/d/doc1457051.html (OCR-unproofed)", layer: INTERPRETATION}
+  policy: Use Unni verse-anchored numbering (per-patala 1..N, caps P1:83 P2:109 P3:56 P4:68); global-numbering sources kept as aliases.
+
+- id: C-KASHMIR-KERALA
+  topic: Tantraloka/Tantrasara applicability to Kerala ksetra rites
+  positions:
+    - claim: "Tantraloka (Abhinavagupta c.1000, 37 ch, Trika/Krama, Kashmir) is non-dual Vamamarga-adjacent; NOT a Kerala temple manual"
+      source: {work: INTERPRETATION, note: "Wikipedia Tantraloka/Kashmir Shaivism + Sanderson survey", layer: INTERPRETATION}
+    - claim: "Kerala Tantra is Dakshinachara, Sattvika Vaidika-Tantrika synthesis (Tantrasamuccaya 1428)"
+      source: {work: INTERPRETATION, note: "N.P. Unni Tantra Literature of Kerala (archive.org OCR)", layer: INTERPRETATION}
+    - bridge: "Raudra-Mahartha Mussad/Pitara Shakha blends Kashmir Krama with Kerala folk (fieldwork paper)"
+      source: {work: INTERPRETATION, note: "academia.edu S pioneer Sakta-traditions-Kerala paper", layer: INTERPRETATION}
+  policy: Kashmir sources excluded from Kerala rule derivations; bridge kept as separate tradition node.
+
+- id: C-NARAYANATMAKA-DIVERGENCE
+  topic: Narayanatmakam vs Tantrasamuccaya on Vishnu worship
+  positions:
+    - claim: "Narayanatmakam diverges greatly from dominant Tantrasamuccaya tradition (Vishnu/Durga/Sankaranarayana/Brahman)"
+      source: {work: Narayanatmakam, note: "Shripuram e-book page; PDF drive_1wOT.bin PARTIAL_ENCODING_CORRUPT", layer: OBSERVED}
+  policy: Vishnu-dvitala spec defaults to Tantrasamuccaya; Narayanatmakam variants kept as named alternatives with provenance.
+
+- id: C-PDF-ENCODING
+  topic: PDF text-layer reliability
+  positions:
+    - claim: "Prayogamanjari/Narayanatmakam/Sesha/Kalasha PDFs carry custom-encoded fonts; raw extraction garbles aksharas"
+      source: {work: OBSERVED, note: "pymupdf textlen + rendered title-page reads, 2026-10-05", layer: OBSERVED}
+  policy: No verse-level rule may cite PDF text-layer bytes; PDF rules allowed only from rendered-page OCR (hin, reviewed) or structure-level (patala headers/page counts), status=partial.
+- id: C-ELEVATION
+  topic: Elevation share system for the dvitala slice
+  positions:
+    - claim: "Alpa prasada: total 2*vistara in 8 shares 1+2+1+1+2+1 (adhi/pada/prastara/gala/shikhara/stupi)"
+      source: {work: Tantrasamuccaya, patala: 2, verse: 52, layer: PRIMARY}
+    - claim: "Slice (vishishta dvitala) uses 1:2:1 lower half + 1:2:1 upper half from Kerala arch literature"
+      source: {work: INTERPRETATION, note: "Kerala temple architecture surveys (Ignited/JASRAE etc.); to be pinned to TS dvitala verses", layer: INTERPRETATION}
+  policy: Slice keeps 1:2:1; alpa 8-share implemented as future builder mode switch. Revisit when TS dvitala-vidhi verses (P2 later) are curated.
+- id: C-METROLOGY
+  topic: Sub-hasta unit rates (yava, kol, danda)
+  positions:
+    - claim: "hasta = 24 angulas; angula ~= 3cm (Unni ad TS II.1)"
+      source: {work: Tantrasamuccaya, patala: 2, verse: 1, layer: TRANSLATION}
+    - claim: "1 angula = 8 yava; 1 kol = 24 angula; 4 kol = 1 danda (Kerala metrology surveys)"
+      source: {work: INTERPRETATION, note: "Srinivas/Prabha-Ramakrishnan surveys; TS verse attestation pending", layer: INTERPRETATION}
+  policy: Builder uses hasta/angula only; yava/kol/danda params recorded raw in rules, never converted, until a TS verse anchor is curated.

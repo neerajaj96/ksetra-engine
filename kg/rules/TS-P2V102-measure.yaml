@@ -1,0 +1,25 @@
+id: TS-P2V102-measure
+claim_en: The two buttocks having the shape of the projection in the forehead of an
+  elephant shall have a width of six angulas and circumference.
+rule_type: measure
+params:
+  numbers:
+  - 2
+  - 6
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 2, verse 102; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 102
+  passage_chars: 1016
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Builder param: dimension/range in hasta+angula (validate [2, 6];
+  unit hasta=24angula).'
+status: partial
+review: auto-seed

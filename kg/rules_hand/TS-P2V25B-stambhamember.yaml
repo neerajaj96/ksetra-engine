@@ -1,0 +1,28 @@
+id: TS-P2V25B-stambhamember
+claim_en: >-
+  Pillar members from the base: oma pedestal two dandas wide and a pada high;
+  ghata pot-member two dandas wide and up to a pada-plus high; mandi top plank
+  four dandas wide; virakanda block above it; potika bracket three, four or five
+  and a half dandas long, half the pillar-base width high (grades uttama/
+  madhyama/kanishtha per Kashyapa).
+rule_type: measure
+params:
+  oma: {width_dandas: 2, height: pada}
+  ghata: {width_dandas: 2}
+  mandi: {width_dandas: 4}
+  potika_lengths_dandas: [3, 4, 5.5]
+applicability: Tantrasamuccaya Patala 2, verse 25; verse + Vimarshini
+  (+Kashyapa quotes) + Vivarana. Hand-reviewed (stambha batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 25
+  passage_chars: 2654
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Pillar assembly params (oma/ghata/mandi/virakanda/potika)
+  in danda units; builder mandapa pillars gain oma bases + potika brackets.'
+status: gated
+review: hand

@@ -1,0 +1,25 @@
+id: TS-P2V48B-rafters
+claim_en: >-
+  Over the fillet on the beams, fit rafters (kazhukol) with their tips joined
+  at the top of the pyramidal roof; at the rafter tips fix the ridge fillet,
+  one-eighth, one-seventh or one-sixth of the wall plate in width.
+rule_type: structure
+params:
+  members: [fillet_on_beams, rafters_tips_to_apex, ridge_fillet]
+  ridge_fillet_width: wall_plate * [1/8, 1/7, 1/6]
+applicability: Tantrasamuccaya Patala 2, verses 48-49; Unni EN + commentaries.
+  Hand-reviewed (roof-timber batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 48
+  passage_chars: 1549
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Roof-timber program: beam fillet -> rafters to apex -> ridge
+  fillet sized 1/8|1/7|1/6 of plate; builder solid pyramid stands in for the
+  rafter assembly (recorded approximation).'
+status: gated
+review: hand

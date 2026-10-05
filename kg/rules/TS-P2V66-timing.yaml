@@ -1,0 +1,24 @@
+id: TS-P2V66-timing
+claim_en: ''
+rule_type: timing
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 2, verse 66; Sanskrit verse line (translation
+  pending, not invented).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 66
+  passage_chars: 711
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Calendar: relative offset [] + window (night/yama) per claim. Translation
+  pending; use verse + commentaries at build review.'
+status: partial
+review: auto-seed
+claim_sa: आयाममंशैर्ऋतुसम्मितैश्च तुर्यश्रदीर्घस्य सुरालयस्य ।। 66 ।।

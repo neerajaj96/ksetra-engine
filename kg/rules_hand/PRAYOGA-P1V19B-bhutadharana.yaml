@@ -1,0 +1,32 @@
+id: PRAYOGA-P1V19B-bhutadharana
+claim_en: >-
+  Kshiti (earth) indeed bears the worlds; the worlds are remembered as made of
+  earth. All-pervading, of earth-form art thou; obeisance to thee, earth-embodied.
+  (First of the bhuta-dharana series: kshiti, ap, agni, yajna, surya, jala, vayu,
+  soma ... in following verses 20-25.)
+claim_sa: क्षितिर्वै धारयते लोकान् लोकाः क्षितिमयाः स्मृताः । सर्वगं क्षितिरूपं ते
+  क्षितिमूर्तं नमोस्तु ते ।। 19 ।।
+rule_type: sequence
+params:
+  series: bhuta_dharana_mantras
+  verses: 19-25+
+  first_bhuta: kshiti
+applicability: Prayogamanjari Patala 1, verse 19 (bhuta-dharana mantra series).
+  300dpi tesseract san/psm6 OCR (minor orthographic variants possible, e.g.
+  murtam/murte); verse number + series order verified against text-layer markers.
+  Hand-reviewed (PRAYOGA batch).
+source:
+  work: Prayogamanjari
+  edition: Shripuram-OCR-partial
+  patala: 1
+  verse: 19
+  passage_chars: 400
+  commentary: none extracted yet
+  translator: none
+  ocr_page: PRAYOGA-p0010 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade to PRIMARY after font-map/edition cross-check
+layer: OCR
+game_abstraction: 'Ritual utterance series: bhuta-dharana mantras ordered with
+  elemental offerings; scheduler/ambience hook for homa preludes.'
+status: partial
+review: hand

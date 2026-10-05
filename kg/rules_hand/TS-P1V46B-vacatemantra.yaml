@@ -1,0 +1,29 @@
+id: TS-P1V46B-vacatemantra
+claim_en: >-
+  Recite the prayer-mantra: spirits or demons, whoever occupy the place, let
+  them all go away from the place being made an abode of Hari - substituting,
+  for Hari's station, the name of the deity for whose installation the land is
+  taken.
+claim_sa: प्रार्थनामन्त्रं पठति भूतानीति ।। 46 ।। ... यद्यदर्थमिह गृह्यते मही तत्पदं
+  हरिपदेऽत्र योजयेत् ।
+rule_type: sequence
+params:
+  mantra: bhutani_vacate
+  substitution: Hari_station -> installing_deity_name
+  rite: vastubali_site_clearing
+applicability: Tantrasamuccaya Patala 1, verse 46 (with V47 substitution rule);
+  verse + Vimarshini. Hand-reviewed (vastubali batch). Pairs with
+  NARAYANA-P1V00-bhutabali.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 46
+  passage_chars: 224
+  commentary: Vimarshini in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Site-clearing utterance (deity-name parameterized); vastubali
+  pre-rite before sutra-lines (V89B).'
+status: gated
+review: hand

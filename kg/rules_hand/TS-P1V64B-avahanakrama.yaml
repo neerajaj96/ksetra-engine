@@ -1,0 +1,25 @@
+id: TS-P1V64B-avahanakrama
+claim_en: >-
+  Invoke the twelve mandala mantras in order from the east up to Ishana
+  (northeast); for outer-side invocation, invoke the corner-pair lords changing
+  (reversing) the sequence; use -anta mantra forms.
+rule_type: sequence
+params:
+  inner_order: east_to_ishana_12
+  outer_order: corner_pairs_reversed
+  mantra_form: anta_forms
+applicability: Tantrasamuccaya Patala 1, verse 64; verse + Vimarshini + Vivarana.
+  Hand-reviewed (mandala batch). Completes the V60B vastumandala program.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 64
+  passage_chars: 870
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Mandala-avahana order program (inner east->Isana, outer
+  corner-pairs reversed); survey-stage invocation mini-rite.'
+status: gated
+review: hand

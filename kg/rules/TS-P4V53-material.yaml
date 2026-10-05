@@ -1,0 +1,24 @@
+id: TS-P4V53-material
+claim_en: Again spreading the tips of Kuśa grass a bed of wool and cotton covered
+  with silken cloth is to be placed.
+rule_type: material
+params:
+  numbers: []
+  directions: []
+  materials:
+  - cloth
+  - grass
+  actors: []
+applicability: Tantrasamuccaya Patala 4, verse 53; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 53
+  passage_chars: 1914
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Inventory: consume/provide [''cloth'', ''grass''] on rite step.'
+status: partial
+review: auto-seed

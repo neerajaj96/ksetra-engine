@@ -1,0 +1,25 @@
+id: TS-P4V26B-dvarapala
+claim_en: >-
+  For Sankaranarayana the eight door-guardians are Shiva-Vishnu fusions -
+  Mahodara-Purnatman, Mahakaya-Pushkaratman, Mahakantha-Anantatman and five
+  more - invoked with combined mantras.
+rule_type: role
+params:
+  deity: Sankaranarayana
+  dvarapalas: 8
+  fusion: shiva_vishnu_combined_mantras
+applicability: Tantrasamuccaya Patala 4, verse 26; verse + Vimarshini + Vivarana.
+  Hand-reviewed (dvarapala batch). Banked for a future Sankaranarayana slice.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 26
+  passage_chars: 814
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'NPC program: 8 fused dvarapala stations at sanctum doors;
+  invoked in combined-mantra order for Sankaranarayana complexes.'
+status: gated
+review: hand

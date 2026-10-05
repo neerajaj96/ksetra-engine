@@ -1,0 +1,28 @@
+id: OBSERVED-tantri-only
+claim_en: >-
+  After prana-pratishtha only the Tantri (ritual authority) and the Melshanti
+  (chief priest) cross the sopanam into the sreekovil; all others - including
+  the sevaka/yajamana - serve from the namaskara-mandapa (flowers, ghee, guard
+  duty). Dvarapalakas enforce it; a physical barrier blocks entry.
+rule_type: permission
+params:
+  may_enter_garbhagriha: [tantri, melshanti]
+  serve_from_mandapa: [sevaka, yajamana, keezhshanti]
+  enforcement: [dvarapalaka, barrier]
+applicability: Observed Kerala temple practice as implemented in the kalari
+  slice (SanctumBarrier + sanctum_trigger teaching) and public Tantri-role
+  sources. NOT a Tantrasamuccaya verse claim - do not cite as TS.
+source:
+  work: ObservedPractice
+  edition: kalari-game sanctum_trigger.gd tab_title/tab_body + public Tantri/Melshanti role summaries
+  patala: 0
+  verse: 0
+  passage_chars: 0
+  commentary: none
+  translator: none
+  note: OBSERVED practice; TS-side acharya authority in TS-P1V04B-yajamana; entry custom corroboration pending in TS later patalas
+layer: OBSERVED
+game_abstraction: 'Access gate: sanctum zone entry check by role id; used by
+  loader constraint K-TANTRI-ONLY and sanctum trigger text.'
+status: gated
+review: hand

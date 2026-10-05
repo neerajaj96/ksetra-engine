@@ -1,0 +1,135 @@
+{
+  "meta": "Role/permission model: who performs what, where. Every entry cites gated rules.",
+  "roles": [
+    {
+      "id": "tantri",
+      "kind": "hereditary_acharya",
+      "may": [
+        "prana_pratishtha",
+        "pooja_vidhi_final",
+        "devaprasna_parihara",
+        "enter_garbhagriha",
+        "all_homa",
+        "shayya_mantra_select"
+      ],
+      "zones": [
+        "all_including_garbhagriha"
+      ],
+      "provenance": [
+        "TS-P1V04B-yajamana",
+        "TS-P4V113B-shayyamantra"
+      ]
+    },
+    {
+      "id": "melshanti",
+      "kind": "chief_priest",
+      "may": [
+        "daily_puja",
+        "abhishekam",
+        "nivedyam",
+        "enter_garbhagriha"
+      ],
+      "may_not": [
+        "amend_pooja_vidhi"
+      ],
+      "zones": [
+        "all_including_garbhagriha"
+      ],
+      "provenance": [
+        "TS-P1V04B-yajamana"
+      ]
+    },
+    {
+      "id": "keezhshanti",
+      "kind": "assistant_priest",
+      "may": [
+        "prepare_nivedya",
+        "distribute_prasada",
+        "assist",
+        "cleanliness"
+      ],
+      "zones": [
+        "thidappalli",
+        "nalambalam",
+        "sivelipura"
+      ],
+      "provenance": [
+        "TS-P1V04B-yajamana"
+      ]
+    },
+    {
+      "id": "marar",
+      "kind": "musician",
+      "may": [
+        "edakka_sopanam",
+        "chenda_melam",
+        "timila_idakka"
+      ],
+      "zones": [
+        "sopanam",
+        "courtyard",
+        "koothambalam_edge"
+      ],
+      "provenance": [
+        "TS-P4V101B-upachara"
+      ]
+    },
+    {
+      "id": "yajamana",
+      "kind": "patron",
+      "requires": [
+        "varna_ashrama_duties",
+        "honest_wealth"
+      ],
+      "first_act": "guru_varana",
+      "may": [
+        "commission",
+        "attend"
+      ],
+      "may_not": [
+        "enter_garbhagriha",
+        "touch_idol"
+      ],
+      "provenance": [
+        "TS-P1V04B-yajamana"
+      ]
+    },
+    {
+      "id": "sevaka",
+      "kind": "devotee_helper",
+      "may": [
+        "fetch_offerings",
+        "ring_bell_at_door",
+        "guard_duty"
+      ],
+      "may_not": [
+        "enter_garbhagriha",
+        "cross_sopanam"
+      ],
+      "zones": [
+        "namaskara_mandapa",
+        "market",
+        "pradakshina"
+      ],
+      "provenance": [
+        "TS-P1V04B-yajamana"
+      ]
+    }
+  ],
+  "constraints": [
+    {
+      "id": "K-TANTRI-ONLY",
+      "provenance": [
+        "OBSERVED-tantri-only",
+        "TS-P1V04B-yajamana"
+      ]
+    },
+    {
+      "id": "K-GURU-FIRST",
+      "provenance": [
+        "TS-P1V03-structure",
+        "TS-P1V04B-yajamana"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+id: TS-P2V17B-garbhawall
+claim_en: Having raised a fitting adhisthana and levelled its top with stone slabs,
+  divide and construct as appropriate the garbha (sanctum) inner wall, outer wall
+  and the middle nadi (corridor/cavity) between them.
+claim_sa: चित्वेत्यधिष्ठानमिहानुरूपं समं तलीकृत्य शिलाप्रतानैः । विभज्य गर्भान्तरबाह्यभित्ति-
+  तन्मध्यनाडी रचयेद् यथार्हम् ।। 17 ।।
+rule_type: structure
+params:
+  course: [raise_adhisthana, level_top_with_stone_slabs]
+  division: [inner_wall, outer_wall, middle_nadi]
+  fit: yatharham (as appropriate)
+applicability: Tantrasamuccaya Patala 2, verse 17; verse + Vimarshini + Vivarana
+  in anchor. Hand-reviewed (structure bucket).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 17
+  passage_chars: 863
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Spec node: garbha walls as inner+outer bhitti with middle nadi;
+  builder renders double-wall sanctum shell (sandhara-ready) on levelled slab course.'
+status: gated

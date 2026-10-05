@@ -1,0 +1,27 @@
+id: TS-P2V10B-stambha
+claim_en: >-
+  Shape the wooden pillar so the base-to-beam measure divided by eight, nine or
+  ten is less than the base circumference (slender top, larger base); a brick
+  wall-pillar instead carries a wider top (danda), tapering by one-fourth to
+  three-fourths of the circumference.
+rule_type: measure
+params:
+  wooden_taper_divisors: [8, 9, 10]
+  wooden_top: slender_base_larger
+  brick_top: wider_danda
+  brick_taper: [0.25, 0.75]
+applicability: Tantrasamuccaya Patala 2, verse 10; Unni EN + commentaries.
+  Hand-reviewed (stambha batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 10
+  passage_chars: 5130
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Builder params: mandapa pillar taper (1 - 1/d), brick
+  pilasters flare to danda; applies to Mukha/Namaskara/Koothambalam pillars.'
+status: gated
+review: hand

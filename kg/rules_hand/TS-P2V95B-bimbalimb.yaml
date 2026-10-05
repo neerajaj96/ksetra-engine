@@ -1,0 +1,29 @@
+id: TS-P2V95B-bimbalimb
+claim_en: >-
+  Idol limbs (tala series V95-97): navel sixteen angulas long, hips eighteen
+  apart; arm-bases eight angulas apart, elbows six wide; palm eight long by six
+  wide, same measure for the middle finger.
+rule_type: measure
+params:
+  navel_length_angula: 16
+  hip_gap_angula: 18
+  armbase_gap_angula: 8
+  elbow_width_angula: 6
+  palm: {length_angula: 8, width_angula: 6}
+  middle_finger: same_as_palm
+  series: V95-97
+applicability: Tantrasamuccaya Patala 2, verses 95-97; Unni EN + commentaries.
+  Hand-reviewed (bimba batch). Anchored at V95.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 95
+  passage_chars: 860
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Murti-limb proportion table (angula units); future
+  deity-figure generator input with V94B face + V111 Durga tala.'
+status: gated
+review: hand

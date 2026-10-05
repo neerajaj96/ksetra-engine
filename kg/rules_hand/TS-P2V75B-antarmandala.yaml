@@ -1,0 +1,23 @@
+id: TS-P2V75B-antarmandala
+claim_en: >-
+  In the antarmandala - the innermost boundary region holding the altar (bali)
+  stones for offerings - its limit shall be fixed properly.
+rule_type: spatial
+params:
+  zone: antarmandala_innermost
+  holds: bali_stones
+applicability: Tantrasamuccaya Patala 2, verse 75; Unni EN + commentaries.
+  Hand-reviewed (prakara batch). Names the akatte-balivattam ring of both specs.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 75
+  passage_chars: 2036
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Zone definition: antarmandala ring holds bali stones;
+  already in both specs as akatte_balivattam - provenance extended.'
+status: gated
+review: hand

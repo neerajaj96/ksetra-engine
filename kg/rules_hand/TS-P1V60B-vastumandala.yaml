@@ -1,0 +1,29 @@
+id: TS-P1V60B-vastumandala
+claim_en: >-
+  Lay the vastumandala: ten sutra lines lengthwise and breadthwise making nine
+  chambers; center nine padas as svastika or eight-petalled lotus; outer ring
+  six padas on cardinals, paired padas on corners (agni/vayu E-W, others N-S);
+  strew darbha per pada; worship the pitha, then Vastupurusha first with 'Om vam
+  vastupurushaya namah' and vamadi anga-mantras.
+rule_type: spatial
+params:
+  grid: 10_lines_9_puta
+  center: 9_padas_svastika_or_lotus8
+  outer: {cardinals_6: true, corners_paired: true}
+  strewing: darbha_per_pada
+  mantra: Om_vam_vastupurushaya_namah_plus_angas
+applicability: Tantrasamuccaya Patala 1, verse 60; verse + Vimarshini + Vivarana.
+  Hand-reviewed (mandala batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 60
+  passage_chars: 2396
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Site-mandala grid procedure (9-puta + center + outer ring +
+  darbha + pitha + mantra); survey-stage mandala mini-game data.'
+status: gated
+review: hand

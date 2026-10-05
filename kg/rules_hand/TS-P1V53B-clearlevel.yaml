@@ -1,0 +1,22 @@
+id: TS-P1V53B-clearlevel
+claim_en: >-
+  Thereafter clear and level the ground and its regions, then measure them out
+  with appropriate designs (before the ploughing rite).
+rule_type: sequence
+params:
+  steps: [clear_ground, level_regions, measure_designs]
+applicability: Tantrasamuccaya Patala 1, verse 53; Unni EN + commentaries.
+  Hand-reviewed (site-prep batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 53
+  passage_chars: 1682
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Site-prep step (clear -> level -> measure); precedes
+  ploughing (V55B) and sutra-lines (V89B).'
+status: gated
+review: hand

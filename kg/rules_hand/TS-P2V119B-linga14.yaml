@@ -1,0 +1,31 @@
+id: TS-P2V119B-linga14
+claim_en: >-
+  Lingas for the four varnas are fourteen in all - five for Brahmins, three each
+  for Kshatriyas, Vaishyas and Shudras - with lengths stepping down by a quarter
+  hasta (Brahmin set around five down to four hastas; Kshatriya around three and
+  three-quarter down; Vaishya three down to two and a half; Shudra two and a half
+  down to one and three-quarter); further anuloma/pratiloma sets step by quarter
+  hastas from two karas downward.
+claim_sa: लिङ्गानि ... पञ्चहस्तादि ... ह्रासादेकैकपादतः । लिङ्गं पञ्चविधं ...
+  अन्येषां च त्रयं त्रयम् ।। 119 ।। (full in passage anchor)
+rule_type: measure
+params:
+  counts: {brahmin: 5, kshatriya: 3, vaishya: 3, shudra: 3, total: 14}
+  step: quarter_hasta_down
+  slice_choice: 4_hastas_brahmin_set
+applicability: Tantrasamuccaya Patala 2, verses 119-120; verse + Vimarshini
+  (+Nibandhana) + Vivarana. Hand-reviewed (P5 Shiva slice batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 119
+  passage_chars: 689
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Deity-form param: linga length selector by varna set; slice
+  uses 4-hasta linga (Brahmin set); tripartite caturasra/astasra/vritta shaping
+  per TS Shivalinga-lakshana (to be curated next).'
+status: gated
+review: hand

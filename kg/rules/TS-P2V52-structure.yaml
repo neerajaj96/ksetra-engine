@@ -1,0 +1,23 @@
+id: TS-P2V52-structure
+claim_en: Then and with two divisions the Prastara (entablature) be made.
+rule_type: structure
+params:
+  numbers:
+  - 2
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 2, verse 52; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 52
+  passage_chars: 1307
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Spec node: structure type from claim; relations + provenance to
+  TS-P2V52.'
+status: partial
+review: auto-seed

@@ -1,0 +1,26 @@
+id: TS-P1V31B-bhumivarjya
+claim_en: >-
+  Avoid for deity installation any plot shaped like a winnowing fan, half-moon,
+  trident, fish, boar-back or tawny-cow face; containing ashes, charcoal, grain
+  chaff, bones, hair, worms or termite hills; with depressed middle, central
+  cavity, foul smell or prominent corners.
+rule_type: exception
+params:
+  reject_shapes: [winnowing_fan, half_moon, trident, fish, boar_back, tawny_cow_face]
+  reject_contents: [ashes, charcoal, chaff, bones, hair, worms, termite_hills]
+  reject_features: [depressed_middle, central_cavity, foul_smell, prominent_corners]
+applicability: Tantrasamuccaya Patala 1, verse 31; Unni EN + commentaries.
+  Hand-reviewed (site batch). Companion to V30B grades.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 31
+  passage_chars: 1752
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Site survey fail-closed reject list: shape/content/feature
+  flags; any hit rejects the plot (links to Tantra-prayaschitta impurity causes).'
+status: gated
+review: hand

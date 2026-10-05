@@ -1,0 +1,25 @@
+id: TS-P1V59-orientation
+claim_en: Then at night (the preceptor) shall perform Vāstubali - the special rite
+  to propitiate the spirts occupying the plot in its northern side.
+rule_type: orientation
+params:
+  numbers: []
+  directions:
+  - north
+  materials: []
+  actors:
+  - preceptor
+applicability: Tantrasamuccaya Patala 1, verse 59; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 59
+  passage_chars: 2079
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Site constraint: facing [''north'']; quarter rule to be resolved
+  per verse 2 mapping.'
+status: partial
+review: auto-seed

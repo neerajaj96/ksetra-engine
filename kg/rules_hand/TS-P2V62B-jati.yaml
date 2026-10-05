@@ -1,0 +1,30 @@
+id: TS-P2V62B-jati
+claim_en: >-
+  Temples of three to twelve storeys are Jati (mahaprasada): measured in eleven
+  (odd) and twelve (even) hastas rising to seventy; each of vahni-tala upward
+  takes six forms (odd/even x low/mid/high); height exceeds width by three-
+  sevenths (e.g. 70-hasta width -> 100-hasta height); per-tala decrement two
+  karas for madhyama, again two for kanishtha.
+rule_type: spatial
+params:
+  jati_talas: [3, 12]
+  measures_hasta: odd_11_to_70
+  forms_per_tala: 6
+  height_rule: width_plus_3_7
+  tala_decrement_karas: 2
+applicability: Tantrasamuccaya Patala 2, verse 62; verse + Vimarshini
+  (+Pitamaha table quote) + Vivarana. Hand-reviewed (jati batch). Banked for
+  future 3-12 tala slices; current slices stay ekatala/dvitala.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 62
+  passage_chars: 3347
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Scope table for Jati multi-tala generation (3-12 storeys,
+  11/12h measures to 70h, per-tala 2-kara decrement, height +3/7 rule).'
+status: gated
+review: hand

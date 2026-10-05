@@ -1,0 +1,24 @@
+id: TS-P3V55-material
+claim_en: For Durgā and using the twigs of the particular grass called cacalia rotunda
+  folio, stalk of the coconut leaf, samit and grass should be the fistful of materials.
+rule_type: material
+params:
+  numbers: []
+  directions: []
+  materials:
+  - grass
+  - twig
+  actors: []
+applicability: Tantrasamuccaya Patala 3, verse 55; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 55
+  passage_chars: 1559
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Inventory: consume/provide [''grass'', ''twig''] on rite step.'
+status: partial
+review: auto-seed

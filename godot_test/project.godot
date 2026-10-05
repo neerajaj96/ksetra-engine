@@ -1,0 +1,7 @@
+; Ksetra engine headless proof project (Godot 4.6)
+config_version=5
+
+[application]
+config/name="KsetraProof"
+run/main_scene="res://test_main.tscn"
+config/features=PackedStringArray("4.6", "Mobile")

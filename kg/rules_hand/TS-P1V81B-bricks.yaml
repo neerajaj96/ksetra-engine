@@ -1,0 +1,26 @@
+id: TS-P1V81B-bricks
+claim_en: >-
+  Set eight bricks (ashteshtaka) in the (eight) directions with a kalasha upon
+  the prepared pitha; bricks purified, dried and worshipped with their mantras
+  (other deities after dravyahorna).
+rule_type: sequence
+params:
+  bricks: 8
+  placement: directions_on_pitha
+  kalasha: upon_pitha
+  brick_prep: [purify, dry, worship_own_mantras]
+applicability: Tantrasamuccaya Patala 1, verses 81-83; Unni EN + commentaries.
+  Hand-reviewed (deposit batch). Anchored at V81.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 81
+  passage_chars: 2679
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'First-brick program (8 directional bricks + kalasha);
+  shilanyasa quest content.'
+status: gated
+review: hand

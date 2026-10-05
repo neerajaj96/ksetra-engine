@@ -1,0 +1,32 @@
+id: TS-P4V101B-upachara
+claim_en: >-
+  Having meditated on, invoked and embodied (sakalikritya) the god: offer padya
+  and achamana; apply gandha with Aghora, cloth with Vamadeva, flowers with
+  Ishana, dhupa with Tatpurusha and deepa; prostrate; then with ashtagandha on
+  both palms touch the linga part by part - square Brahma part with
+  Brahma-gayatri, octagonal Vishnu part with Vishnu-gayatri, circular Rudra part
+  with Rudra-gayatri.
+rule_type: sequence
+params:
+  steps: [dhyana, avahana, sakalikarana, padya_achamana, gandha_aghora,
+    ambara_vamadeva, pushpa_ishana, dhupa_tatpurusha, deepa, namaskara,
+    ashtagandha_touch]
+  linga_touch:
+    square_brahma: Brahma_gayatri
+    octagonal_vishnu: Vishnu_gayatri
+    circular_rudra: Rudra_gayatri
+applicability: Tantrasamuccaya Patala 4, verse 101; verse + Vimarshini + Vivarana.
+  Hand-reviewed (upachara batch). Confirms V119B tripartite shaping program.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 101
+  passage_chars: 1882
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Scheduler upachara program (11 steps) with mantra-tagged
+  offerings; linga-touch sub-rite gated on tripartite parts.'
+status: gated
+review: hand

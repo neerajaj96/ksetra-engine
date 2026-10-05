@@ -1,0 +1,27 @@
+id: TS-P3V48-orientation
+claim_en: If the temple is to face towards the east, the preceptor shall sit towards
+  the east of Yama and if towards the west, he should also sit in that region for
+  cleaning his body.
+rule_type: orientation
+params:
+  numbers: []
+  directions:
+  - east
+  - west
+  materials: []
+  actors:
+  - preceptor
+applicability: Tantrasamuccaya Patala 3, verse 48; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 48
+  passage_chars: 2823
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Site constraint: facing [''east'', ''west'']; quarter rule to be
+  resolved per verse 2 mapping.'
+status: partial
+review: auto-seed

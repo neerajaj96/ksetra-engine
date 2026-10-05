@@ -1,0 +1,26 @@
+id: TS-P2V70B-ashtashra
+claim_en: >-
+  For an eight-cornered (octagonal) shrine: divide the desired circumference into
+  ten, take three shares as the vyasa/danda; divide that vyasa into twelve and
+  shape the sides with arrow-shares (five-share units).
+rule_type: measure
+params:
+  sides: 8
+  circumference_divisor: 10
+  vyasa_shares: 3
+  vyasa_subdivision: 12
+applicability: Tantrasamuccaya Patala 2, verse 70; verse + Vimarshini (partial in
+  anchor). Hand-reviewed (plan-geometry batch). Banked for a future octagonal slice.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 70
+  passage_chars: 676
+  commentary: Vimarshini in verse-anchored passage (truncated; full text retained in corpus)
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Builder plan branch (future): octagonal massing from
+  paridhi/10*3 vyasa formula.'
+status: gated
+review: hand

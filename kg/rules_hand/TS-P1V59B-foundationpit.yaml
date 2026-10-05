@@ -1,0 +1,24 @@
+id: TS-P1V59B-foundationpit
+claim_en: >-
+  Dig the foundation pit to a man's height, or till water or rock is met; on an
+  auspicious day fill up three-fourths of the pit.
+rule_type: measure
+params:
+  depth: [man_height, to_water, to_rock]
+  fill: 3/4
+  timing: auspicious_day
+applicability: Tantrasamuccaya Patala 1, verse 59; Unni EN + commentaries.
+  Hand-reviewed (foundation batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 59
+  passage_chars: 2079
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Foundation step (dig to man/water/rock, fill 3/4);
+  shilanyasa quest chain hook.'
+status: gated
+review: hand

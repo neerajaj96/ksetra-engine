@@ -1,0 +1,29 @@
+id: NARAYANA-P00-matrigayatri
+claim_en: >-
+  Matri gayatris in order: Indrani (bija lam-li-lu, Indra-bhuta, vajra-handed),
+  Bhadrakali (bija dram-dri-dru, Rudra-bhuta, shakti-handed), then the crore on
+  crore ganas (all hosts) with joint obeisance to them, male and female.
+claim_sa: ओं लां ली लू इन्द्राण्यै नमः ... ओं द्रां द्री द्रू भद्रकाल्यै नमः ...
+  ओं चांबादीनां गणाः ... कोटिकोटिगणाधिपाः ... तेभ्यस्ताभ्यो नमो नमः ।।
+rule_type: sequence
+params:
+  series: matri_gayatris
+  deities: [Indrani, Bhadrakali, ganas]
+  bija: {Indrani: lam_li_lu, Bhadrakali: dram_dri_dru}
+applicability: Narayanatmakam (Shakta/Matri section); 300dpi tesseract san/psm6
+  OCR read. V00 = section anchor (witness unnumbered here). Hand-reviewed.
+source:
+  work: Narayanatmakam
+  edition: Shripuram-OCR-partial
+  patala: 0
+  verse: 0
+  passage_chars: 900
+  commentary: none extracted yet
+  translator: none
+  ocr_page: NARAYANATMAKA-p0059 (render dpi300, -l san --psm 6)
+  note: OCR layer; section/verse numbering pending; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Matri-mantra series data (bija + dhyana epithets); future
+  Matri-shrine festival audio/utterance hook.'
+status: partial
+review: hand

@@ -1,0 +1,23 @@
+id: TS-P2V97-measure
+claim_en: The length of middle finger and ring finger shall be less by one tenth of
+  that of the index finger.
+rule_type: measure
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 2, verse 97; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 97
+  passage_chars: 546
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Builder param: dimension/range in hasta+angula (validate []; unit
+  hasta=24angula).'
+status: partial
+review: auto-seed

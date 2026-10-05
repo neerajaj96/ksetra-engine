@@ -1,0 +1,24 @@
+id: TS-P1V52-structure
+claim_en: ''
+rule_type: structure
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 1, verse 52; Sanskrit verse line (translation
+  pending, not invented).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 52
+  passage_chars: 1180
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Spec node: structure type from claim; relations + provenance to
+  TS-P1V52. Translation pending; use verse + commentaries at build review.'
+status: partial
+review: auto-seed
+claim_sa: देव्यर्थं प्रतिगृह्णामि सास्माकं क्षम्यतामिति ।। 52।।

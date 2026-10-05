@@ -1,0 +1,25 @@
+id: TS-P4V51-structure
+claim_en: ''
+rule_type: structure
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 4, verse 51; Sanskrit verse line (translation
+  pending, not invented).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 51
+  passage_chars: 2170
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Spec node: structure type from claim; relations + provenance to
+  TS-P4V51. Translation pending; use verse + commentaries at build review.'
+status: partial
+review: auto-seed
+claim_sa: पूर्णान्ते प्रजुहोतु भूःप्रभृतिताराख्यैः समाप्यार्थ्य तं रक्षेन्निष्कलितं
+  ततोऽत्र परिषेकान्तं विधिं चाचरेत्।। 51 ।।

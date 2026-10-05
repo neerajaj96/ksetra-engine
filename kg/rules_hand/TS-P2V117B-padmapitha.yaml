@@ -1,0 +1,27 @@
+id: TS-P2V117B-padmapitha
+claim_en: >-
+  The lotus seat (padma-pitha), one to two talas high: divide height by six -
+  first share the base slab, two shares an eight-petalled lotus; at the center
+  a three-fourth-tala double petal layer; above, three talas of eight-petalled
+  lotus; seat height includes the base petals.
+rule_type: measure
+params:
+  height_tala: [1, 2]
+  six_shares: [base_slab_1, lotus8_2, center_double_petal, upper_lotus8_3]
+  petals: 8
+applicability: Tantrasamuccaya Patala 2, verse 117; verse + Vimarshini
+  (+Bhaskara quote) + Vivarana. Hand-reviewed (pitha batch). Pairs with V118B
+  nala (20-22 angulas).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 117
+  passage_chars: 1520
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Pitha lotus-seat program (slab + 8-petal + center + upper
+  lotus); pitha node builder params.'
+status: gated
+review: hand

@@ -1,0 +1,24 @@
+id: TS-P2V29B-doorheight
+claim_en: >-
+  For temples of all gods, divide the pillar height (from the basement) by eight,
+  nine or ten and make one division less to fix the door height.
+rule_type: measure
+params:
+  pillar_divisors: [8, 9, 10]
+  door_height: divisor_minus_one_share
+  scope: all_gods
+applicability: Tantrasamuccaya Patala 2, verse 29; Unni EN + commentaries.
+  Hand-reviewed (door batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 29
+  passage_chars: 2295
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Builder param: door height = pillar_height*(d-1)/d for
+  d in {8,9,10}.'
+status: gated
+review: hand

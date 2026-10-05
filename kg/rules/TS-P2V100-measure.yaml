@@ -1,0 +1,23 @@
+id: TS-P2V100-measure
+claim_en: Thereafter one eighth measure of the tip shall be taken to shape the nails
+  of the middle and index finger.
+rule_type: measure
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 2, verse 100; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 100
+  passage_chars: 585
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Builder param: dimension/range in hasta+angula (validate []; unit
+  hasta=24angula).'
+status: partial
+review: auto-seed

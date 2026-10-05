@@ -1,0 +1,23 @@
+id: TS-P2V134B-altardrain
+claim_en: >-
+  Leave the central idol-seat part of the altar; divide the remaining width into
+  two to serve as water drains on both sides.
+rule_type: structure
+params:
+  center: idol_seat_reserved
+  sides: two_water_drains
+applicability: Tantrasamuccaya Patala 2, verse 134; Unni EN + commentaries.
+  Hand-reviewed (pitha-drain batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 134
+  passage_chars: 1763
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Altar drainage: center seat + twin side drains feeding the
+  pranala outlet (builder Pranala/NalaStem cite this).'
+status: gated
+review: hand

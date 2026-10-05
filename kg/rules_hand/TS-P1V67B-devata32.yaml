@@ -1,0 +1,26 @@
+id: TS-P1V67B-devata32
+claim_en: >-
+  Thirty-two deities stand outside, one per pada from Ishana corner in
+  pradakshina order, beginning Mukhya, Bhallataka, Soma, Argalaka, Diti, Uditi
+  (full roster across verses 65-67; complete 32-name curation queued).
+rule_type: role
+params:
+  outer_devatas: 32
+  order: pradakshina_from_ishana
+  named_head: [Mukhya, Bhallataka, Soma, Argalaka, Diti, Uditi]
+  full_roster: queued_V65_67
+applicability: Tantrasamuccaya Patala 1, verse 67 (roster V65-67); verse +
+  Vimarshini + Vivarana. Hand-reviewed (mandala batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 67
+  passage_chars: 660
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Mandala outer-ring roster (32 stations); invocation-order
+  data for the survey mini-rite (full names queued).'
+status: gated
+review: hand

@@ -1,0 +1,27 @@
+id: TS-P3V7-material
+claim_en: Aştagandha (a mixture of eight items including sandal etc.) and with mixed
+  turmeric may be held in the hands of the priest (while invoking the presence of
+  deities before the pots are watered).
+rule_type: material
+params:
+  numbers:
+  - 8
+  directions: []
+  materials:
+  - sandal
+  - water
+  actors:
+  - priest
+applicability: Tantrasamuccaya Patala 3, verse 7; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 7
+  passage_chars: 5677
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Inventory: consume/provide [''sandal'', ''water''] on rite step.'
+status: partial
+review: auto-seed

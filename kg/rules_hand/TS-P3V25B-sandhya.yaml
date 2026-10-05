@@ -1,0 +1,24 @@
+id: TS-P3V25B-sandhya
+claim_en: >-
+  Worship ritually at all three day-junctures (morning, noon, evening sandhya)
+  with poured oblations; the preceptor performs the day's oblation early in the
+  morning of the fixed day.
+rule_type: timing
+params:
+  junctures: [morning, noon, evening]
+  oblations_poured: true
+applicability: Tantrasamuccaya Patala 3, verses 24-25; Unni EN + commentaries.
+  Hand-reviewed (nitya batch). Anchored at V25.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 25
+  passage_chars: 1425
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Daily triple-juncture cadence under the 5-slot nitya
+  program (usha/pantheeradi/ucha/deepa/athazha map onto junctures).'
+status: gated
+review: hand

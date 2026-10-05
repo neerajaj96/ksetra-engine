@@ -1,0 +1,25 @@
+id: TS-P4V13-structure
+claim_en: They are Bhrngīśa Kārtikeya, Vrşa, Nandisa, Mahākāla, Kumbhodara, Mahodara,
+  Vīrabhadra and Brahmā (altogether nine) (13)
+rule_type: structure
+params:
+  numbers:
+  - 9
+  - 13
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 4, verse 13; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 13
+  passage_chars: 294
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Spec node: structure type from claim; relations + provenance to
+  TS-P4V13.'
+status: partial
+review: auto-seed

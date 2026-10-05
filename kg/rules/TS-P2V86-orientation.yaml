@@ -1,0 +1,28 @@
+id: TS-P2V86-orientation
+claim_en: If one desires for an idol of the middle type it could be divided into nine
+  to form a 'tāla' similarly the idol of the lowest type shall have eight divisions
+  (thus the first type will be designated as Daśtāla, middle type of Navatāla and
+  lowest type as Aşțatāla).
+rule_type: orientation
+params:
+  numbers:
+  - 8
+  - 9
+  directions:
+  - west
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 2, verse 86; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 86
+  passage_chars: 1827
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Site constraint: facing [''west'']; quarter rule to be resolved
+  per verse 2 mapping.'
+status: partial
+review: auto-seed

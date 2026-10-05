@@ -1,0 +1,23 @@
+id: TS-P1V33B-soiltest
+claim_en: >-
+  Mixed-type ground (mixed colour, smell and taste) is unacceptable for all
+  castes alike.
+rule_type: exception
+params:
+  reject: mixed_colour_smell_taste
+  scope: all_castes
+applicability: Tantrasamuccaya Patala 1, verse 33; Unni EN + commentaries.
+  Hand-reviewed (site batch). Extends V31B reject list to soil assay.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 33
+  passage_chars: 1143
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Site survey soil assay (colour/smell/taste); mixed result
+  rejects plot for every patron class.'
+status: gated
+review: hand

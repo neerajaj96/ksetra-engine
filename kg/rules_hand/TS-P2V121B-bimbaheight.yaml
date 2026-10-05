@@ -1,0 +1,22 @@
+id: TS-P2V121B-bimbaheight
+claim_en: >-
+  To fix the idol height, divide the sanctum (garbha) circumference by five,
+  nine or two, and take the resultant measure as the idol height.
+rule_type: measure
+params:
+  idol_height: garbha_paridhi / [5, 9, 2]
+applicability: Tantrasamuccaya Patala 2, verse 121; Unni EN + commentaries.
+  Hand-reviewed (bimba batch). Closes the linga-height loop with V119B sets.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 121
+  passage_chars: 1754
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Idol-height selector (garbha/5|9|2); cross-checks the
+  4-hasta slice linga against garbha 4h (paridhi ~16h -> /4? recorded check).'
+status: gated
+review: hand

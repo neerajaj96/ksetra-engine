@@ -1,0 +1,28 @@
+id: TS-P2V05B-ayavyaya
+claim_en: >-
+  Income (aya) must exceed expenditure (vyaya) in every way; otherwise
+  (excess expenditure) brings ruin. Asterism/tithi auspiciousness is to be known
+  from jyotisha in the usual way.
+claim_sa: आयाधिक्यं व्ययतः सम्पाद्यं सर्वथान्यथापत्तिः । नक्षत्रादिशुभत्वं ज्योतिः
+  शास्त्रादिभिः सुविज्ञेयम् ।। 5 ।।
+rule_type: permission
+params:
+  constraint: aya_greater_than_vyaya
+  violation: ruin
+  calendar_source: jyotisha
+applicability: Tantrasamuccaya Patala 2, verse 5; verse + Vimarshini (+Mayamata
+  quote) + Vivarana. Hand-reviewed (economy batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 5
+  passage_chars: 857
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Economy invariant: temple/rite ledgers must keep aya > vyaya
+  (offering economy + maintenance budgets); calendar picks route to jyotisha
+  data, never invented.'
+status: gated
+review: hand

@@ -1,0 +1,24 @@
+id: TS-P3V4-structure
+claim_en: ''
+rule_type: structure
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 3, verse 4; Sanskrit verse line (translation
+  pending, not invented).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 4
+  passage_chars: 1430
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Spec node: structure type from claim; relations + provenance to
+  TS-P3V4. Translation pending; use verse + commentaries at build review.'
+status: partial
+review: auto-seed
+claim_sa: सम्मिश्रितेषु यजतामथवौषधीशम् ।।4।।

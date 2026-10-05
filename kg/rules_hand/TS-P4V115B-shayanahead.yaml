@@ -1,0 +1,27 @@
+id: TS-P4V115B-shayanahead
+claim_en: >-
+  For the shayana laying (here in the Skanda rite): set a pitha by the couch
+  for arghya/seat worship before manasa-puja; lay the image head-north when the
+  door faces east, head-south when the door faces west.
+rule_type: orientation
+params:
+  east_door: head_north
+  west_door: head_south
+  pitha_by_couch: [arghya, seat]
+  rite: Skanda (Vishnu mapping pending)
+applicability: Tantrasamuccaya Patala 4, verse 115; verse + Vimarshini +
+  Vivarana. Hand-reviewed (shayana batch). Scoped to stated rite; do not
+  generalize to Vishnu without verse.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 115
+  passage_chars: 1215
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Shayana orientation parameter (door facing -> head direction);
+  Skanda-rite values stored; Vishnu values OPEN.'
+status: gated
+review: hand

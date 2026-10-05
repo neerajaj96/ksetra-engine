@@ -1,0 +1,24 @@
+id: TS-P1V10-measure
+claim_en: ''
+rule_type: measure
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 1, verse 10; Sanskrit verse line (translation
+  pending, not invented).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 10
+  passage_chars: 702
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Builder param: dimension/range in hasta+angula (validate []; unit
+  hasta=24angula). Translation pending; use verse + commentaries at build review.'
+status: partial
+review: auto-seed
+claim_sa: दक्षिणकरेणालम्ब्यानेन मन्त्रेण वृणीत ।। 10 ।।

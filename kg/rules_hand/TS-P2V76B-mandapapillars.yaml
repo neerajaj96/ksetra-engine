@@ -1,0 +1,23 @@
+id: TS-P2V76B-mandapapillars
+claim_en: >-
+  A mandapa (hall) takes four pillars with one beam, or sixteen pillars with
+  two beams joining them.
+rule_type: structure
+params:
+  option_small: {pillars: 4, beams: 1}
+  option_large: {pillars: 16, beams: 2}
+applicability: Tantrasamuccaya Patala 2, verse 76; Unni EN + commentaries.
+  Hand-reviewed (mandapa batch). Builder 4-pillar halls match the small option.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 76
+  passage_chars: 714
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Hall program selector (4+1 | 16+2); 16-pillar variant queued
+  for koothambalam-scale halls.'
+status: gated
+review: hand

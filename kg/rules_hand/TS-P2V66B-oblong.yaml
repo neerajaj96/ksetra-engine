@@ -1,0 +1,25 @@
+id: TS-P2V66B-oblong
+claim_en: >-
+  For an oblong (long-square) temple: halve the desired circumference, divide a
+  half by ten; with four such shares fix the width and with six the length.
+rule_type: measure
+params:
+  plan: oblong
+  half_paridhi_divisor: 10
+  width_shares: 4
+  length_shares: 6
+applicability: Tantrasamuccaya Patala 2, verse 66; verse + Vimarshini + Vivarana.
+  Hand-reviewed (plan-geometry batch). Banked for a future oblong slice.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 66
+  passage_chars: 711
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Builder plan branch (future): oblong massing from
+  half-paridhi/10 module (4 wide x 6 long).'
+status: gated
+review: hand

@@ -1,0 +1,25 @@
+id: TS-P2V138B-subsidiary
+claim_en: >-
+  Where the main idol carries full limb detail, make a smaller plain idol
+  without detail beside it; proportions eleven, nine, seven, five or three
+  relative to the main idol (also for temporary shrine/idol purposes).
+rule_type: measure
+params:
+  subsidiary: plain_no_detail
+  proportions_vs_main: [11, 9, 7, 5, 3]
+  also_for: temporary_shrine_idol
+applicability: Tantrasamuccaya Patala 2, verses 138-140; Unni EN + commentaries.
+  Hand-reviewed (parivara batch). Anchored at V138.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 138
+  passage_chars: 1429
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Parivara/utsava figure program (plain subsidiary at graded
+  ratios); parivara_shrines + festival-image nodes cite this.'
+status: gated
+review: hand

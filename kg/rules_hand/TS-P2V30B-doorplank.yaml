@@ -1,0 +1,26 @@
+id: TS-P2V30B-doorplank
+claim_en: >-
+  Deduct the door height from the pillar height and divide the remainder by five;
+  two portions give the base cross-plank (uttara) thickness; the top lintel is
+  shaped likewise (divided by nine, equal thickness); above the crossbar to the
+  beam-top fix a panel bearing a goddess figure for auspiciousness.
+rule_type: measure
+params:
+  base_plank: 2/5_of_remainder
+  lintel: equal_thickness
+  goddess_panel: above_crossbar_to_beam
+applicability: Tantrasamuccaya Patala 2, verse 30; Unni EN + commentaries.
+  Hand-reviewed (door batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 30
+  passage_chars: 2077
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Builder params: uttara plank 2/5 remainder, matching lintel,
+  goddess panel above beam (torana clubs with V60 murti program).'
+status: gated
+review: hand

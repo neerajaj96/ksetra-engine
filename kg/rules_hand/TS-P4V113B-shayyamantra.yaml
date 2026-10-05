@@ -1,0 +1,28 @@
+id: TS-P4V113B-shayyamantra
+claim_en: >-
+  In laying the idol on the couch (shayya): Shiva with Vamadeva; Sankaranarayana
+  with Namo Hiranyagarbha; Durga with Jatavedase plus Pranava; all others with
+  their Mulamantra; Vishnu (Indir-esha) with the twelve-syllabled hymn.
+rule_type: sequence
+params:
+  shayya_mantras:
+    Shiva: Vamadeva
+    Sankaranarayana: Namo_Hiranyagarbha
+    Durga: Jatavedase_plus_Pranava
+    others: Mulamantra
+    Vishnu: twelve_syllabled
+applicability: Tantrasamuccaya Patala 4, verse 113; verse + Vimarshini.
+  Hand-reviewed (shayya batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 113
+  passage_chars: 740
+  commentary: Vimarshini in verse-anchored passage (Vivarana truncated in anchor)
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Shayya step mantra selector keyed by deity; feeds role-based
+  rite performance (Tantri selects mantra set).'
+status: gated
+review: hand

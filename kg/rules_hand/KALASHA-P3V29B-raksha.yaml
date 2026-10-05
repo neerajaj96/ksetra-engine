@@ -1,0 +1,28 @@
+id: KALASHA-P3V29B-raksha
+claim_en: >-
+  Having filled the two pits and invoked the deity there, worshipped withanga
+  (retinue) through Omkara, worshipped again withanga, offered nivedya,
+  performed prasanna (grace-rite) - then perform the raksha (protective) rite.
+claim_sa: गर्तद्वयं समापूर्य समावाह्यात्र देवताम् । साङ्गीकृत्य च तारेण साङ्गं
+  सम्पूज्य तं पुनः ।। २९ ।। निवेद्य च प्रसन्नाञ्चां कृत्वा रक्षां समाचरेत् ।
+rule_type: sequence
+params:
+  steps: [fill_two_pits, avahana, sanga_worship_omkara, nivedya, prasanna, raksha]
+  section: Kalashachandrika_Shiva_P3
+applicability: Kalashachandrika Shivabhaga Patala 3, verse 29.
+  300dpi tesseract san/psm6 OCR (minor variants possible). Hand-reviewed (KALASHA batch).
+source:
+  work: Kalashachandrika
+  edition: Shripuram-OCR-partial
+  patala: 3
+  verse: 29
+  passage_chars: 500
+  commentary: none extracted yet
+  translator: none
+  ocr_page: KALASHA-p0039 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Protective-rite sub-program (pit-fill -> avahana -> nivedya ->
+  prasanna -> raksha); kalasha/snapana festival hook.'
+status: partial
+review: hand

@@ -1,0 +1,25 @@
+id: TS-P1V27B-preceptor
+claim_en: >-
+  Whoever wishes to institute a ritual performance shall select an expert
+  preceptor along with his attendants, to perform the rite in proper order right
+  from plot selection up to the final holy bath.
+rule_type: role
+params:
+  selection: expert_preceptor_with_attendants
+  scope: plot_selection_to_final_bath
+  order: proper_sequence
+applicability: Tantrasamuccaya Patala 1, verse 27; Unni EN + commentaries.
+  Hand-reviewed (roles batch). Heads the whole TEXT->WORLD program arc.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 27
+  passage_chars: 1044
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Campaign frame: preceptor+attendants party selected first;
+  quest arc runs plot->build->consecration->bath (mirrors temple_plot phases).'
+status: gated
+review: hand

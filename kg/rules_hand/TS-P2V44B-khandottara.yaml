@@ -1,0 +1,29 @@
+id: TS-P2V44B-khandottara
+claim_en: >-
+  Wall plates (uttara) are threefold: Khandottara best (width and height equal
+  to pillar width), Patrottara middling (thickness three-fourth, i.e. a pada
+  less), Rupottara lowest (half thickness); chulika fixing follows with
+  Ghana-tati inversion option.
+rule_type: structure
+params:
+  profiles: [khandottara_uttama, patrottara_madhyama, rupottara_kanishtha]
+  khandottara: {width: pillar_width, height: pillar_width}
+  patrottara: thickness_3_4
+  rupottara: thickness_1_2
+applicability: Tantrasamuccaya Patala 2, verse 44; verse + Vimarshini (+Gurudeva
+  quote) + Vivarana. Hand-reviewed (beam batch).
+applicability: Tantrasamuccaya Patala 2, verse 44; Unni EN + commentaries.
+  Hand-reviewed (beam batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 44
+  passage_chars: 1520
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Beam profile selector: khandottara (square section) default
+  for uttara members.'
+status: gated
+review: hand

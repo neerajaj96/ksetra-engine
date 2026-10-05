@@ -1,0 +1,23 @@
+id: TS-P4V33-structure
+claim_en: Now put gold, jewel and akşata, Aşțagandha and flower inside the pot.
+rule_type: structure
+params:
+  numbers: []
+  directions: []
+  materials:
+  - flower
+  actors: []
+applicability: Tantrasamuccaya Patala 4, verse 33; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 33
+  passage_chars: 1712
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Spec node: structure type from claim; relations + provenance to
+  TS-P4V33.'
+status: partial
+review: auto-seed

@@ -1,0 +1,27 @@
+id: TS-P1V57-sequence
+claim_en: In the case of other Gods hymns relating to each of them are to be employed.
+  (57) The preceptor shall perform all the five acts beginning with ploughing in the
+  case of Harīśa (Šańkaranārāyaņa) as detailed with regard to Siva.
+rule_type: sequence
+params:
+  numbers:
+  - 5
+  - 57
+  directions: []
+  materials: []
+  actors:
+  - preceptor
+applicability: Tantrasamuccaya Patala 1, verse 57; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 57
+  passage_chars: 1362
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Scheduler step: action with preconditions (mandapa ready, night
+  window) per claim.'
+status: partial
+review: auto-seed

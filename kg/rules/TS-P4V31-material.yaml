@@ -1,0 +1,26 @@
+id: TS-P4V31-material
+claim_en: The pot may be filled up with paddy, rice and sesamum and mustard coverd
+  with cloth.
+rule_type: material
+params:
+  numbers: []
+  directions: []
+  materials:
+  - cloth
+  - paddy
+  - rice
+  actors: []
+applicability: Tantrasamuccaya Patala 4, verse 31; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 31
+  passage_chars: 883
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Inventory: consume/provide [''cloth'', ''paddy'', ''rice''] on
+  rite step.'
+status: partial
+review: auto-seed

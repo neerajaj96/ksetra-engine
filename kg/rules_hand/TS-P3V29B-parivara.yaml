@@ -1,0 +1,22 @@
+id: TS-P3V29B-parivara
+claim_en: >-
+  Adore the surrounding (parivara) deities starting from the east through all
+  eight regions in order.
+rule_type: sequence
+params:
+  order: east_through_8_regions
+applicability: Tantrasamuccaya Patala 3, verse 29; Unni EN + commentaries.
+  Hand-reviewed (parivara batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 29
+  passage_chars: 1966
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Parivara adoration order (E -> 8 regions); sribali circuit
+  direction data.'
+status: gated
+review: hand

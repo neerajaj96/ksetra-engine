@@ -1,0 +1,30 @@
+id: SESHA-P2V00-surya
+claim_en: >-
+  For Surya: perform upasthana with his own anga and mula, place the
+  khashotka-mantra and japa in the heart, nyasa of the ten-tara body and the
+  ten pranava-gayatri; at Rama-upasthana time recite the pratishtha mantra
+  (pratishthasi pratishtha ...).
+claim_sa: सूर्यं उपस्थानविधैः ... स्वाङ्गं स्वमूलं ... हृदि न्यस्येत् । देहं
+  दशतारकां दशप्रणवगायत्रीं च न्यसेत् । ... प्रतिष्ठासि प्रतिष्ठेत्यादिमन्त्रं च वदेत् ।
+rule_type: sequence
+params:
+  deity: Surya
+  steps: [upasthana_own_anga_mula, heart_nyasa, ten_tara_pranava_gayatri, pratishtha_mantra]
+applicability: Seshasamuccaya Patala 2 (Surya section, p60 of OCR).
+  300dpi tesseract san/psm6 OCR (minor variants possible, e.g. khashotka).
+  V00 = running-section anchor (verse number in witness unclear). Hand-reviewed.
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 2
+  verse: 0
+  passage_chars: 700
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0060 (render dpi300, -l san --psm 6)
+  note: OCR layer; V00 running-section anchor; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Surya-rite program (upasthana -> nyasa -> pratishtha-mantra);
+  extends scheduler deity programs beyond Vishnu/Shiva.'
+status: partial
+review: hand

@@ -1,0 +1,24 @@
+id: TS-P2V105-structure
+claim_en: ''
+rule_type: structure
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 2, verse 105; Sanskrit verse line (translation
+  pending, not invented).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 105
+  passage_chars: 854
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Spec node: structure type from claim; relations + provenance to
+  TS-P2V105. Translation pending; use verse + commentaries at build review.'
+status: partial
+review: auto-seed
+claim_sa: कुष्ठोऽर्धपर्वशशिखण्डनिभा नखाः स्युः ।। 105 ।।

@@ -1,0 +1,24 @@
+id: TS-P2V54B-ekatala
+claim_en: >-
+  Thus narrated are the rules for small single-storey (ekatala) temples of
+  square plan; single-storey shrines range three to ten hastas in width.
+rule_type: spatial
+params:
+  scope: ekatala_square_small
+  width_hastas: [3, 10]
+applicability: Tantrasamuccaya Patala 2, verses 54-55; Unni EN + commentaries.
+  Hand-reviewed (scope batch). Bounds the Shiva circular-ekatala slice width
+  choice by analogy (8h within 3-10h band; circular scope pending).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 54
+  passage_chars: 783
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Scope gate: ekatala-square plans validate width in 3-10h;
+  circular analogue recorded, not enforced.'
+status: gated
+review: hand

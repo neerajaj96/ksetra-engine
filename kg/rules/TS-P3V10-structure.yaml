@@ -1,0 +1,24 @@
+id: TS-P3V10-structure
+claim_en: In the case of Guha, the last mentioned two items namely Śyāmā and Rājamāşa
+  are to be avoided.
+rule_type: structure
+params:
+  numbers:
+  - 2
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 3, verse 10; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 10
+  passage_chars: 1936
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Spec node: structure type from claim; relations + provenance to
+  TS-P3V10.'
+status: partial
+review: auto-seed

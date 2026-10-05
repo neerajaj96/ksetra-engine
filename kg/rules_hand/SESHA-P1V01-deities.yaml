@@ -1,0 +1,29 @@
+id: SESHA-P1V01-deities
+claim_en: >-
+  Seshasamuccaya supplements Tantrasamuccaya with rites for Brahma, Arka (Surya),
+  Vaishravana, Krishna, Saraswati, Shri, Gauri, Prajna, the Matris, Kshetra-adhipa
+  (Kshetrapala) and Rurujit-Girishadi forms, opening with obeisance to each.
+claim_sa: ब्रह्मार्कवैश्रवणकृष्णसरस्वतीश्री-गौर्यप्रज्ञा ददतु काव्यपि मातरो मे ।
+  क्षेत्राधिपोऽथ रुरुजिद्गिरिशादिरूपा-णीतादयोऽपि नमतेभिमतं प्रसन्नाः ।। 1 ।।
+rule_type: deity
+params:
+  deities: [Brahma, Arka, Vaishravana, Krishna, Saraswati, Shri, Gauri, Prajna,
+    Matarah, Kshetra_adhipa, Rurujit_Girishadi]
+  relation_to_TS: supplement
+applicability: Seshasamuccaya Patala 1, verse 1 (opening obeisance). Read from
+  rendered title page (p0) 2026-10-05; OCR body ingestion running separately.
+  Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 1
+  verse: 1
+  passage_chars: 900
+  commentary: auto-commentary Vimarshini by author (unverified in OCR yet)
+  translator: none
+  note: Rendered title-page read 2026-10-05 (drive_1oI.bin p0, 120dpi PNG); body custom-encoded, OCR ingesting separately
+layer: OBSERVED
+game_abstraction: 'Deity roster for future slices (Bhadrakali/Jyeshtha/Matris
+  expiation ch6; Krishna/Matri shanti-homa modes). Selects next slice candidates.'
+status: partial
+review: hand

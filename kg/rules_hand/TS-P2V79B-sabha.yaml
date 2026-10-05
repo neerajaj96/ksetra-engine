@@ -1,0 +1,29 @@
+id: TS-P2V79B-sabha
+claim_en: >-
+  In front (toward the entrance) build the sabha assembly hall - a gopura-like
+  member - on the antahara line extended to the entrance length: set the vamsa
+  beam on the side-hara-supported ends, yoni-endowed per its quarter, divide
+  length in five and take one share for width; lay three matching uttaras and
+  the arudha-uttara courses likewise.
+rule_type: spatial
+params:
+  where: front_toward_entrance_on_antahara_line
+  character: gopura_like
+  length_divisor: 5
+  width_share: 1
+  yoni: own_quarter
+applicability: Tantrasamuccaya Patala 2, verse 79; verse + Vimarshini + Vivarana.
+  Hand-reviewed (sabha batch). Sabha/gopura forecourt program.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 79
+  passage_chars: 2163
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Forecourt program: sabha hall toward entrance on extended
+  antahara line (5:1 length:width, yoni-set); gopura/agrasabha nodes cite this.'
+status: gated
+review: hand

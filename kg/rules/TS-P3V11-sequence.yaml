@@ -1,0 +1,25 @@
+id: TS-P3V11-sequence
+claim_en: For washing the objects with milk the Mülamantras of the respective deites
+  are to be chanted as for instance for Vişņu the twelve- syllablled mantra is needed.
+rule_type: sequence
+params:
+  numbers:
+  - 12
+  directions: []
+  materials:
+  - milk
+  actors: []
+applicability: Tantrasamuccaya Patala 3, verse 11; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 11
+  passage_chars: 758
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Scheduler step: action with preconditions (mandapa ready, night
+  window) per claim.'
+status: partial
+review: auto-seed

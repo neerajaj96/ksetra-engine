@@ -1,0 +1,28 @@
+id: TS-P1V04B-yajamana
+claim_en: >-
+  The patron (yajamana) undertaking image-installation for daily worship shall be
+  devoted to the duties prescribed for his varna and ashrama, possessed of wealth
+  earned by proper means, and shall first of all choose (varana) an excellent
+  preceptor (guruvara).
+claim_sa: वर्णाश्रमाधिकृतकर्मरत ... तदुक्तन्यायात्तवित्तनिचयः ... प्रतिमाप्रतिष्ठा-
+  कर्मोन्मना गुरुवरं प्रथमं वृणीत ।। 4 ।।
+rule_type: role
+params:
+  patron_duties: varna_ashrama_prescribed
+  wealth: properly_earned
+  first_act: guru_varana
+applicability: Tantrasamuccaya Patala 1, verse 4; verse + Vimarshini + Vivarana.
+  Hand-reviewed (roles batch). Strengthens K-GURU-FIRST / K-TANTRI-ONLY.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 4
+  passage_chars: 2363
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Role gates: yajamana eligibility (duties + honest wealth);
+  guru-varana is the mandatory first quest step before any construction rite.'
+status: gated
+review: hand

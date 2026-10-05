@@ -1,0 +1,24 @@
+id: TS-P4V62-material
+claim_en: In the case of Śastä ghee and honey should be placed at the head portion
+  and feet using Mülamantra.
+rule_type: material
+params:
+  numbers: []
+  directions: []
+  materials:
+  - ghee
+  - honey
+  actors: []
+applicability: Tantrasamuccaya Patala 4, verse 62; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 62
+  passage_chars: 1309
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Inventory: consume/provide [''ghee'', ''honey''] on rite step.'
+status: partial
+review: auto-seed

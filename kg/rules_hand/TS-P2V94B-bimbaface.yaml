@@ -1,0 +1,22 @@
+id: TS-P2V94B-bimbaface
+claim_en: >-
+  On the idol's face: eight angulas from ear to chin (part of the tala-based
+  facial proportion program).
+rule_type: measure
+params:
+  ear_to_chin_angula: 8
+applicability: Tantrasamuccaya Patala 2, verse 94; Unni EN + commentaries.
+  Hand-reviewed (bimba batch). Complements Durga dasha-tala program (V111).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 94
+  passage_chars: 993
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Murti-face proportion datum (8-angula ear-chin); future
+  deity-figure generator input.'
+status: gated
+review: hand

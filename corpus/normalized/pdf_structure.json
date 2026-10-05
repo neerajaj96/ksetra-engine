@@ -1,0 +1,52 @@
+{
+ "PRAYOGA": {
+  "pages": 187,
+  "patala_headers_found": 5,
+  "verse_markers": 1223,
+  "sample_headers": [
+   {
+    "page": 7,
+    "header": "प्रथमः पटलः"
+   },
+   {
+    "page": 8,
+    "header": "प्रथमः पटलः"
+   },
+   {
+    "page": 9,
+    "header": "प्रथमः पटलः"
+   },
+   {
+    "page": 10,
+    "header": "प्रथमः पटलः"
+   },
+   {
+    "page": 11,
+    "header": "प्रथमः पटलः"
+   }
+  ],
+  "identification": "Prayogamanjari (Shaivagamasiddhantasara), Ravi; rendered title page read 2026-10-05; text layer legacy-font-mapped (partially legible), 1223 verse markers"
+ },
+ "NARAYANATMAKA": {
+  "pages": 285,
+  "patala_headers_found": 0,
+  "verse_markers": 0,
+  "sample_headers": [],
+  "identification": "Narayanatmakam (Vishnu figure title page); rendered title page read 2026-10-05; body custom-encoded, opaque to text layer"
+ },
+ "SESHA": {
+  "pages": 280,
+  "patala_headers_found": 0,
+  "verse_markers": 0,
+  "sample_headers": [],
+  "identification": "Seshasamuccaya Patala 1 (Brahma/Arka/Vaishravana/Krishna/Saraswati/Matarah/Kshetra-adhipa/Rurujit verse read from rendered p0); body custom-encoded, opaque"
+ },
+ "KALASHA": {
+  "pages": 403,
+  "patala_headers_found": 0,
+  "verse_markers": 0,
+  "sample_headers": [],
+  "identification": "Kalashachandrika Shivabhaga Patala 1 (kalasha-vidhi/snapana verses read from rendered p0); body custom-encoded, opaque"
+ },
+ "method": "pymupdf text layer + rendered-title-page reads; verse contents NOT claimed from corrupt bytes (C-PDF-ENCODING)"
+}

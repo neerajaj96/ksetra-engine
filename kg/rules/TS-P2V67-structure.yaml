@@ -1,0 +1,26 @@
+id: TS-P2V67-structure
+claim_en: What is left may be divided by eighteen of which four parts each for the
+  two sides and front portion is to be divided by making a circular motion of two
+  parts a semi circle is to be designed.
+rule_type: structure
+params:
+  numbers:
+  - 2
+  - 4
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 2, verse 67; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 67
+  passage_chars: 1621
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Spec node: structure type from claim; relations + provenance to
+  TS-P2V67.'
+status: partial
+review: auto-seed

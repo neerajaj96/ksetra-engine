@@ -1,0 +1,31 @@
+id: TS-P1V30B-bhumi
+claim_en: >-
+  Best (shreshtha) ground: cattle and people, fruit/flower/milk trees, level,
+  eastward-sloping with pradakshina water, firm, deep-sounding, quick seed
+  germination, dust-surplus on pit-fill test, perennial water, temperate in cold
+  and heat. Opposite traits = worst (adhama); mixed = middle (madhyama).
+claim_sa: ... फलपुष्पदुग्धतरुभिः ... समा ... प्राक्प्लवा ... स्निग्धा ... धीररवा
+  ... आशुबीजोद्गमा ... बहुपांसुः ... अक्षयजला ... शीतोष्णयोस्तुल्या ...
+  श्रेष्ठा ... समुक्तविपरीता अधमा ... मिश्रिता मध्यमा ।। 30 ।।
+rule_type: spatial
+params:
+  shreshtha_marks: [cattle_people, fruit_flower_milk_trees, level, eastward_water, firm, deep_sound, quick_germination, dust_surplus, perennial_water, temperate]
+  adhama: opposite_traits
+  madhyama: mixed_traits
+  field_tests: [pit_fill_dust, water_retention_walk]
+applicability: Tantrasamuccaya Patala 1, verse 30; verse + Vimarshini + Vivarana
+  (with field-test quotes). Hand-reviewed (site batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 30
+  passage_chars: 2309
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Site survey: bhumi graded shreshtha/madhyama/adhama by
+  marks + field tests; adhama rejected (fail-closed); survey is the first
+  yajamana quest step after guru-varana.'
+status: gated
+review: hand

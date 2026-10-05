@@ -1,0 +1,33 @@
+id: PRAYOGA-P6V01-parivara
+claim_en: >-
+  Having rightly divided the site (summary teaching): at the center the
+  Brahma house; at the door the Lakshmi house; to the east the Vaishravana and
+  Bhaskara (Surya) houses and the Krishna shrine; to the south (yamya) the
+  Vahni (Agni) house, the Matri hall and Yama's (station).
+claim_sa: मध्ये ब्रह्मगृहं ... द्वारे च लक्ष्मीगृहं ... पूर्वे ... वेश्रवणस्य
+  भास्करगृहं ... कृष्णालयम् ... याम्ये ... वह्निगृहं ... मातृभवनं ... यमस्य ...
+  ।। 1 ।।
+rule_type: spatial
+params:
+  center: Brahma_griha
+  door: Lakshmi_griha
+  east: [Vaishravana, Bhaskara, Krishna]
+  south: [Vahni, Matri, Yama]
+applicability: Prayogamanjari Patala 6, verse 1 (site-division summary).
+  300dpi tesseract san/psm6 OCR (minor variants possible); verse order verified.
+  Hand-reviewed (PRAYOGA batch).
+source:
+  work: Prayogamanjari
+  edition: Shripuram-OCR-partial
+  patala: 6
+  verse: 1
+  passage_chars: 200
+  commentary: none extracted yet
+  translator: none
+  ocr_page: PRAYOGA-p0029 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade to PRIMARY after font-map/edition cross-check
+layer: OCR
+game_abstraction: 'Complex layout: parivara stations (center/door/east/south)
+  constrain subsidiary shrine placement; cross-checks TS sivelipura program.'
+status: partial
+review: hand

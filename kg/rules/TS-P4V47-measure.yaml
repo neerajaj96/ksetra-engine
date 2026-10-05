@@ -1,0 +1,24 @@
+id: TS-P4V47-measure
+claim_en: ''
+rule_type: measure
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 4, verse 47; Sanskrit verse line (translation
+  pending, not invented).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 47
+  passage_chars: 1657
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Builder param: dimension/range in hasta+angula (validate []; unit
+  hasta=24angula). Translation pending; use verse + commentaries at build review.'
+status: partial
+review: auto-seed
+claim_sa: पूर्णां कर्म कृतं स्मरेत्तदधुना वा स्यात् ध्रुवेणार्चनम् ।। 47 ।।

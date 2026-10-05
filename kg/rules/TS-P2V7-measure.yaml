@@ -1,0 +1,24 @@
+id: TS-P2V7-measure
+claim_en: This divided measurement in length may be added or deducted for finalizing
+  the ultimate height of the floor may also be fixed similarly by deducting or adding
+  the respective measurement.
+rule_type: measure
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 2, verse 7; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 7
+  passage_chars: 5504
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Builder param: dimension/range in hasta+angula (validate []; unit
+  hasta=24angula).'
+status: partial
+review: auto-seed

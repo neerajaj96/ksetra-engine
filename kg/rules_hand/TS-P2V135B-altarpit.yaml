@@ -1,0 +1,21 @@
+id: TS-P2V135B-altarpit
+claim_en: >-
+  While shaping the idol, make a pit in the altar double (or one and a half
+  times) the stem size.
+rule_type: measure
+params:
+  altar_pit: stem * [2, 1.5]
+applicability: Tantrasamuccaya Patala 2, verse 135; Unni EN + commentaries.
+  Hand-reviewed (pitha-drain batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 135
+  passage_chars: 568
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Altar socket sizing (2x/1.5x stem); pitha node param.'
+status: gated
+review: hand

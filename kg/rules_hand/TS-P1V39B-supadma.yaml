@@ -1,0 +1,26 @@
+id: TS-P1V39B-supadma
+claim_en: >-
+  Supadma land - most suited for installing gods and solace-giving - grows
+  camphor, agaru, coconut, tilaka, darbha, kadamba, arjuna, sandal, arecanut,
+  sugarcane, ketaka, kusha, kunda, lotus and blue lotus in abundance, with water
+  flowing east as well as north and plenty (perennial) of it.
+rule_type: spatial
+params:
+  grade: supadma_premium
+  vegetation: [camphor, agaru, coconut, tilaka, darbha, kadamba, arjuna, sandal, arecanut, sugarcane, ketaka, kusha, kunda, lotus, blue_lotus]
+  water: [eastward, northward, perennial]
+applicability: Tantrasamuccaya Patala 1, verse 39; verse + Vimarshini + Vivarana.
+  Hand-reviewed (site batch). Top of the V30 grade ladder.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 39
+  passage_chars: 1521
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Premium site grade (vegetation + dual-direction water);
+  kavu/vegetation and water-system placement cite this.'
+status: gated
+review: hand

@@ -1,0 +1,22 @@
+id: TS-P3V32B-sambhara
+claim_en: >-
+  Assemble: butea fronds, bamboo, anthill earth, fertile land, ox horn, sands
+  from both riverbanks, and plenty of water.
+rule_type: material
+params:
+  sambhara: [butea_fronds, bamboo, anthill_earth, fertile_land, ox_horn, riverbank_sands, water]
+applicability: Tantrasamuccaya Patala 3, verse 32; Unni EN + commentaries.
+  Hand-reviewed (materials batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 32
+  passage_chars: 3962
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Rite-material checklist (sambhara); inventory fetch-list
+  extension candidate (units TBD).'
+status: gated
+review: hand

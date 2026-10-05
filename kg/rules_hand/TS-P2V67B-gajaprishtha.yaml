@@ -1,0 +1,30 @@
+id: TS-P2V67B-gajaprishtha
+claim_en: >-
+  For a Gajaprishtha (elephant-back: square + semicircle apse) temple: divide
+  the desired circumference by sixty-four, drop one share; divide the rest by
+  eighteen; with four shares each shape the two sides and the front width;
+  then with a two-share compass line from the side-ends draw the semicircle apse
+  (about six shares in circuit).
+claim_sa: ... चतुष्षष्टिभागं त्यक्त्वा ... अष्टादशधा ... चतुर्भिरंशैः पार्श्वद्वन्द्व ...
+  मुखविस्तारं ... द्वयंशसूत्रभ्रमात् ... अर्धवृत्तम् ... ।। 67 ।।
+rule_type: measure
+params:
+  plan: gajaprishtha_apsidal
+  paridhi: [divide_64, drop_1, divide_18]
+  sides_mukha_shares: [4, 4, 4]
+  apse: semicircle_2share_compass
+applicability: Tantrasamuccaya Patala 2, verse 67; verse + Vimarshini + Vivarana.
+  Hand-reviewed (plan-geometry batch). Banked for a future apsidal slice.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 67
+  passage_chars: 1621
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Builder plan branch (future): apsidal massing (square
+  mandala + semicircle apse) from 64-drop-1/18 procedure.'
+status: gated
+review: hand

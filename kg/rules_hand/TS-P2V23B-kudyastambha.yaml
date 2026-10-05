@@ -1,0 +1,33 @@
+id: TS-P2V23B-kudyastambha
+claim_en: >-
+  Kudya (wall) pillars of god-houses from three hastas up: one on each of the
+  four corners and two between each pair (twelve total) at equal intervals, beams
+  (uttara) fixed over them; shrines of eleven karas and above take twenty
+  pillars of varied shapes and decoration. Unequal pillar spacing destroys the
+  vastu.
+claim_sa: ... कोणचतुष्कमध्यविनिवेश्याः ... द्वादश स्तम्भाः ... समान्तराः ...
+  एकादशकरादिषु ... विंशतिः ... एषु स्तम्भेषूत्तरमर्पयेत् ... ।। 23 ।।
+rule_type: structure
+params:
+  trikara_plus: 12
+  layout: corners_4_plus_2_between_each
+  spacing: equal
+  eleven_kara_plus: 20
+  beam: uttara_over_pillars
+  violation: unequal_spacing_destroys_vastu
+applicability: Tantrasamuccaya Patala 2, verse 23; verse + Vimarshini
+  (+Nibandhana quote) + Vivarana. Hand-reviewed (stambha batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 23
+  passage_chars: 1716
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Builder: square pada gets 12 kudya-stambhas (4 corners + 2
+  per face, equal spacing) carrying the uttara; 20-pillar variant for >=11-kara
+  shrines (future).'
+status: gated
+review: hand

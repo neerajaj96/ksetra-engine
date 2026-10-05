@@ -1,0 +1,25 @@
+id: TS-P1V71B-balifood
+claim_en: >-
+  Thereafter propitiate all fifty-three (mandala deities) offering bali with a
+  part of the prepared food; the deities outside these receive one round each
+  with five-substance oblations (turmeric, parched/fried rice and the like).
+rule_type: sequence
+params:
+  inner_53: food_bali
+  outer: one_round_each_panchadravya
+  substances: [turmeric, parched_rice, fried_rice]
+applicability: Tantrasamuccaya Patala 1, verses 71-72; Unni EN + commentaries.
+  Hand-reviewed (bali batch). Anchored at V71.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 71
+  passage_chars: 3343
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Bali program (53 food-bali + outer panchadravya rounds);
+  sreebhoothabali/utsava-bali scheduler content.'
+status: gated
+review: hand

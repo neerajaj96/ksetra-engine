@@ -1,0 +1,28 @@
+id: PRAYOGA-P9V05-masadhipa
+claim_en: >-
+  Twelve murtis are taught in order as month-lords (masadhipas), mapped to
+  nakshatra sets (Hasta, Uttara-traya, Punarvasu, Tishya, Pushya ...).
+claim_sa: मासाधिपाः क्रमादेते प्रोक्ता द्वादशमूर्तयः ।। 5 ।। (nakshatra list in
+  following lines of the OCR anchor)
+rule_type: timing
+params:
+  month_lords: 12
+  mapping: nakshatra_sets
+applicability: Prayogamanjari Patala 9, verse 5 (masadhipa calendar section).
+  300dpi tesseract san/psm6 OCR fragment (151 chars; series continues across
+  pages). Hand-reviewed (PRAYOGA batch).
+source:
+  work: Prayogamanjari
+  edition: Shripuram-OCR-partial
+  patala: 9
+  verse: 5
+  passage_chars: 151
+  commentary: none extracted yet
+  translator: none
+  ocr_page: PRAYOGA-p0059 (render dpi300, -l san --psm 6)
+  note: OCR layer; fragment anchor - full nakshatra table pending adjacent pages
+layer: OCR
+game_abstraction: 'Calendar table: 12 month-lord murtis x nakshatra sets;
+  monthly-rite scheduler hook (future monthly program).'
+status: partial
+review: hand

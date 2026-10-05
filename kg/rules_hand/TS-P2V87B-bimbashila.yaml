@@ -1,0 +1,22 @@
+id: TS-P2V87B-bimbashila
+claim_en: >-
+  Having dressed a square stone and set it firmly on a flat surface, mark upon
+  it the measurements of the desired idol.
+rule_type: sequence
+params:
+  steps: [dress_square_stone, set_firm_flat, mark_idol_measures]
+applicability: Tantrasamuccaya Patala 2, verse 87; Unni EN + commentaries.
+  Hand-reviewed (bimba-workshop batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 87
+  passage_chars: 1073
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Workshop step: stone dressing + measure marking precedes
+  idol carving (craft quest chain hook).'
+status: gated
+review: hand

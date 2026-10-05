@@ -1,0 +1,24 @@
+id: TS-P4V114B-shayana
+claim_en: >-
+  Having pervaded the three abodes (and others) each with its own mula-mantra
+  and embodied (sakalikritya) the image with mantras, lay it to sleep (shayana)
+  facing the temple (prasada-sammukham) as here taught.
+rule_type: sequence
+params:
+  steps: [pervade_abodes_own_mantras, sakalikarana, lay_to_sleep_facing_temple]
+  orientation: prasada_sammukham
+applicability: Tantrasamuccaya Patala 4, verse 114 (with V113 shayya-mantra
+  context); verse + Vimarshini in anchor. Hand-reviewed (shayana batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 114
+  passage_chars: 807
+  commentary: Vimarshini in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Shayana step: embodied image laid facing prasada; completes
+  the shayya-adhivasa arc (V113 mantras -> V114 laying).'
+status: gated
+review: hand

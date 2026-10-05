@@ -1,0 +1,28 @@
+texts:
+- id: TS
+  work: Tantrasamuccaya of Narayana
+  edition: Unni-2006-Nag-reprint (Patalas 1-4 txt, Sk88 export)
+  file: corpus/raw/docs_Sk88.txt
+  sha256: 1e5f11c6d116652999e199a0795fe6472db9b2dd3f7975954b387ab4942e4d61
+  status: PRIMARY_CLEAN
+  passages: corpus/normalized/passages.jsonl
+- id: PRAYOGA
+  work: Prayogamanjari (Shaivagamasiddhantasara), Ravi
+  edition: Shripuram Publications PDF
+  file: corpus/raw/drive_1Zof.bin
+  status: OCR_COMPLETE_187PP
+- id: NARAYANATMAKA
+  work: Narayanatmakam (Vishnu/Durga/Sankaranarayana/Brahman)
+  edition: Shripuram Trust PDF
+  file: corpus/raw/drive_1wOT.bin
+  status: PARTIAL_ENCODING_CORRUPT
+- id: SESHA
+  work: Seshasamuccaya of Sankara (supplement, 10 patalas)
+  edition: Shripuram Publications PDF
+  file: corpus/raw/drive_1oI.bin
+  status: PARTIAL_CUSTOM_ENCODING
+- id: KALASHA
+  work: Kalashachandrika Shivabhaga
+  edition: Shripuram Publications PDF
+  file: corpus/raw/drive_17GP.bin
+  status: PARTIAL_CUSTOM_ENCODING

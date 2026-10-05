@@ -1,0 +1,28 @@
+id: TS-P2V61B-upper-tala
+claim_en: >-
+  Above the gala (as in a third storey too) the upper-storey wall is thinner
+  than the first-storey wall; set wall plate and beam, fix rafters uniting with
+  the lower rafter tips, the upper rafters overlapping half the pillar height;
+  upper pillars stand on the lower beams (tula).
+rule_type: structure
+params:
+  upper_wall: thinner_than_lower
+  junction: [wall_plate, beam, rafters_united_lower_tips]
+  upper_rafter_overlap: half_pillar_height
+  upper_pillars_on: lower_beams
+applicability: Tantrasamuccaya Patala 2, verse 61; verse + Vimarshini + Vivarana.
+  Hand-reviewed (tala batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 61
+  passage_chars: 1223
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Upper-tala junction assembly (thinner wall + plate/beam +
+  united rafters at half-pillar overlap); builder 0.72 narrowing + stacked
+  massing stands in for the assembly.'
+status: gated
+review: hand

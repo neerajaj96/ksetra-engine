@@ -1,0 +1,29 @@
+id: TS-P2V18B-garbha9
+claim_en: >-
+  The width (vitati) of the sanctum is taught in nine modes - dividing the
+  shrine circumference (vyasa) by even/odd schemes with odd shares from three,
+  five, seven up to fifteen and taking shares two to eight in order; or eightfold
+  division with vasu share; or five shares; or half (ardha) of the whole house.
+claim_sa: गर्भालयस्य विततिर्नवधोदिता । ... त्र्यादिपञ्चदशान्तिमैस्त्रिपञ्चसप्तादिविषमविभागैः
+  ... द्वयाद्यष्टन्तिमैरंशैः ... वसुभागयुते अष्टधा विभक्ते । पञ्चांशकैश्च । अर्धतः ...
+  (Vimarshini + Nibandhana quote in anchor)
+rule_type: measure
+params:
+  modes: 9
+  vyasa_shares: [3, 5, 7, 9, 11, 13, 15]
+  garbha_shares: [2, 3, 4, 5, 6, 7, 8]
+  alternates: [eightfold_with_vasu, five_shares, half_of_whole]
+applicability: Tantrasamuccaya Patala 2, verse 18; verse + Vimarshini (with
+  Nibandhana quote) + Vivarana. Hand-reviewed (P2 garbha batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 18
+  passage_chars: 1152
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Builder selector: 9 garbha-width methods; slice uses mode 9
+  (ardha = 1/2 of house). Other 8 kept as validated alternatives with share tables.'
+status: gated

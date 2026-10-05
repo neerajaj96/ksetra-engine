@@ -1,0 +1,30 @@
+id: TS-P2V38B-ornament
+claim_en: >-
+  Every prasada carries toranas and four doors; wall ornament grades by size:
+  5-hasta shrines get 8 panjaras with gavaksha lattices (nandyavarta, gajendra-
+  eyes, creepers, swastikas); 7-hasta adds chitra-makara torana, 12 kudya feet,
+  karna-kutas and eight sala-panjaras; 9-hasta adds karna-kutas with sala-panjara-
+  toranas; 11/13-kara shrines take 20 pillars, 16 nasis above and hara courses.
+rule_type: structure
+params:
+  base: [toranas, four_doors]
+  grade_5h: panjaras_8_gavaksha
+  grade_7h: +chitra_makara_torana +kudya_12 +karna_kuta +sala_panjara_8
+  grade_9h: +karna_kuta_sala_panjara_torana
+  grade_11_13kara: pillars_20 +nasis_16 +hara
+applicability: Tantrasamuccaya Patala 2, verse 38; verse + Vimarshini (size
+  quotes) + Vivarana. Hand-reviewed (ornament batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 38
+  passage_chars: 2078
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Ornament-grade selector by shrine size (LOD/detail tiers);
+  slice (12/8h) sits between 9h and 11-kara grades - current hara+kuta/sala/
+  panjara + 12 kudya + torana-less doors recorded as mid-grade shorthand.'
+status: gated
+review: hand

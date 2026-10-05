@@ -1,0 +1,24 @@
+id: TS-P3V44-material
+claim_en: ''
+rule_type: material
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 3, verse 44; Sanskrit verse line (translation
+  pending, not invented).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 44
+  passage_chars: 1346
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Inventory: consume/provide [] on rite step. Translation pending;
+  use verse + commentaries at build review.'
+status: partial
+review: auto-seed
+claim_sa: छत्रध्वजाद्यैर्बहुवाद्यहृद्यं जलाधिवासाय नयेच्च तीर्थम् ।। 44।।

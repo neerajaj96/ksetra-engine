@@ -1,0 +1,24 @@
+id: TS-P3V38-sequence
+claim_en: The woollen bracelet is to be placed on the rafter along with gold mustard
+  and pearl while tying it around the hand of the idol one should chant the mantra.
+  related to the particular diety several times.
+rule_type: sequence
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 3, verse 38; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 38
+  passage_chars: 1832
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Scheduler step: action with preconditions (mandapa ready, night
+  window) per claim.'
+status: partial
+review: auto-seed

@@ -1,0 +1,25 @@
+id: TS-P1V77B-kurmashila
+claim_en: >-
+  Direct the tortoise-shaped stone (kurma-shila) toward the planned shrine
+  opening, establish and worship it ritually with the prayer to Vishnu the
+  tortoise-formed world-bearer (namaste kurmarupaya vishnave vishvadharine).
+rule_type: orientation
+params:
+  stone: tortoise_shaped
+  faces: planned_shrine_opening
+  prayer: Vishnu_Kurma_world_bearer
+applicability: Tantrasamuccaya Patala 1, verses 77-78; Unni EN + commentaries.
+  Hand-reviewed (deposit batch). Anchored at V77.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 77
+  passage_chars: 1601
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Foundation deposit: oriented kurma-shila + Vishnu-Kurma
+  prayer; shilanyasa quest content.'
+status: gated
+review: hand

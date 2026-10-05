@@ -1,0 +1,28 @@
+id: TS-P1V41B-purna
+claim_en: >-
+  Purna (full) land - extremely suitable for a god-house, nourishing wealth and
+  grain - bears plaksha, nyagrodha, nimba, arjuna, bakula, kulastha, asana,
+  ashoka, nishpava, ankola, malati, champaka, tila, khadira and kodrava, and
+  lies on a hilltop or mountain slope with scant water.
+rule_type: spatial
+params:
+  grade: purna_full
+  vegetation: [plaksha, nyagrodha, nimba, arjuna, bakula, kulastha, asana, ashoka, nishpava, ankola, malati, champaka, tila, khadira, kodrava]
+  terrain: [hilltop, mountain_slope]
+  water: scant
+  fruit: wealth_grain
+applicability: Tantrasamuccaya Patala 1, verse 41; verse + Vimarshini + Vivarana.
+  Hand-reviewed (site batch). Joins the V30/V39 grade ladder.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 41
+  passage_chars: 1350
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Site grade (hill/slope + marker flora + scant water);
+  terrain generator biome input for hilltop ksetras.'
+status: gated
+review: hand

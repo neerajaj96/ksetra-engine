@@ -1,0 +1,25 @@
+id: TS-P2V34B-ghanareplica
+claim_en: >-
+  Divide the main-door width by eight; taking five portions for width and twice
+  (or two and a half) the size, construct door replicas (ghanadvara) on the
+  other three sides of the shrine.
+rule_type: measure
+params:
+  replica_width: main_door_width * 5/8
+  replica_height: 2x_to_2.5x
+  faces: other_three_sides
+applicability: Tantrasamuccaya Patala 2, verse 34; Unni EN + commentaries.
+  Hand-reviewed (access batch). Refines V26B program with proportions.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 34
+  passage_chars: 1309
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Ghanadvara sizing: width 5/8 main door, height 2-2.5x;
+  builder false-door nodes sized by rule.'
+status: gated
+review: hand

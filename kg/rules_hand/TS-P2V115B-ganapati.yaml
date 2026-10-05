@@ -1,0 +1,27 @@
+id: TS-P2V115B-ganapati
+claim_en: >-
+  Vighnesha (three-eyed, elephant-faced, slightly bent neck, huge body, seated
+  or standing) is shaped in five talas: one tala face below the diadem, two and
+  a half talas face-to-hip, one and a half talas hips-legs-hands.
+rule_type: measure
+params:
+  deity: Ganapati
+  tala: 5
+  shares: {face: 1, torso_to_hip: 2.5, limbs: 1.5}
+  forms: [seated, standing]
+applicability: Tantrasamuccaya Patala 2, verse 115; verse + Vimarshini + quoted
+  verse. Hand-reviewed (bimba batch). Third deity canon after Vishnu-forms and
+  Durga dasha-tala.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 115
+  passage_chars: 1279
+  commentary: Vimarshini in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Ganapati figure canon (5-tala, seated/standing); joins
+  Vishnu/Durga canons in the deity-figure roster.'
+status: gated
+review: hand

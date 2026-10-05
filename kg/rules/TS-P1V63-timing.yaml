@@ -1,0 +1,25 @@
+id: TS-P1V63-timing
+claim_en: ''
+rule_type: timing
+params:
+  numbers: []
+  directions: []
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 1, verse 63; Sanskrit verse line (translation
+  pending, not invented).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 63
+  passage_chars: 858
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Calendar: relative offset [] + window (night/yama) per claim. Translation
+  pending; use verse + commentaries at build review.'
+status: partial
+review: auto-seed
+claim_sa: आर्यकसावित्राख्यौ सविता सविवस्वदिन्द्रिय इन्द्रः । मित्रो रुद्रजयाभिधरुद्रमहीधरयुतापवत्सापाः
+  ।। 63 ।।

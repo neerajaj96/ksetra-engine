@@ -1,0 +1,25 @@
+id: TS-P4V40-orientation
+claim_en: For Siva, Subrahmanya, Ganeśa and Śāstā only three lines are needed from
+  the top of the westline.
+rule_type: orientation
+params:
+  numbers:
+  - 3
+  directions:
+  - west
+  materials: []
+  actors: []
+applicability: Tantrasamuccaya Patala 4, verse 40; Unni EN sentence.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 40
+  passage_chars: 1434
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Site constraint: facing [''west'']; quarter rule to be resolved
+  per verse 2 mapping.'
+status: partial
+review: auto-seed

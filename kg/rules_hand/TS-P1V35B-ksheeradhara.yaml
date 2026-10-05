@@ -1,0 +1,24 @@
+id: TS-P1V35B-ksheeradhara
+claim_en: >-
+  The preceptor shall sprinkle the milk of a red cow to the chant of the
+  respective mula mantras one hundred times (site purification).
+rule_type: sequence
+params:
+  substance: red_cow_milk
+  repetitions: 100
+  mantra: mula_per_deity
+applicability: Tantrasamuccaya Patala 1, verse 35; Unni EN + commentaries.
+  Hand-reviewed (site-shuddhi batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 35
+  passage_chars: 786
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Site-shuddhi rite (100x milk sprinkling); consumes milk
+  inventory; precedes sutra-line marking (V89B).'
+status: gated
+review: hand

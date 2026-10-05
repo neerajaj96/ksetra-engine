@@ -1,0 +1,32 @@
+id: TS-P2V57B-griva9
+claim_en: >-
+  Divide the first-storey pillar height (base to wall plate) into nine and take
+  shares three through eleven in order; the gala (griva recess) height is fixed
+  in nine types by two, three, three, three, five, seven, five, eight and nine
+  divisions respectively; the same measure applies floor by floor, with a proper
+  prastara entablature on every tala.
+claim_sa: स्तम्भ ... त्र्याद्येकादशान्तैरंशरांशिते ... द्वित्रित्रित्रिपञ्चसप्तपञ्चाष्टनवभिरंशैः
+  ... नवधा ग्रीवोक्ता ... प्रतितलं ... प्रस्तरप्रक्रिया ... ।। 57 ।।
+rule_type: measure
+params:
+  pillar_divisor: 9
+  pillar_shares: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  gala_shares: [2, 3, 3, 3, 5, 7, 5, 8, 9]
+  per_tala: true
+  prastara_each_tala: true
+applicability: Tantrasamuccaya Patala 2, verse 57; verse + Vimarshini (+Murari
+  quote) + Vivarana. Hand-reviewed (griva batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 57
+  passage_chars: 1598
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Builder selector: 9 gala/griva heights from pillar shares;
+  prastara emitted per tala (already in builder massing). Slice default: mid
+  type (share 7 -> gala 5/9 pillar) pending tala-height pinning.'
+status: gated
+review: hand

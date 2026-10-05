@@ -1,0 +1,30 @@
+id: TS-P2V16B-nishkrama
+claim_en: The overlapping (nishkrama/projection) of Jagati beyond the yoni socle
+  equals its own height; Kumuda takes the same projection; Pattika, Kampa, Pati
+  and the rest project three-fourth, half or one-quarter of their respective heights
+  to all sides; Paduka projects measured from the Jagati line.
+claim_sa: यावत् स्वोत्सेधमानम् ... तत्तुल्यं ... उच्छ्रयसमम् ... पादोनम् ... अर्धांशकम्
+  ... पादांशकम् ... मानसूत्रात् समन्ताच्चतुर्दिशं बहिर्गमयेत्
+rule_type: measure
+params:
+  jagati_projection: = jagati_height
+  kumuda_projection: = jagati_projection
+  other_projections: [0.75, 0.5, 0.25]
+  other_members: [pattika, kampa, pati]
+  paduka_datum: jagati_line
+  extent: all_four_sides_from_mana_sutra
+applicability: Tantrasamuccaya Patala 2, verse 16; Unni EN + Vimarshini (Mayamata
+  quotes) + Vivarana in verse-anchored passage. Hand-reviewed (structure bucket).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 16
+  passage_chars: 2106
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Builder param: per-moulding outward projection from mana-sutra;
+  jagati=1.0*h, kumuda=same, rest in {0.75,0.5,0.25}*h by sobha (beauty-fit);
+  paduka measured off jagati line.'
+status: gated

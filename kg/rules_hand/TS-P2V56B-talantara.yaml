@@ -1,0 +1,25 @@
+id: TS-P2V56B-talantara
+claim_en: >-
+  In multi-storey building: raise the inner (arudha) wall fittingly, fix a ridge
+  beam over it, attach rafters with marked fillets, lay a ridge plank to level
+  it, then set the gala recess over the (levelled) wall top.
+rule_type: structure
+params:
+  steps: [raise_antar_bhitti, ridge_beam, rafters_fillets, ridge_plank_level, gala_above]
+  scope: multi_tala_transition
+applicability: Tantrasamuccaya Patala 2, verse 56; verse + Vimarshini + Vivarana.
+  Hand-reviewed (tala batch). Governs the slice's tala1->tala2 transition.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 56
+  passage_chars: 1352
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Tala-transition assembly (antar-wall -> ridge -> rafters ->
+  plank -> gala); builder hara+tala2 massing stands in for the assembly
+  (recorded approximation).'
+status: gated
+review: hand

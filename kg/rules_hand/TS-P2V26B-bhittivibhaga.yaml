@@ -1,0 +1,27 @@
+id: TS-P2V26B-bhittivibhaga
+claim_en: >-
+  Divide the wall width into eleven parts measured from the sanctum center: five
+  inside the doorstep and seven outside; except the main door, the rest shall be
+  solid-rock false doors (ghanadvara) set into door pillars with supports.
+rule_type: measure
+params:
+  wall_divisions: 11
+  inside_doorstep: 5
+  outside: 7
+  datum: sanctum_center
+  non_main_doors: solid_ghanadvara_in_pillars
+applicability: Tantrasamuccaya Patala 2, verse 26; Unni EN + commentaries.
+  Hand-reviewed (wall batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 26
+  passage_chars: 2260
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Wall program: 11-part division from garbha center (5 in / 7
+  out); ghanadvara false-door nodes on non-main faces.'
+status: gated
+review: hand

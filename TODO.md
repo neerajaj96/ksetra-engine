@@ -1,0 +1,14 @@
+# TODO (autonomous loop)
+- [completed] M0 scaffold + manifest
+- [completed] M0 ingest 5 sources
+- [completed] M0 normalize (410 verse anchors)
+- [completed] M1 ontology + 269 rules + gate
+- [completed] M1b contradictions (5) + PDF probes
+- [completed] M2 vishnu-dvitala.v1.json + builder (106 nodes) + provenance lookup
+- [completed] M3 scheduler sim + kalari integration map
+- [completed] M4 perf audit + full gates + docs
+- [next] PDF OCR/font-map recovery (mal tessdata)
+- [next] Garbha 9-method rules from P2 later verses
+- [next] Structure-bucket (116) hand review
+- [next] Kalari copy + check.py + APK via CI
+- [next] Second patala batch (P5-8 pratishtha/snapana) when Unni Part II sourced

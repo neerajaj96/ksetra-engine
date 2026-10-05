@@ -1,0 +1,31 @@
+id: TS-P2V04B-yoni8
+claim_en: >-
+  The eight yonis from the east in order are Dhvaja, Dhuma, Simha, Kukkura,
+  Vrisha, Khara, Gaja, Vayasa; the odd ones (Dhvaja, Simha, Vrisha, Gaja) bring
+  prosperity, the even ones (Dhuma, Kukkura, Khara, Vayasa) misfortune. Fractional
+  (non-integral) yoni results are not to be adopted; only whole yonis count.
+claim_sa: प्रागादियोनयोऽष्टौ ... ध्वजधूमसिंहकुक्कुरवृषखरगजवायसाः ... तेष्वयुजः
+  सम्पदे युजो विपदे ।। 4 ।।
+rule_type: orientation
+params:
+  yonis_eastward: [Dhvaja, Dhuma, Simha, Kukkura, Vrisha, Khara, Gaja, Vayasa]
+  shubha_odd: [Dhvaja, Simha, Vrisha, Gaja]
+  ashubha_even: [Dhuma, Kukkura, Khara, Vayasa]
+  fractional: reject
+applicability: Tantrasamuccaya Patala 2, verse 4; verse + Vimarshini (+Pashupata
+  quote) + Vivarana. Hand-reviewed (yoni batch). Extends K-YONI-PAIR with the
+  full 8-yoni field (mandapa/parimandapa directional use).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 4
+  passage_chars: 1669
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Site/orientation field: 8-yoni compass with odd-shubha
+  selection; fractional paridhi results rejected (fail-closed); mandapa nodes
+  take directional yonis under this rule.'
+status: gated
+review: hand

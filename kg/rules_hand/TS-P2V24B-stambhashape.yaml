@@ -1,0 +1,27 @@
+id: TS-P2V24B-stambhashape
+claim_en: >-
+  Pillars take shapes by plan fitness: all-square, all-octagonal, sixteen-angled,
+  or all-round; or triple-width-based octagons above; or square at the base from
+  the diagonal chord turning round above; or trunk-bifurcation (shunda) round
+  ornament types. Nibandhana/Kashyapa give potika grades (uttama/madhyama/
+  kanishtha) with kumbha-mandi- Virakanda ornament programs.
+rule_type: structure
+params:
+  shapes: [square, octagonal, sixteen_angled, round, mixed_base_square_to_round, shunda_round]
+  potika_grades: [uttama, madhyama, kanishtha]
+  ornaments: [kumbha, mandi, virakanda, potika]
+applicability: Tantrasamuccaya Patala 2, verse 24; verse + Vimarshini
+  (+Nibandhana/Kashyapa quotes) + Vivarana. Hand-reviewed (stambha batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 24
+  passage_chars: 2004
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Pillar-type selector (shape program + potika grade) for
+  mandapa/hall pillars; builder default square timber, variants per grade.'
+status: gated
+review: hand

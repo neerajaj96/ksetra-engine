@@ -1,0 +1,23 @@
+id: TS-P2V108B-limbshape
+claim_en: >-
+  Shape the limbs - shanks, thighs, hands, mid-chest and fingers - as rounded
+  (circular in section), emulating an elephant's trunk.
+rule_type: structure
+params:
+  limb_section: round
+  model: elephant_trunk
+  members: [shanks, thighs, hands, mid_chest, fingers]
+applicability: Tantrasamuccaya Patala 2, verse 108; Unni EN + commentaries.
+  Hand-reviewed (bimba batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 108
+  passage_chars: 696
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Murti-limb section rule (round); deity-figure generator input.'
+status: gated
+review: hand
