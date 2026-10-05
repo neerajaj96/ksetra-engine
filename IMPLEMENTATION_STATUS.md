@@ -485,3 +485,9 @@
 
 ## 2026-10-05 (cont.145) — Matri adhivasana (467 rules)
 - Rule SESHA-P7V47B (eve ajya/sampata/adhivasana + day mandapa/torana program).
+
+## 2026-10-05 (cont.146) — kunda ring (468 rules)
+- Rule SESHA-P7V63B (8 directional kunda shapes + Matri first-kunda rule).
+
+## 2026-10-05 (cont.147) — Matri shayya-mandapa (469 rules)
+- Rule SESHA-P7V65B (facing-keyed shayya + bhadra/navayoni mandala + kunda ring).

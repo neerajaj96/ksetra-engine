@@ -1,0 +1,30 @@
+id: SESHA-P7V63B-parikunda
+claim_en: >-
+  Around (Bhairavi): in the eight directions the surrounding kundas take shapes
+  - square, bhaga-like, bow-shaped, triangular, round, hexagonal, lotus-like,
+  octagonal. For the Mothers in shosha: kindle in the first kunda between
+  Varuna and Vayu with Indrani's nine syllables; complete own-purna rites.
+claim_sa: ... चतुरश्रभगाभकार्मुकाभानि ... त्रिकोणं ... वृत्ताकारं षडश्रं कमलाभमष्टकोणं
+  च ... परिकुण्डानि ... अष्टदिक्षु ।। ६३ ।। ... वरुणवाय्वोर्मध्ये आदिकुण्डेऽनलो
+  जन्यः ... इन्द्राण्यणुवर्णकैः ...
+rule_type: spatial
+params:
+  parikunda_shapes_8dir: [square, bhaga, bow, triangle, round, hexagon, lotus, octagon]
+  matri_first_kunda: varuna_vayu_middle_indrani_navakshara
+applicability: Seshasamuccaya Patala 7, verse 63.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 63
+  passage_chars: 500
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0170 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Homa-kunda shape ring (8 directional shapes); fire-altar
+  layout data for Matri/Bhairavi homas.'
+status: partial
+review: hand

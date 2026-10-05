@@ -1,0 +1,34 @@
+id: SESHA-P7V65B-shayyamandapa
+claim_en: >-
+  Shayya orientation follows prasada facing (east-face: head east in front
+  mandapa south half; west-face: head west; south/north-face: head south/north
+  in front half); mandala in the other half - Mothers' bhadra-mandala, or the
+  radiant nine-yoni-chakra with door-splendor-streets outside; Vira (south of
+  all), Ganapati (left), Chamunda-through-Brahmi shayanas in order with
+  triangle/square agni-kundas at the head.
+claim_sa: ... प्रागग्रा ... प्रत्यगग्रा ... दक्षोदगग्रा ... शय्या ... मण्डलं च ...
+  भद्रकं मण्डलं ... नवयोनिचक्रं ... वीरस्य ... गणपतेः ... चामुण्डादि शयनानि ...
+  कुण्डानि ... ।। ६५-६७ ।।
+rule_type: spatial
+params:
+  shayya_by_facing: {east: head_east_front_south, west: head_west, south_north: head_same_front}
+  mandala: [bhadra, navayoni_chakra]
+  order: [Vira, Ganapati, Chamunda_to_Brahmi]
+  head_kundas: [triangle, square]
+applicability: Seshasamuccaya Patala 7, verses 65-67.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 65
+  passage_chars: 500
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0171 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 65-67 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Matri shayya-mandapa layout (facing-keyed shayya + mandala
+  + kunda ring); Matri-shrine complex data.'
+status: partial
+review: hand
