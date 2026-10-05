@@ -515,3 +515,7 @@
 
 ## 2026-10-05 (cont.155) — pitha entry (477 rules)
 - Rule SESHA-P7V122B (petition -> lift -> lead -> install on own pitha).
+
+## 2026-10-05 — DEPLOYED v0.23.0-ksetra (477 rules)
+- ksetra 0249c5a + kalari fde28fb pushed earlier; release bump 51aa183 tagged v0.23.0-ksetra.
+- CI export-android SUCCESS (52s) -> Release published with kalari-debug.apk 27MB (280 entries, manifest+dex+arm64 verified).
