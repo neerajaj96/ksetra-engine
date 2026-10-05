@@ -1,0 +1,32 @@
+id: SESHA-P7V111B-ratnanyasa
+claim_en: >-
+  Next morning the guru alone does prasada-shuddhi, pratishtha and punyaha;
+  then all (guru+murtipas) set the napumsaka-shila and pratishtha; on the
+  aja-drishat stone place in east and directions and center nine each of gems,
+  metals, seeds, gandhas, herbs and iron weapons with own mantras (Ambikas:
+  inner seven by single-taking).
+claim_sa: ... प्रातः ... प्रासादशुद्धिं तत्प्रतिष्ठां पुण्याहं च ... नपुंसकशिलास्थापनादि
+  ... प्रतिष्ठाम् ... पूर्वादिदिक्षु ... नवरत्नधातुबीजगन्धौषधीः लोहायुधान्यपि
+  स्वस्वमन्त्रैर्निदध्युः ... ।। १११-११२ ।।
+rule_type: sequence
+params:
+  morning: [prasada_shuddhi, pratishtha, punyaha]
+  then_all: [napumsaka_shila, pratishtha]
+  ratna_nyasa: {places: [east_directions, center], sets_of_9: [gems, metals, seeds, gandhas, herbs, iron_weapons], ambika: inner_7}
+applicability: Seshasamuccaya Patala 7, verses 111-112.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 111
+  passage_chars: 550
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0182 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 111-112 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Morning pratishtha + ratna-nyasa program (9x6 sets);
+  installation quest content.'
+status: partial
+review: hand

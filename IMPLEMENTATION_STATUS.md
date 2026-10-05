@@ -509,3 +509,9 @@
 
 ## 2026-10-05 (cont.153) — MILESTONE 475 rules
 - Rule SESHA-P7V102B (5 purpose-homas -> rakshya ghrita).
+
+## 2026-10-05 (cont.154) — ratna-nyasa (476 rules)
+- Rule SESHA-P7V111B (morning pratishtha + 9x6 ratna sets).
+
+## 2026-10-05 (cont.155) — pitha entry (477 rules)
+- Rule SESHA-P7V122B (petition -> lift -> lead -> install on own pitha).

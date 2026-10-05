@@ -1,0 +1,29 @@
+id: SESHA-P7V122B-pithaentry
+claim_en: >-
+  Enter the mandapa, worship per rule, raise all dhvaja-toranas, petition
+  ('prasida devi varade, deign to board this vehicle'), lift with the earlier
+  mandapa-entry mantras, lead inside the prasada per rule and install each on
+  its own pitha.
+claim_sa: ... मण्डपं प्रविश्य ... सम्पूज्य ध्वजतोरणादिकं सर्वमुद्दिश्य ...
+  'प्रसीद देवि वरदे यानेऽस्मिन् गन्तुमर्हसि' ... उत्थाप्य ... प्रासादान्तर्भागं नीत्वा
+  निजनिजपीठिकासु ... संस्थापयेयुः ... ।। १२२ ।।
+rule_type: sequence
+params:
+  steps: [mandapa_entry_puja, dhvaja_torana_raise, petition_vehicle, utthapana_entry_mantras, lead_inside, install_own_pitha]
+applicability: Seshasamuccaya Patala 7, verse 122.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 122
+  passage_chars: 500
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0184 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Pitha-entry program (petition -> lift -> lead -> install);
+  installation quest finale beats.'
+status: partial
+review: hand
