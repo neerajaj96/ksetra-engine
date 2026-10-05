@@ -419,3 +419,6 @@
 
 ## 2026-10-05 (cont.123) — P6 TRAVEL LIVE
 - HUD Ksetra button + kerala-zones entry + world_loader.go_ksetra/ksetra_spawn; demo input guards HUD joystick zone. TRAVEL OK headless (school->Ksetra, player at spawn). Pushed kalari 7d56937.
+
+## 2026-10-05 (cont.124) — talking crowd (452 rules... see gate)
+- Devotees greet nearby player (Label3D, 8s cd) with slot-aware lines; grand slots trigger darshana pause. OCR complete on all 4 PDFs (1155 pages).
