@@ -491,3 +491,6 @@
 
 ## 2026-10-05 (cont.147) — Matri shayya-mandapa (469 rules)
 - Rule SESHA-P7V65B (facing-keyed shayya + bhadra/navayoni mandala + kunda ring).
+
+## 2026-10-05 (cont.148) — MILESTONE 470 rules
+- Rule SESHA-P7V70B (nidra-kalasha + directional kalashas + ashtamangala ring). All suites green; both repos current.

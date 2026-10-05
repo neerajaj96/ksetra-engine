@@ -1,0 +1,29 @@
+id: SESHA-P7V70B-nidrakalasha
+claim_en: >-
+  Worship the shayya, then at its head honor the svapna/nidra-kalasha with the
+  mula-mantra; worship the Vidyeshvaris (Mahamaya-adi) in order in directional
+  kalashas; around Mothers' shayyas set ashtamangalas, mangala-palikas and rows
+  of lamps; honor the eight shaktis with their mantras.
+claim_sa: शय्यां प्रपूज्य ... तच्छिरोदेेशे ... मूलमनुना स्वपनाख्यं कुम्भम् ...
+  निद्राकलशमभ्यर्च्य ... स्वस्वदिक्षु कलशेषु ... यजेत् ... शय्यासु निद्राकलशाः ...
+  अष्टमङ्गलानि ... मङ्गलपालिकाश्च ... प्रदीपनिकरानपि ... ।। ७०-७३ ।।
+rule_type: sequence
+params:
+  steps: [shayya_puja, nidra_kalasha_head_mula, vidyeshvari_directional_kalashas, ashtamangala_palika_deepa, ashtashakti_mantras]
+applicability: Seshasamuccaya Patala 7, verses 70-73.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 70
+  passage_chars: 550
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0172/p0173 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 70-73 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Nidra-kalasha program (head-kumbha + directional kalashas +
+  ashtamangala ring + dipas); shayya-adhivasa night content.'
+status: partial
+review: hand
