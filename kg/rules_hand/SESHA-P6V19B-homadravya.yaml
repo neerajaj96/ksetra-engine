@@ -1,0 +1,34 @@
+id: SESHA-P6V19B-homadravya
+claim_en: >-
+  Expiation-homa dravyas: udumbara sticks, ghee, honey a thousand and a hundred;
+  tila with vasu, sarshapa, mudga, shali; dadhi, makshika, ghrita a hundred in
+  order; close with kalasha-abhisheka and puja. For portents kindle Ishana
+  square-kunda shanti-homa; Surya/Vaishravana/Vag-Uma/Shiva-prakriti
+  prayaschitta-homas south of the house in bow-shaped half-moon kundas, the guru
+  offering alone.
+claim_sa: उदुम्बर ... घृतहविः सहस्रं शतं ... तिला वसुयुतं ससर्षपसमुद्गशालीयवाः ...
+  शतं च दधि माक्षिकं घृतमपीह ... होमान्ते कलशेनाभिषिच्य देवं प्रपूजयेत् ...
+  ईशकोणे ... शान्तिहोमं ... गेहदक्षिणदिशि ... अर्धचन्द्राभे कुण्डे ... ।। १९-२० ।।
+rule_type: material
+params:
+  counts: {udumbara_ghee_honey: [1000, 100], dadhi_makshika_ghrita: 100}
+  close: kalasha_abhisheka_puja
+  portents: ishana_square_shanti
+  south_house: halfmoon_bow_kundas_guru_alone
+applicability: Seshasamuccaya Patala 6, verses 19-20.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 6
+  verse: 19
+  passage_chars: 600
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0138 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 19-20 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Expiation-homa dravya/count table + kunda geometries
+  (square-Ishana, halfmoon-south); maintenance-rite inventory content.'
+status: partial
+review: hand

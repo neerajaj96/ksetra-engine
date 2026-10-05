@@ -422,3 +422,12 @@
 
 ## 2026-10-05 (cont.124) — talking crowd (452 rules... see gate)
 - Devotees greet nearby player (Label3D, 8s cd) with slot-aware lines; grand slots trigger darshana pause. OCR complete on all 4 PDFs (1155 pages).
+
+## 2026-10-05 (cont.125) — monthly deferred again, pushed (453 rules)
+- PRAYOGA month-name mining too sparse in OCR (sandhi compounds); monthly program stays queued behind masadhipa fragment.
+
+## 2026-10-05 (cont.126) — homa dravyas (454 rules)
+- Rule SESHA-P6V19B (1000+100 counts, kunda geometries square/halfmoon).
+
+## 2026-10-05 (cont.127) — chaitanya transfer (455 rules)
+- Rule SESHA-P6V31B (fire-chaitanya -> kumbha -> snapana -> nyasa). Expiation arc now triggers -> homa -> transfer -> bath.
