@@ -1,0 +1,32 @@
+id: SESHA-P7V38B-matrisnapana
+claim_en: >-
+  Matri bath (snapana) mandalas, five-dravya option: in quarters boiled
+  decoction, gavya, bhasma, mrid; center rakta-chandana-mixed ashtagandha
+  water; or gomutra/kshira/dadhi/ajya in quarters with gavya center, ninefold
+  for both Matri sets; panchagavya center option with dik-kvatha fours and
+  corner gomutra fours.
+claim_sa: ... दिक्षु क्वथितं गव्यं भस्म मृच्च, मध्यतो रक्तचन्दनसंमिश्रमष्टगन्धजलं
+  ... ।। ३८ ।। ... दिक्षु गोमूत्रक्षीरदध्याज्यानि मध्यतो गव्यं ... नवधा ... ।। ३९ ।।
+  ... दिक्षु क्वाथादि चत्वारि, कोणेषु गोमूत्रादि चत्वारि, मध्ये पञ्चगव्यं ... ।। ४० ।।
+rule_type: material
+params:
+  option_A_5dravya: {quarters: [kvatha, gavya, bhasma, mrid], center: rakta_chandana_ashtagandha_jala}
+  option_B: {quarters: [gomutra, kshira, dadhi, ajya], center: gavya, repeat: 9}
+  option_C: {quarters_4: kvatha_set, corners_4: gomutra_set, center: panchagavya}
+applicability: Seshasamuccaya Patala 7, verses 38-40 (Matri snapana options).
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 38
+  passage_chars: 550
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0166 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 38-40 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Matri bath-mandala options (A/B/C dravya layouts);
+  abhisheka inventory variants.'
+status: partial
+review: hand

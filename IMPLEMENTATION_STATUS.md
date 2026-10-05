@@ -470,3 +470,9 @@
 
 ## 2026-10-05 (cont.140) — netra-shodhana (462 rules)
 - Rule SESHA-P7V26B (bali -> lay facing -> golden-needle eyes -> Devi shodhana dravyas).
+
+## 2026-10-05 (cont.141) — jaladhivasa encore (463 rules)
+- Rule SESHA-P7V33B (post-shodhana water-adhivasana program).
+
+## 2026-10-05 (cont.142) — Matri snapana (464 rules)
+- Rule SESHA-P7V38B (3 bath-mandala dravya options).

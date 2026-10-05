@@ -1,0 +1,31 @@
+id: SESHA-P7V33B-jaladhi2
+claim_en: >-
+  After shodhana with bark churnas, karisha-bhasma and vrisha-mrid: clothe in a
+  garment pair, adorn with gandha, bind the astra-kautuka, wave lights, lead to
+  the water-place and adhivasana in water per rule (Shiva as stated; Mothers and
+  Chamunda likewise, then water-adhivasana); that day take up Rudra-adi prasadas
+  for shuddhi with common mushti and Aghora/Pashupata astra.
+claim_sa: ... शोधनानन्तरं वासोयुगेन गन्धादयैरप्यलङ्कृत्यास्त्रत कौतुकं बद्ध्वा
+  नीराज्य जलाशयं नीत्वा सलिले यथाविध्यधिवासयेत् ... ।। ३३ ।।
+rule_type: sequence
+params:
+  shodhana: [bark_churna, karisha_bhasma, vrisha_mrid]
+  then: [vastra_pair, gandha, astra_kautuka, nirajana, jalashaya_adhivasana]
+  day_take: Rudra_adi_prasada_shuddhi
+applicability: Seshasamuccaya Patala 7, verse 33.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 33
+  passage_chars: 550
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0164 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Post-shodhana water-adhivasana program (clothe -> adorn ->
+  kautuka -> nirajana -> jalashaya); consecration quest content.'
+status: partial
+review: hand
