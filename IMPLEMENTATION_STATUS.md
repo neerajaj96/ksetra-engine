@@ -541,3 +541,6 @@
 - Hero assets, all provenance-tagged: _lathe/_ball/_eave_pyramid helpers; lotus-bud stupis, lathe kalashas/kumbha, eave roofs everywhere, 4-arm Vishnu + emblems, dvarapala figures, murti reliefs, recumbent rishabha, kulam curbs, naaga stones.
 - Craft dressing (null-guarded): waving parita flags, flowing kulam water; procedural stone/grain albedo+height microdetail; 2 reflection probes; door spot + garbha deepa + 2 flame emitters; bearers; slot bell + kodiyettu conch hooks.
 - TRAVERSE OK proof (floors/gates/barrier/ramp geometry). 14/14 headless proofs + kalari CHECK/editor/boot green.
+
+## 2026-10-05 — DEPLOYED v0.25.0-ksetra (487 rules, 235/89 nodes)
+- kalari c9dfaac tagged v0.25.0-ksetra (code 32). CI export-android SUCCESS (58s) -> Release published with kalari-debug.apk.
