@@ -1,0 +1,32 @@
+id: SESHA-P4V02-brahmakalasha
+claim_en: >-
+  Brahma-kalasha worship in brief: bathed and sipping, seated by the kalasha,
+  self-purified guru worships vishtara then invokes prakriti; astra-prokshana
+  of the kumbha, nyasa of vali-surya-soma kalas at three stations, kumbha
+  invocation; then karcha (kusa bunch) with dravya placed, manasa purana
+  and jala purana.
+claim_sa: स्नात्वाचान्तो ब्रह्मकलशस्य समीप उपविष्टः ... पीठे विष्टरमिष्ट्वा
+  प्रकृतिमावाह्य ... कुम्भेऽस्त्रोक्षणादिकं ... स्थानत्रये वलिसूर्यसोमकलाः न्यस्य ...
+  कूर्च द्रविणविनिहितं ... मानसं पूरणं च ।। २ ।।
+rule_type: sequence
+params:
+  seat: kalasha_side_snatva_achanta
+  order: [vishtara, prakriti_avahana, astra_prokshana, sthana_traya_kala_nyasa, kumbha_avahana]
+  close: [karcha_dravya, manasa_purana, jala_purana]
+applicability: Seshasamuccaya Patala 4, verse 2 (Brahma-kalasha puja).
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 4
+  verse: 2
+  passage_chars: 642
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0096 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Vessel-rite program (Brahma-kalasha seat/order/close);
+  kalasha-hall interaction steps with V41B fill content.'
+status: partial
+review: hand

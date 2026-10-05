@@ -519,3 +519,11 @@
 ## 2026-10-05 — DEPLOYED v0.23.0-ksetra (477 rules)
 - ksetra 0249c5a + kalari fde28fb pushed earlier; release bump 51aa183 tagged v0.23.0-ksetra.
 - CI export-android SUCCESS (52s) -> Release published with kalari-debug.apk 27MB (280 entries, manifest+dex+arm64 verified).
+
+## 2026-10-05 (cont.156) — FLAGSHIP v2: Sesha-first + hollow sanctum (487 rules)
+- 10 new SESHA OCR rules (P3 mantra-mula/anga, P4 brahma/parikalasha, P5 savana/bali-krama, P8 kshetrapala/digbandha, P9 dhvaja-vahana/sthapana). KG 487.
+- Spec flagship v2 (33 nodes): +nidhi_deposit, palika_row, kautuka_shayya, brahma_kalasha, bali_circuit, dhvaja_vahana, shuddhi_station, japa_mandapa, mula_bimba; 26-entry provenance_index.
+- Builder: hollow pada (gh/8 walls + east door gap + lintel), sopana x3 steps, octagonal dwaja, rishabha, deposit set, palika-16, kautuka/shayya, 5 kalashas, kshetrapala, 8 parita flags, shuddhi platform, japa hall, pitha + standing Vishnu + dvarapalas. Square 205 nodes / circular 80, all provenance-closed, 0 builder lights, 7 mats.
+- Scheduler 8 programs: +start_bali_circuit/+start_dhvaja/+start_shuddhi + kala-avadhi 1mo/12yr; inventory +7 step costs, no new stocks. BALI/DHVAJA/SHUDDHI OK headless.
+- Demo: B/D/S keys, Tantri + Marar role figures, generalized rite label. Kalari fixes: HUD rain/shadow via DayNight, save restores Ksetra/School, ambience ksetra drone + DayNight storm/night.
+- All 13 headless proofs + PROOF + kalari CHECK/JSON + scene boots green.

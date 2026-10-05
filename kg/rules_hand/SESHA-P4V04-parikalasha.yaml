@@ -1,0 +1,32 @@
+id: SESHA-P4V04-parikalasha
+claim_en: >-
+  Parikalasha manner: knowing each dravya-devata-mantra, in the middle kumbhas
+  of each parikhanda perform pitha-reshthi, kumbha-parishuddhi and puja,
+  karcha offering, dravya offering, manasa and jala purana; then project the
+  two murtis (sthula/sukshma), invoke mantra-chaitanya, worship with
+  anga-avarana and guard.
+claim_sa: पीठेष्टिकुम्भपरिशुद्धितदीयकूर्चद्रव्यार्पणविधिपूरणकृत्‌ ... मूर्तिद्वयीं
+  ... स्थूलमूर्तिं सूक्ष्ममूर्तिं च ... मनुचैतन्यमभिवाह्य समर्च्य रक्षेत्‌ ।। ४ ।।
+rule_type: sequence
+params:
+  vessels: parikhanda_madhya_kumbha
+  acts: [pitha_reshti, kumbha_parishuddhi, puja, karcha, dravya, manasa_purana, jala_purana]
+  murti_dvayi: [sthula, sukshma]
+  close: mantra_chaitanya_avahana_sanga_varana_archana_raksha
+applicability: Seshasamuccaya Patala 4, verse 4 (parikalasha rite).
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 4
+  verse: 4
+  passage_chars: 483
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0097 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Retinue-vessel program (parikhanda kumbhas + murti-dvayi +
+  chaitanya); multi-kalasha hall rite data.'
+status: partial
+review: hand

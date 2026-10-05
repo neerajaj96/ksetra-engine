@@ -33,4 +33,4 @@ if errs:
     [print(" -", e) for e in errs]
     raise SystemExit(1)
 print("PERF AUDIT OK: 0 builder lights, shared opaque mats, dressing LOD present.")
-print("NOTE: in-engine node count measured headless = 106 semantic nodes (see WORLD OK).")
+print("NOTE: in-engine node counts measured headless = 191 square / 80 circular (see WORLD OK).")

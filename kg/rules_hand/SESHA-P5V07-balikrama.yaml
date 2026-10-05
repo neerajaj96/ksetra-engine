@@ -1,0 +1,31 @@
+id: SESHA-P5V07-balikrama
+claim_en: >-
+  Brahma bali-order: before Kshetrapala bali recite Om sarvebhyo-dakebhyo
+  namah with clockwise (pradakshina) bali; the whole bali-kalpti is as
+  declared in Tantrasamuccaya; then Dandi and Pingala at the south door,
+  Vighna-Shankara pair likewise.
+claim_sa: सर्वाणि भूतानीति क्षेत्रपालबलेः पूर्वम्‌ ओं सर्वेभ्योदकेभ्यो नम इत्यनेन
+  प्रदक्षिणवलि ... सर्वा बलिक्लुप्तिस्तन्त्रसमुच्चये समुदिष्टैव ... दण्डी च पिङ्गलो
+  दारि दक्षिणे ... ।। ७ ।।
+rule_type: sequence
+params:
+  before_kshetrapala: Om_sarvebhyo_dakebhyo_pradakshina
+  kalpti: as_in_Tantrasamuccaya
+  south_door: [Dandi, Pingala, Vighna, Shankara]
+applicability: Seshasamuccaya Patala 5, verse 7 (Brahma bali-krama).
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 5
+  verse: 7
+  passage_chars: 277
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0113 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Bali-order program (pre-Kshetrapala clockwise + TS kalpti +
+  south-door stations); sribali procession data.'
+status: partial
+review: hand

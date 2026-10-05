@@ -8,10 +8,11 @@ Rust/C++ reserved for later GDExtension hot paths. No Unity/Unreal, no paid midd
 
 ## Pipeline (implemented, gated)
 corpus/raw (5 sources, manifest.csv sha256) -> tools/normalize.py ->
-corpus/normalized/passages.jsonl (410 verse anchors) -> tools/build_rules_seed.py ->
-kg/rules/*.yaml (269, validate_kg.py PASS) + kg/contradictions.yaml ->
-spec/vishnu-dvitala.v1.json -> godot/ksetra_builder.gd (106 nodes, provenance meta) ->
-headless proof (WORLD OK) + tests/test_spec_proof.py (PROOF OK).
+corpus/normalized/passages.jsonl (435 TS anchors + 658 SESHA + 410 PRAYOGA + 71 KALASHA) -> tools/build_rules_seed.py +
+hand curation (kg/rules_hand, SESHA-first) ->
+kg/rules/*.yaml (487, validate_kg.py PASS) + kg/contradictions.yaml (7) ->
+spec/vishnu-dvitala.v1.json (flagship v2, 33 nodes) -> godot/ksetra_builder.gd (205 square / 80 circular, provenance meta) ->
+headless proofs (WORLD/SCHEDULER x8 programs/PROVENANCE OK) + tests/test_spec_proof.py (PROOF OK).
 
 ## Kalari integration map (M3 next, file copy, no fork)
 | ksetra-engine | kalari-game target | notes |
@@ -33,7 +34,7 @@ provenance tabs appended to user_texts.json must keep 7-key tab schema (§3).
 - Plot: temple_plot phases drive construction staging of builder levels (adhisthana->pada->prastara->hara->tala2->roof->kalasha->dwaja).
 
 ## Perf budget (M4)
-Builder emits ~106 static CSG/MeshInstance nodes, 0 omnis, 0 particles (lamps/rain owned by scene).
+Builder emits ~205 static CSG/MeshInstance nodes (flagship square; 80 circular stress slice), 0 omnis, 0 particles (lamps/rain/fire owned by scene).
 Mobile: keep total omnis <=8 (kalari village has 8), rain 80-150, render-scale 0.8 via graphics_director.
 LOD: dressing (bali stones, kavu) carries visibility ranges; hero massing always resident.
 Draw calls: boxes share few StandardMaterial3Ds (granite/laterite/timber/copper/cream/leaf/water) -> Forward+ auto-instancing friendly (opaque).

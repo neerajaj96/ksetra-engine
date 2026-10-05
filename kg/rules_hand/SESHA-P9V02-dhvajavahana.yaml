@@ -1,0 +1,30 @@
+id: SESHA-P9V02-dhvajavahana
+claim_en: >-
+  Dhvaja-vahana rule: for the deity the bull (rishabha, Tantrasamuccaya order)
+  as enjoined by the guru; for Devi with the Vetala-named vehicle, for the
+  Mothers shining with the single Kaushika vehicle; the fixing order here is
+  exactly as told for Ishvara (Shiva) in Tantrasamuccaya.
+claim_sa: तत्र देवे गुरुसमीरितस्तन्त्रसमुच्चयोक्त ऋषभ एव ध्वजः ... देव्यां
+  वेतालनाम्ना वाहनेन युतः ... जननीषु कौशिकैकलसितः ... तत्‌ स्थापनक्रम
+  इहेश्वर उक्त एव ।। २ ।।
+rule_type: structure
+params:
+  dhvaja_vahana: {deva: rishabha_TS_krama, devi: vetala, matarah: kaushika_single}
+  sthapana_krama: as_for_Ishvara_in_TS
+applicability: Seshasamuccaya Patala 9, verse 2 (dhvaja-vahana mapping).
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 9
+  verse: 2
+  passage_chars: 333
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0219 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Flag-vehicle table (deity/Devi/Matri vahanas + TS Shiva
+  fixing order); dwaja-top mesh + festival-flag data.'
+status: partial
+review: hand

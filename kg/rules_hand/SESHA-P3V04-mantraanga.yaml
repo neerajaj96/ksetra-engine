@@ -1,0 +1,31 @@
+id: SESHA-P3V04-mantraanga
+claim_en: >-
+  Mantra-anga mapping: six-syllable gets Prajapati rishi set, the other two
+  Gayatri chandas; Tara (pranava) + vyat + sa-nala-dirgha-bindu forms the
+  nine-syllable (navavarna) Surya mula; shadakshara angas end with drig,
+  ashtakshara has udara-prishtha, dvadashakshara pada-based shining
+  six-angas with akhya-jati.
+claim_sa: षडक्षरस्य प्रजापत्यादयः ऋष्याद्याः ... गायत्र्येव छन्दो मतं ...
+  तारो वियत्‌ सानलदीर्घबिन्दु ... मूलं नववर्ण एषः ... वर्णैः षडङ्गानि दृगन्तिमानि ।। ३-४ ।।
+rule_type: sequence
+params:
+  shadakshara: [prajapati_rishi, gayatri_chandas]
+  navavarna_surya: tara_vyat_sanala_dirgha_bindu
+  angas: {shadakshara: drig_anta, ashtakshara: udara_prishtha, dvadashakshara: pada_based}
+applicability: Seshasamuccaya Patala 3, verses 3-4 (anga/chandas/rishi mapping).
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 3
+  verse: 3
+  passage_chars: 465
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0064 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 3-4 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Mantra-anga table (rishi/chandas/anga per mantra length);
+  chant-loadout data for Brahma/Surya rites.'
+status: partial
+review: hand

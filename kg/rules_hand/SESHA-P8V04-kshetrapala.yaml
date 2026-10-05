@@ -1,0 +1,31 @@
+id: SESHA-P8V04-kshetrapala
+claim_en: >-
+  Kshetrapala vandana by the mantra-knower: Ganesha south of the preceptor
+  seat, then ten directions — Hetuka east, Tripurantaka Agneya, Agnivetala
+  south, Agnijit Nairriti, Agnikalpaka west, Karata Vayavya, Ekapada north,
+  Bhimarupa Ishana, Hataka below, Akashadhipati above — each with Om Hrim
+  ... rakshatu namah.
+claim_sa: ओं हीं हं हेतुक्षेत्रपालः प्राचीं दिशं रक्षतु नमः ... ओं हीं आं
+  आकाशधिपतिक्षेत्रपाल ऊर्ध्वा दिशं रक्षतु नमः ... वन्देत हेतुकादीनपि मनुवित्‌ ... ।। ४ ।।
+rule_type: deity
+params:
+  retinue: [Hetuka_E, Tripurantaka_Agneya, Agnivetala_S, Agnijit_Nairriti, Agnikalpaka_W, Karata_Vayavya, Ekapada_N, Bhimarupa_Ishana, Hataka_below, Akashadhipati_above]
+  mantra_frame: Om_Hrim_N_rakshatu_namah
+  ganesha: preceptor_seat_south
+applicability: Seshasamuccaya Patala 8, verse 4 (Kshetrapala ten-direction retinue).
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 8
+  verse: 4
+  passage_chars: 862
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0190 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Guardian-retinue roster (10-direction Kshetrapalas +
+  vandana frames); parivara-shrine + bali-station data.'
+status: partial
+review: hand
