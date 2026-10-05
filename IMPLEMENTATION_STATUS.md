@@ -362,3 +362,12 @@
 
 ## 2026-10-05 (cont.104) — MILESTONE: corpus complete (435 rules)
 - ALL PDFs OCR-complete: PRAYOGA 187, NARAYANATMAKA 285, SESHA 280, KALASHA 403 = 1155 pages (~3MB text). texts.yaml all OCR_COMPLETE.
+
+## 2026-10-05 (cont.105) — snapana counts (436 rules)
+- Rule KALASHA snap-counts (108/28 + sahasra-kalasha Ketu/Vrisha).
+
+## 2026-10-05 (cont.106) — vyuha dhyana (437 rules)
+- Rule NARAYANA vyuha-murtis (crystal/gold/durva + fruit).
+
+## 2026-10-05 (cont.107) — stone testing (438 rules)
+- Rule PRAYOGA-P8V01 (shila-pariksha gender/smear/discoloration program).

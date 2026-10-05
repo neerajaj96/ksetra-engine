@@ -1,0 +1,31 @@
+id: PRAYOGA-P8V01-shilapariksha
+claim_en: >-
+  Test the idol stone (shila-pariksha): earth pipal-leaf-like flat stones are
+  male (purusha); soft-sounding female; toneless loose double-measured ones
+  neuter - observe and select; grind Vishnu (chakrapani) etc. with milk, ghee,
+  honey smearing; watch chameleon/fish discoloration over nights with medicinal
+  waters and fruits.
+claim_sa: पृथ्वी पिप्पलपत्रसन्निभतला ... पुमान् ।। १ ।। ... नष्टस्वना ... द्विगुण ...
+  नपुंसकशिला ... ब्रह्माणं चक्रपाणिं ... क्षीरेणाज्येन ... मधुना लेपयेत् ...
+rule_type: sequence
+params:
+  gender_tests: [shape_flat_pipal_male, soft_sound_female, toneless_loose_neuter]
+  smear_tests: [milk, ghee, honey]
+  discoloration_watch: nights
+applicability: Prayogamanjari Patala 8, verses 1-12 (shila-pariksha opening).
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (PRAYOGA batch).
+source:
+  work: Prayogamanjari
+  edition: Shripuram-OCR-partial
+  patala: 8
+  verse: 1
+  passage_chars: 450
+  commentary: none extracted yet
+  translator: none
+  ocr_page: PRAYOGA-p0051/p0052 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 1-12 combined program; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Stone-testing mini-program (gender/shape/sound + smear +
+  discoloration watch); sculptor quest content with V87B.'
+status: partial
+review: hand

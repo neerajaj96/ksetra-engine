@@ -1,0 +1,29 @@
+id: NARAYANA-P00-vyuhamurti
+claim_en: >-
+  Meditate Vasudeva crystal-pure and four-armed; Sankarshana gold-hued
+  (jatarupa); Pradyumna durva-green; (Aniruddha continuing) - worshipping Hari
+  thus in order wins all worlds and liberation's door.
+claim_sa: शुद्धस्फटिकसङ्काशं वासुदेवं चतुर्भुजम् । तथा सङ्कर्षणं ध्यायेत्
+  जातरूपसमप्रभम् । दूर्वामरतकप्रख्यं (प्रद्युम्नम् ...) ...
+rule_type: deity
+params:
+  vyuha_dhyana: {Vasudeva: crystal_pure_4armed, Sankarshana: gold_hued, Pradyumna: durva_green}
+  fruit: all_worlds_and_moksha_door
+applicability: Narayanatmakam (Vyuha-murti dhyana section).
+  300dpi tesseract san/psm6 OCR read (variants possible). V00 section anchor.
+  Hand-reviewed (NARAYANA batch).
+source:
+  work: Narayanatmakam
+  edition: Shripuram-OCR-partial
+  patala: 0
+  verse: 0
+  passage_chars: 700
+  commentary: none extracted yet
+  translator: none
+  ocr_page: NARAYANATMAKA-p0140 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Vyuha dhyana set (3+1 forms with hues); Vishnu-figure
+  dhyana content for the Vishnu slice sanctum.'
+status: partial
+review: hand

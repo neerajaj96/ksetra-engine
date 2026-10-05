@@ -1,0 +1,30 @@
+id: KALASHA-P00-snapcount
+claim_en: >-
+  Offer 108 (or 28-fold) margosa-stick, ghee and havis portions; the
+  thousand-kalasha (sahasra-kalasha) rite is strewn under Ketu and Vrisha yonis
+  (yoni-conditioned siting).
+claim_sa: अष्टोत्तरशतं मार्गसमिदाज्यहविर्घृतम् । अष्टोत्तरशतं यद्वा
+  अष्टाविंशतिशोऽथवा ।। सहस्रकलशे केतुवृषयोनी प्रकीर्य (?) ...
+rule_type: sequence
+params:
+  counts: [108, 28]
+  materials: [marga_samidha, ghee, havis]
+  sahasra_kalasha_yonis: [Ketu, Vrisha]
+applicability: Kalashachandrika (snapana-count section).
+  300dpi tesseract san/psm6 OCR read (variants possible; trailing verb
+  uncertain, marked ?). V00 section anchor. Hand-reviewed (KALASHA batch).
+source:
+  work: Kalashachandrika
+  edition: Shripuram-OCR-partial
+  patala: 0
+  verse: 0
+  passage_chars: 300
+  commentary: none extracted yet
+  translator: none
+  ocr_page: KALASHA-p0037 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Snapana count program (108/28 + sahasra-kalasha under
+  Ketu/Vrisha); abhisheka scheduler content.'
+status: partial
+review: hand
