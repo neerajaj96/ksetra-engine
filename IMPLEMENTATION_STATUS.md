@@ -553,3 +553,6 @@
 - Ornament: kapota drip + alinga bead, kuta domes + sala caps + panjara frames, murti niche jambs/lintels, 3-tier diadem + ushnisha + chakra spokes + gada knob + padma petals.
 - Craft PBR: stone age-blotch + grain contrast in shared 64px maps; kavu canopy tiers; follow-camera wall-clip ray; kulam curbs earlier.
 - 404 square / 108 circular, 0 missing provenance; TRAVERSE OK; budgets <=430/<=130 hold.
+
+## 2026-10-05 — DEPLOYED v0.26.0-ksetra (487 rules, 404/108 nodes)
+- kalari 4175a25 tagged v0.26.0-ksetra (code 33). CI export-android SUCCESS (55s) -> Release published with kalari-debug.apk.
