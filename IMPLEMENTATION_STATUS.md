@@ -532,3 +532,6 @@
 - Circular pada: hollow 10-segment ring (gh/8, facing-axis door gap, pilaster kept clear); linga darshana through gap; Rudra crown into roof undercroft recorded. Circular 80 -> 87 nodes, provenance-closed.
 - sync_all.py now carries ksetra_rules.json to kalari/data (closed stale-provenance drift class).
 - kalari v0.24.0-ksetra (code 30): 487-rule export, flagship v2, 8 programs, HUD rain/shadow via DayNight, save restores Ksetra/School, ksetra drone bed. CI export-android SUCCESS (50s) -> Release published with kalari-debug.apk.
+
+## 2026-10-05 — DEPLOYED v0.24.1-ksetra (487 rules, 205/87 nodes)
+- kalari c83c6fb tagged v0.24.1-ksetra (code 31). CI export-android SUCCESS (56s) -> Release published with kalari-debug.apk.
