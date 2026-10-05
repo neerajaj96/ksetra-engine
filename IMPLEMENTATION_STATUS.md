@@ -416,3 +416,6 @@
 
 ## 2026-10-05 (cont.122) — ashtamangala (453 rules)
 - Rules V66B (Subrahmanya 8) + V67B (ashtamangala shared set). P4 hand coverage complete (V01-115 key verses).
+
+## 2026-10-05 (cont.123) — P6 TRAVEL LIVE
+- HUD Ksetra button + kerala-zones entry + world_loader.go_ksetra/ksetra_spawn; demo input guards HUD joystick zone. TRAVEL OK headless (school->Ksetra, player at spawn). Pushed kalari 7d56937.
