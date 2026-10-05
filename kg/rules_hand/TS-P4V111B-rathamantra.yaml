@@ -1,0 +1,23 @@
+id: TS-P4V111B-rathamantra
+claim_en: >-
+  At the chariot ascent of all deities alike use the anu-mantra 'rathe tishthan'
+  (standing in the chariot); for Shangi (Vishnu) and Hari add purusha-japa.
+rule_type: sequence
+params:
+  ratha_mantra_all: rathe_tishthan
+  vishnu_plus: purusha_japa
+applicability: Tantrasamuccaya Patala 4, verse 111; verse + Vimarshini.
+  Hand-reviewed (procession batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 111
+  passage_chars: 733
+  commentary: Vimarshini in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Chariot-ascent utterance (universal + Vishnu purusha-japa);
+  procession audio hook.'
+status: gated
+review: hand

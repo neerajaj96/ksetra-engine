@@ -1,0 +1,24 @@
+id: TS-P3V60B-homadravya
+claim_en: >-
+  With other (deity-specific) mantras pour ghee to all deities; sanctify with
+  mantra the apamarga-ash-and-water offering; cleanse and worship with mantras
+  the two pots on the altar.
+rule_type: material
+params:
+  offerings: [ghee_all_deities, apamarga_ash_water]
+  vessels: 2_altar_pots_cleansed_worshipped
+applicability: Tantrasamuccaya Patala 3, verses 60-62; Unni EN + commentaries.
+  Hand-reviewed (homa batch). Anchored at V60.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 60
+  passage_chars: 1214
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Homa offering set (ghee + ash-water + 2 pots); homa-prelude
+  inventory content.'
+status: gated
+review: hand

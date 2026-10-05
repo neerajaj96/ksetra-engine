@@ -1,0 +1,28 @@
+id: TS-P3V65B-homaprogram
+claim_en: >-
+  Propitiate all deities with 'Shanno devi' before offering into fire: shami
+  sticks, ghee, panchagavya and durva, one hundred eight times, with a
+  purnahuti closing each group; Durga, Vishnu, Shasta and Subrahmanya take
+  variant mantras and materials (Durga: Jatavedase opening tetrad).
+rule_type: sequence
+params:
+  mantra_all: Shanno_devi
+  materials: [shami_sticks, ghee, panchagavya, durva]
+  count: 108
+  close_per_group: purnahuti
+  variants: {Durga: Jatavedase_tetrad, Vishnu: mula_durva, Shasta_Subrahmanya: dravya_panchaka_or_gayatri}
+applicability: Tantrasamuccaya Patala 3, verse 65; verse + Vimarshini + Vivarana.
+  Hand-reviewed (homa batch). Core homa program.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 65
+  passage_chars: 1215
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Homa program (108x + purnahuti/group + deity variants);
+  homa-prelude scheduler content; fire FX + count tracker.'
+status: gated
+review: hand

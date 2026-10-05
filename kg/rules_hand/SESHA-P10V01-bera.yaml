@@ -1,0 +1,28 @@
+id: SESHA-P10V01-bera
+claim_en: >-
+  Single-bera program: avahana-to-udvasana puja (with abhisheka-kalasha-seka
+  bath) in one and the same bera; garbha-avarna parivara Ganas not installed
+  separately; with many beras, place Brahma-adi garbha-avriti; bali circuits
+  run in both single and multiple-bera modes.
+rule_type: sequence
+params:
+  eka_bera: avahana_to_udvasana_one_image
+  bahu_bera: brahma_adi_garbha_avriti
+  bali_circuits: both_modes
+applicability: Seshasamuccaya Patala 10, verse 1 (bera-count program).
+  300dpi tesseract san/psm6 OCR (minor variants possible). Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 10
+  verse: 1
+  passage_chars: 600
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA OCR batch (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Image-logistics program (single vs multiple bera modes);
+  festival-image (utsava-bimba) system data with V138B.'
+status: partial
+review: hand

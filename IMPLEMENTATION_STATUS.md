@@ -248,3 +248,87 @@
 
 ## 2026-10-05 (cont.67) — MILESTONE 400 rules (401 gated)
 - Rules V29B (parivara E->8 order) + V32B (sambhara checklist). Patala coverage: P1 site/foundation, P2 arch/bimba, P3 sow/receipt, P4 adhivasa/upachara; OCR texts: TS/SESHA/PRAYOGA/NARAYANA/KALASHA all yielding.
+
+## 2026-10-05 (cont.67) — kautuka heads adhivasa (402 rules)
+- Rule V38B (bracelet rite); 6-step adhivasa proven. (Test timers are wall-clock: allow break-even frames.)
+
+## 2026-10-05 (cont.68) — procession program (403 rules)
+- Rule V44B (darbha binding + chariot + accompaniments). OCR ~730 files.
+
+## 2026-10-05 (cont.69) — jaladhivasa + handover (405 rules)
+- Rules V46B (head-east immersion, kulam nodes cite) + V48B (evening carpenter->preceptor handover).
+
+## 2026-10-05 (cont.70) — sanctum shuddhi (406 rules)
+- Rule V53B (touch + brush + gomaya splash). OCR ~940 files, 4 workers.
+
+## 2026-10-05 (cont.71) — full re-verify green (406 rules)
+- Prov 24/24, kalari demo boots. Workers: ~950 files.
+
+## 2026-10-05 (cont.72) — upahara + vahana (408 rules)
+- Rules V103B (gift upacharas) + V110B (arghya -> vahana ascent, pairs V44B chariot).
+
+## 2026-10-05 (cont.73) — chariot mantra (409 rules)
+- Rule V111B (rathe tishthan + Vishnu purusha-japa). OCR ~960 files.
+
+## 2026-10-05 (cont.74) — MILESTONE 410 rules
+- Rule V112B (sanctum-door arghya). Procession arc complete: V44B binding/chariot -> V110B ascent -> V111B mantra -> V112B door arghya.
+
+## 2026-10-05 (cont.75) — Durga abhisheka (412 rules)
+- Rules V104B (5 mantras) + V105B (punyaha/red silk/offerings/dik-nirajana/stuti).
+
+## 2026-10-05 (cont.76) — Ganapati shuddhi (413 rules)
+- Rule V108B (8-mantra purification set).
+
+## 2026-10-05 (cont.77) — expiation system seed (414 rules)
+- Rule SESHA-P6V01 (defilement triggers -> immediate prayaschitta, sthana-then-pratima, remedy selector). Maintenance loop content banked.
+
+## 2026-10-05 (cont.78) — expiation drill in demo (414 rules)
+- Demo X key: prayaschitta remedy drill (SESHA-P6V01). OCR ~1000 files.
+
+## 2026-10-05 (cont.79) — OCR race fixed (415 rules)
+- Real killer found: duplicate workers on one PDF shared scratch filenames; remover raced reader. Fix: PID-unique scratch + one worker per PDF. /tmp sweeps were a secondary suspect only.
+
+## 2026-10-05 (cont.80) — homa program (417 rules)
+- Rules V63B (west pot) + V65B (108x + purnahuti + variants). OCR race fixed; 3 workers relaunched clean.
+
+## 2026-10-05 (cont.81) — workers healthy (417 rules)
+- OCR ~1020 files: NARAYANATMAKA 268/285, SESHA 255/280, KALASHA 310/403.
+
+## 2026-10-05 (cont.82) — bali mantra (418 rules)
+- Rule V66B (darbha + Namo-Rudra bali -> nirajana platefuls).
+
+## 2026-10-05 (cont.83) — Vishnu homa layout (419 rules)
+- Rule V73B (9 NE columns x 12 substances for Vishnu).
+
+## 2026-10-05 (cont.84) — MILESTONE 420 rules
+- Rules V73B (Vishnu homa 9x12) + V76B (kalasha pot fills E->). Scheduler/inventory/proofs unchanged and green.
+
+## 2026-10-05 (cont.85) — Shaiva vessels (421 rules)
+- Rule V78B (Shiva E-> pot fills + mantra).
+
+## 2026-10-05 (cont.87) — NARAYANATMAKA complete (423 rules)
+- NARAYANATMAKA 285/285 pages combined. texts.yaml to be updated OCR_COMPLETE_285PP.
+
+## 2026-10-05 (cont.88) — NARAYANATMAKA complete (424 rules)
+- 285/285 pages combined (646KB, 5+ patalas). Rule: dhvaja-mula bali (Pingala retinue, 8+1 geometry, night mahabali).
+
+## 2026-10-05 (cont.89) — bera logistics (425 rules)
+- Rule SESHA-P10V01 (eka vs bahu bera, bali circuits both modes). SESHA 10 patalas mapped (642 passages).
+
+## 2026-10-05 (cont.90) — 3/4 PDFs complete (426 rules)
+- SESHA 280/280 (876KB, 658 passages/10 patalas). Remaining: KALASHA 359/403.
+- Corpus texts: TS PRIMARY_CLEAN; PRAYOGA/NARAYANATMAKA/SESHA OCR_COMPLETE.
+
+## 2026-10-05 (cont.91) — expiation homa (427 rules)
+- Rule SESHA-P6V09B (deity suktas + 4/8/12 kunda homa + 1000x). SESHA complete (280pp/658 passages).
+
+## 2026-10-05 (cont.92) — coverage audit (427 rules)
+- P1: all anchored verses seeded + hand batch (site/foundation/mandala/bali/deposits). Gaps V6/V69 absorbed adjacently.
+- P2: arch + bimba complete through V141 (caps enforced). P3: sow/receipt/homa programs. P4: adhivasa/upachara/procession/shuddhi.
+- OCR texts all yielding (TS/SESHA/PRAYOGA/NARAYANATMAKA/KALASHA).
+
+## 2026-10-05 (cont.93) — homa closing (428 rules)
+- Rule KALASHA-P2V151 (sampata -> visarjana -> tattva-nyasa -> raksha -> vestments).
+
+## 2026-10-05 (cont.94) — nine-kunda homa (429 rules)
+- Rule SESHA-P6V16B (center-Virabhadra 9-kunda expiation homa + kalasha-abhisheka).

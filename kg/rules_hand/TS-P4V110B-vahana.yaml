@@ -1,0 +1,22 @@
+id: TS-P4V110B-vahana
+claim_en: >-
+  Having given all deities their arghya, lift the idols into the vehicle with
+  the prescribed mantra chant (procession ascent).
+rule_type: sequence
+params:
+  steps: [arghya_all_deities, lift_idols_to_vehicle, mantra_chant]
+applicability: Tantrasamuccaya Patala 4, verse 110; Unni EN + commentaries.
+  Hand-reviewed (procession batch). Pairs with V44B chariot program.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 110
+  passage_chars: 699
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Procession ascent (arghya -> lift -> vehicle); seeveli/
+  utsava program content with V44B.'
+status: gated
+review: hand

@@ -1,0 +1,33 @@
+id: SESHA-P6V09B-exphoma
+claim_en: >-
+  For expiation: recite each deity's own sukta (Brahma-Hiranyagarbha, Surya-
+  Saura, Vaishravana, Krishna-Vaishnava, Saraswati-Sarasvata, Lakshmi-
+  Shrisukta, Gauri, Jyeshtha, Bhadrakali, Matris); do parayana and
+  prayaschitta-homa; kindle fire before the deity in four, eight or twelve
+  kundas by defect class; offer ghee/samidha/shali/tila/laja a thousandfold
+  with mula-mantras, palasha above twelve-hundred.
+claim_sa: ... निजनिजसूक्तान्येव जप्यानि ... पारायणं ततः कुर्यात् प्रायश्चित्तहुतादि
+  च ... चतुर्षु वाष्टास्वथ वा द्वादशसु कुण्डेषु ... मन्त्रैः ... साहस्रं ... ।। ९-१२ ।।
+rule_type: sequence
+params:
+  suktas_per_deity: true
+  kundas: [4, 8, 12]
+  count: 1000
+  materials: [ghee, samidha, shali, tila, laja]
+applicability: Seshasamuccaya Patala 6, verses 9-12 (expiation homa).
+  300dpi tesseract san/psm6 OCR (minor variants possible). Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 6
+  verse: 9
+  passage_chars: 700
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0135/p0136 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 9-12 combined program; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Expiation-homa program (sukta -> parayana -> kunda-homa
+  4/8/12 -> 1000x); maintenance-loop rite with defect-class selector.'
+status: partial
+review: hand

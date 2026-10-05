@@ -1,0 +1,22 @@
+id: TS-P4V108B-ganapatishuddhi
+claim_en: >-
+  For Ganapati's purification employ his eight connected mantras.
+rule_type: sequence
+params:
+  deity: Ganapati
+  mantra_set: 8
+  rite: purification
+applicability: Tantrasamuccaya Patala 4, verse 108; Unni EN + commentaries.
+  Hand-reviewed (shuddhi batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 108
+  passage_chars: 571
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Ganapati shuddhi mantra set (8); deity-keyed mantra selector.'
+status: gated
+review: hand

@@ -1,0 +1,33 @@
+id: SESHA-P6V16B-navakunda
+claim_en: >-
+  Expiation homa in nine kundas: kindle fire in the central Virabhadra kunda,
+  distribute to the rest, offer per rite; deity mantras (pancha-durga or
+  nivritti-kalas, Uma hridlekha set, Matris one-homa each, Kali vyahritis,
+  dagdha-adi by own gayatri, Jyeshtha likewise); close with svishtakrit and
+  complete; then abhisheka the god from kalashas with his mantras and worship.
+claim_sa: ... नवसु कुण्डेषु मध्यस्थे वीरभद्रकुण्डेऽग्निं जनयित्वा ... यथोक्तरीत्या
+  होमान् कुर्यात् ... ततः स्विष्टकृदादीनि कृत्वा होमं समापयेत् । तन्मन्त्रैः
+  कलशैर्देवमभिषिच्याथ पूजयेत् ।। १६-१७ ।।
+rule_type: sequence
+params:
+  kundas: 9
+  center: Virabhadra
+  close: svishtakrit
+  then: kalasha_abhisheka_puja
+applicability: Seshasamuccaya Patala 6, verses 16-17.
+  300dpi tesseract san/psm6 OCR (minor variants possible). Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 6
+  verse: 16
+  passage_chars: 700
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0137 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 16-17 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Nine-kunda expiation homa program (center Virabhadra ->
+  distribute -> svishtakrit -> kalasha-abhisheka); maintenance-loop rite.'
+status: partial
+review: hand

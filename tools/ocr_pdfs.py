@@ -36,7 +36,7 @@ def main():
                 continue
             scratch = os.path.join(BASE, ".ocr-tmp")
             os.makedirs(scratch, exist_ok=True)
-            png = os.path.join(scratch, f"ksetra-ocr-{pid}-{i}.png")
+            png = os.path.join(scratch, f"ksetra-ocr-{pid}-{i}-pid{os.getpid()}.png")
             try:
                 page.get_pixmap(dpi=300).save(png)
             except Exception as e:

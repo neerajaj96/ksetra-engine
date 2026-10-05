@@ -15,12 +15,12 @@ texts:
   work: Narayanatmakam (Vishnu/Durga/Sankaranarayana/Brahman)
   edition: Shripuram Trust PDF
   file: corpus/raw/drive_1wOT.bin
-  status: PARTIAL_ENCODING_CORRUPT
+  status: OCR_COMPLETE_285PP_5PATALAS
 - id: SESHA
-  work: Seshasamuccaya of Sankara (supplement, 10 patalas)
+  work: Seshasamuccaya of Sankara (supplement, 10 patalas, 876KB OCR, 658 passages)
   edition: Shripuram Publications PDF
   file: corpus/raw/drive_1oI.bin
-  status: PARTIAL_CUSTOM_ENCODING
+  status: OCR_COMPLETE_280PP_10PATALAS
 - id: KALASHA
   work: Kalashachandrika Shivabhaga
   edition: Shripuram Publications PDF

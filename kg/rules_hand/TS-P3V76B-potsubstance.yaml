@@ -1,0 +1,22 @@
+id: TS-P3V76B-potsubstance
+claim_en: >-
+  Beginning from the east, fill the (kalasha) pots with pearls, decoction, cow
+  urine, cowdung-mixed water, milk and ghee, fruits and medicinal water.
+rule_type: material
+params:
+  order_eastward: [pearls, decoction, cow_urine, cowdung_water, milk_ghee, fruits, medicinal_water]
+applicability: Tantrasamuccaya Patala 3, verse 76; Unni EN + commentaries.
+  Hand-reviewed (vessel batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 76
+  passage_chars: 1558
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Kalasha-pot fill table (E→ substances); snapana/kalasha
+  inventory content.'
+status: gated
+review: hand

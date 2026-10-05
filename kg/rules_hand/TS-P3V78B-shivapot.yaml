@@ -1,0 +1,24 @@
+id: TS-P3V78B-shivapot
+claim_en: >-
+  For Shiva fill the pots from the east onward with mantra chanting (same
+  substance order as V76B).
+rule_type: material
+params:
+  deity: Shiva
+  order_eastward: true
+  base_table: TS-P3V76B-potsubstance
+applicability: Tantrasamuccaya Patala 3, verse 78; Unni EN + commentaries.
+  Hand-reviewed (vessel batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 78
+  passage_chars: 1240
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Shiva kalasha-pot fills (E-> + mantra); snapana inventory
+  content for the Shiva slice.'
+status: gated
+review: hand

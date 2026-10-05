@@ -1,0 +1,33 @@
+id: SESHA-P6V01-prayashchitta
+claim_en: >-
+  On triggers like the idol's fall, entry of outcastes, or bloodshed in the
+  courtyard, perform expiation at once: first purify the place (sthana-shuddhi),
+  then the image (pratima-shuddhi) if affected, in order by the adept preceptor;
+  remedies include digging, removal, burning, filling and cow-dwelling
+  (go-nivasana).
+claim_sa: ... बिम्बस्य पतनं वा ... चण्डालादीनां गृहप्रवेशनं वा ... असृक्पातो वा
+  ... सपदि ... प्रायश्चित्तं कुर्यात् ... स्थानं शोध्यं, ... प्रतिमा च शोध्या ...
+  खननं हरणं दाहः पूरणं गोनिवासनम् ... ।। १ ।।
+rule_type: exception
+params:
+  triggers: [bimba_fall, outcaste_entry, bloodshed_court]
+  immediacy: at_once
+  order: [sthana_shuddhi, pratima_shuddhi]
+  remedies: [khanana, harana, daha, purana, go_nivasana]
+applicability: Seshasamuccaya Patala 6, verse 1 (expiation causes).
+  300dpi tesseract san/psm6 OCR (minor variants possible). Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 6
+  verse: 1
+  passage_chars: 700
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA OCR batch (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Defilement event system (triggers -> immediate prayaschitta
+  quest with sthana then pratima shuddhi + remedy selector); maintenance loop.'
+status: partial
+review: hand

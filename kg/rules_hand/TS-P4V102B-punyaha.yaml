@@ -1,0 +1,22 @@
+id: TS-P4V102B-punyaha
+claim_en: >-
+  With gayatri mantras worship with white flowers and garlands, wave lights
+  (nirajana), and chant the Punyaha with the murtipas (image-bearers).
+rule_type: sequence
+params:
+  steps: [gayatri_worship, white_flowers_garlands, nirajana, punyaha_with_murtipas]
+applicability: Tantrasamuccaya Patala 4, verse 102; verse + Vimarshini + Vivarana.
+  Hand-reviewed (punyaha batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 102
+  passage_chars: 1338
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Punyaha program (gayatri -> white flowers -> nirajana ->
+  chant with murtipas); purification rite content.'
+status: gated
+review: hand

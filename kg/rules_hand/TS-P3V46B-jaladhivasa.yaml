@@ -1,0 +1,25 @@
+id: TS-P3V46B-jaladhivasa
+claim_en: >-
+  Plunge (lay) the idol in water, head to the east, resting on the bank upon a
+  fig-wood plank, contemplating it as a shining divinity (jaladhivasa,
+  water-adhivasa).
+rule_type: sequence
+params:
+  orientation: head_east
+  seat: fig_plank_on_bank
+  contemplation: shining_divinity
+applicability: Tantrasamuccaya Patala 3, verse 46 (with V45 fig-plank context);
+  Unni EN + commentaries. Hand-reviewed (adhivasa batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 46
+  passage_chars: 2630
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Jaladhivasa program step (water immersion, head-east);
+  kulam/tank node cite this.'
+status: gated
+review: hand

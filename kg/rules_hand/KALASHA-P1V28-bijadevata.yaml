@@ -1,0 +1,30 @@
+id: KALASHA-P1V28-bijadevata
+claim_en: >-
+  Worship karisha-valuka-mritsna (dung/sand/earth layers) with Tara-mantra,
+  then the deities of the separated seeds; in the palikas worship in order
+  Vishnu, Brahma, Shiva, Yama, Vishnu, Shiva, Aditya, Skanda, Kamalalaya,
+  Vayu, Indra, Soma, Agni as the seed-deities.
+claim_sa: करीषवालुकामृत्स्नाः पूजयित्वाथ तारतः । पृथकृस्थितेषु बीजेषु यजेत्
+  तद्देवता अपि ।। २८ ।। पालिकादिषु सम्पूज्या विष्णुब्रह्मशिवाः क्रमात् ।
+rule_type: sequence
+params:
+  layers: [karisha, valuka, mritsna]
+  mantra: Tara
+  palika_devatas_ordered: [Vishnu, Brahma, Shiva, Yama, Vishnu, Shiva, Aditya, Skanda, Kamalalaya, Vayu, Indra, Soma, Agni]
+applicability: Kalashachandrika Shivabhaga Patala 1, verses 28-29.
+  300dpi tesseract san/psm6 OCR (minor variants possible). Hand-reviewed (KALASHA batch).
+source:
+  work: Kalashachandrika
+  edition: Shripuram-OCR-partial
+  patala: 1
+  verse: 28
+  passage_chars: 700
+  commentary: none extracted yet
+  translator: none
+  ocr_page: KALASHA-p0003 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Palika seed-deity table (13 ordered stations); ankurarpana
+  variant program data (cf. TS P3V02B).'
+status: partial
+review: hand
