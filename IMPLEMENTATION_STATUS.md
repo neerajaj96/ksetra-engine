@@ -579,3 +579,6 @@
 - Traversal: walker rerouted around mandapa slabs/pillar omas (wide-margin waypoints), Koothambalam set back off pradakshina ring, second camera ray + far=70, traverse extended (ring samples, aux floors, MMI sets, circular smoke).
 - Perf: LOD on small dressing; PerfHUD benchmark mode (7 ksetra stations -> user://benchmark.json, 3-state Settings toggle). Occluders/streaming deferred to on-device numbers (documented).
 - Budgets hold: <=430/<=150 (actual 311/106). All gates green.
+
+## 2026-10-05 — DEPLOYED v0.28.0-ksetra (487 rules, 311/106 nodes)
+- kalari 91634e9 tagged v0.28.0-ksetra (code 35). CI export-android SUCCESS (50s) -> Release published with kalari-debug.apk.
