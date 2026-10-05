@@ -1,0 +1,31 @@
+id: SESHA-P10V31-splitworship
+claim_en: >-
+  Before installation (no sankramana yet), keep separate canopies: on the
+  mula-bimba only brief worship with nivedya alone; on the yaga-bimba full
+  worship with nivedya for its completion. Next morning the preceptor does
+  prasada-pratishtha rites, installs the brahma-grava stone, deposits gems
+  (ratna-nyasa), installs the pitha and worships it.
+claim_sa: ... मूलबिम्बे संक्षिप्तैव पूजा ... निवेद्यमात्रं ... यागबिम्बे तत्पूर्तये
+  पूजा निवेद्यं च ... प्रातः प्रासादप्रतिष्ठादि कृत्वा ब्रह्मग्रावाणं प्रतिष्ठाप्य
+  रत्नानि न्यस्यात्र पीठं प्रतिष्ठाप्य ... ।। ३१-३२ ।।
+rule_type: sequence
+params:
+  pre_install: {mula_bimba: brief_nivedya_only, yaga_bimba: full_completion}
+  next_morning: [prasada_pratishtha, brahma_grava, ratna_nyasa, pitha_pratishtha_puja]
+applicability: Seshasamuccaya Patala 10, verses 31-32.
+  300dpi tesseract san/psm6 OCR (minor variants possible). Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 10
+  verse: 31
+  passage_chars: 600
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0260/p0261 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 31-32 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Installation-eve/morning split program (brief mula vs full
+  yaga; morning pratishtha + ratna + pitha); consecration quest content.'
+status: partial
+review: hand

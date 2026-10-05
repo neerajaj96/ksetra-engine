@@ -335,3 +335,9 @@
 
 ## 2026-10-05 (cont.95) — checkpoint pushed (429 rules)
 - ksetra-engine 8d804e9 pushed master; kalari-game 970ccdd pushed main (no tag; release stays v0.22.0-ksetra).
+
+## 2026-10-05 (cont.96) — checkpoint pushed (430 rules)
+- ksetra 43a3874 + kalari 5a30da5 pushed (no tag).
+
+## 2026-10-05 (cont.97) — ALL 4 PDFs COMPLETE (431 rules)
+- KALASHA 403/403. Corpus: TS PRIMARY_CLEAN + PRAYOGA/NARAYANATMAKA/SESHA/KALASHA OCR_COMPLETE (1155 pages total).
