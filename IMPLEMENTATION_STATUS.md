@@ -544,3 +544,12 @@
 
 ## 2026-10-05 — DEPLOYED v0.25.0-ksetra (487 rules, 235/89 nodes)
 - kalari c9dfaac tagged v0.25.0-ksetra (code 32). CI export-android SUCCESS (58s) -> Release published with kalari-debug.apk.
+
+## 2026-10-05 (cont.159) — HIGH-FIDELITY ENVIRONMENT (487 rules, 404/108 nodes)
+- Docs normalized to actuals (487 =284+203 =177/247/61/2; 33 nodes/56 index; 235/89 superseded; 7 contradictions; quarantine 151; TS anchors 435). CRAFT-VISUAL convention in kg/ontology.md + tools/craft_audit.py gate (36 quoted ids gated) + tools/visual_audit.py gate.
+- Roof assembly: kazhukkol rafters + hip ribs + tile batten rings on shikhara/mukha/namaskara/halls + 12 cone rafters circular (TS-P2V48B, craft massing). Solid-pyramid approximation retired from the silhouette.
+- Adhisthana true profiles: sloped ogee/cove/chamfer shells over exact-width structural courses (widths untouched, 2mm+ proud); Gala naming matches spec.
+- Timber joinery: corbel capitals + diagonal struts on 8 mandapa pillars; sakha jambs + open leaves + sill at the sanctum door; gopura tier band + stupis + passage leaves (both slices).
+- Ornament: kapota drip + alinga bead, kuta domes + sala caps + panjara frames, murti niche jambs/lintels, 3-tier diadem + ushnisha + chakra spokes + gada knob + padma petals.
+- Craft PBR: stone age-blotch + grain contrast in shared 64px maps; kavu canopy tiers; follow-camera wall-clip ray; kulam curbs earlier.
+- 404 square / 108 circular, 0 missing provenance; TRAVERSE OK; budgets <=430/<=130 hold.

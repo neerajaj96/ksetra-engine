@@ -21,6 +21,8 @@ OBS_PAT = re.compile(r'"(OBSERVED-[A-Za-z-]+)"')
 PROV_EMPTY = re.compile(r'set_meta\(\s*"provenance"\s*,\s*\[\s*\]\s*\)')
 CRAFT_META = re.compile(r'set_meta\(\s*"craft_visual"\s*,\s*(\{[^}]*\})\s*\)')
 MESH_CALL = re.compile(r'_(box|cyl|lathe|ball|eave_pyramid|cone|pyramid|pillar)\(')
+CRAFT_ANY = re.compile(r'set_meta\(\s*"craft_visual"')
+CRAFT_CALL = re.compile(r'_craft\(')
 
 
 def main():
@@ -45,8 +47,9 @@ def main():
             errs.append(f"craft_visual missing basis: {c[:80]}")
     mesh = len(MESH_CALL.findall(src))
     prov = len(re.findall(r'set_meta\(\s*"provenance"', src))
+    craft_sites = len(CRAFT_ANY.findall(src)) + len(CRAFT_CALL.findall(src))
     print(f"rule ids quoted: {len(quoted)} (all gated: {len(errs) == 0 or 'NO'})")
-    print(f"mesh callsites: {mesh}; provenance metas: {prov}; craft metas: {len(crafts)}")
+    print(f"mesh callsites: {mesh}; provenance metas: {prov}; craft tags: {craft_sites}")
     if errs:
         print("CRAFT AUDIT FAILED:")
         for e in errs:
