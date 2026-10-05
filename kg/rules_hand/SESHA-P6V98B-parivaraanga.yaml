@@ -1,0 +1,33 @@
+id: SESHA-P6V98B-parivaraanga
+claim_en: >-
+  Take the deity's limbs (anga) together at bimba-graha - dauvarikas, lokapala-
+  pithas, matrika-lingas, the vahana (Garuda/vrishabha etc.), the lap/pitha Devi;
+  purify them with its shodhana, adhivasana in its own mandapa, pratishtha each
+  in its own place after kalasha-snana and avasruta-sechana; snapana the vahana
+  with the remaining waters at devabhisheka.
+claim_sa: ... दौवारिकादि ... लोकपालादिपीठरूपं ... मात्रादिलिङ्गरूपं ... वाहनं
+  गरुडर्षभादि ... देवी ... तदङ्गम् ... बिम्बग्रहे सह तदङ्गमिदं गृहीत्वा ...
+  तन्मण्डपे ... अधिवासनं ... प्रतिष्ठितिं ... कलशस्नानानन्तरमवस्रुतसेचनं च ...
+  देवाभिषेकसमये ... वाहनस्य ... स्नपनम् ... शेषतोयैः ... ।। ९८-१०० ।।
+rule_type: sequence
+params:
+  angas: [dauvarika, lokapala_pitha, matrika_linga, vahana, devi]
+  together_at: bimba_graha
+  program: [joint_shodhana, own_mandapa_adhivasana, own_place_pratishtha, kalasha_snana, avasruta_sechana, vahana_snapana_shesha_waters]
+applicability: Seshasamuccaya Patala 6, verses 98-100.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 6
+  verse: 98
+  passage_chars: 600
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0151/p0152 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 98-100 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Parivara-anga installation program (gather -> purify ->
+  adhivasana -> pratishtha -> snapana); parivara_shrines quest content.'
+status: partial
+review: hand

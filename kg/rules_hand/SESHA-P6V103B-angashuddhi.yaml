@@ -1,0 +1,31 @@
+id: SESHA-P6V103B-angashuddhi
+claim_en: >-
+  On limb (anga/parivara) impurity during deity-shuddhi time: purify with the
+  remaining shesha-dravyas up to avasruta-prokshana; for Ketu, Bhutesha and
+  chief mahapitha parivaras do sevenfold shuddhi or gavya-samprokshana per
+  defect, before (deva-shuddhi).
+claim_sa: ... अङ्गानां परिवाराणामशुद्धौ ... तच्छेषद्रव्यैः शुद्धिः
+  अवस्रुतप्रोक्षणान्ता कार्या । केतोर्भूतेशादेः ... दोषानुसारेण सप्तशुद्धीर्गव्यसम्प्रोक्षणं
+  वा ... ।। १०३ ।।
+rule_type: exception
+params:
+  trigger: anga_impurity_during_deva_shuddhi
+  remedy: [shesha_dravyas, avasruta_prokshana]
+  chief_parivaras: [sapta_shuddhi, gavya_samprokshana_per_defect]
+applicability: Seshasamuccaya Patala 6, verse 103.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 6
+  verse: 103
+  passage_chars: 550
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0153 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Anga-shuddhi remedy branch (shesha-dravyas / 7x / gavya);
+  defilement-event content with P6V01 triggers.'
+status: partial
+review: hand

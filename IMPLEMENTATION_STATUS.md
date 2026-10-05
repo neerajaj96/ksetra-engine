@@ -437,3 +437,9 @@
 
 ## 2026-10-05 (cont.129) — nishkramana program (457 rules)
 - Rule SESHA-P6V70B (jiva-kalasha -> procession -> conch recall). Maintenance clock sourced (V60B).
+
+## 2026-10-05 (cont.130) — parivara-anga program (458 rules)
+- Rule SESHA-P6V98B (gather/purify/adhivasana/pratishtha/snapana for deity limbs).
+
+## 2026-10-05 (cont.131) — anga-shuddhi (459 rules)
+- Rule SESHA-P6V103B (shesha-dravya / 7x / gavya remedies for limb impurity).
