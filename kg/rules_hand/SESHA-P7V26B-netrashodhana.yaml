@@ -1,0 +1,35 @@
+id: SESHA-P7V26B-netrashodhana
+claim_en: >-
+  At image-taking: milk-food bali around the image in the quarters, lay it
+  happily facing the prasada, open the eyes with a golden needle dipped in
+  honey-ghee from a gold cup, set raji-durva-pushpa-akshata on the head with
+  its own mantra; purify Devi images by sprinkling honey-ghee, milk, bhasma,
+  churnas, kvatha and mrid with own-anu japa, using milks of kshira trees
+  (vata bark etc.).
+claim_sa: ... दुग्धान्न ... बलि ... प्रासादसम्मुखतया ... शायितस्य बिम्बस्य ...
+  तपनीयसूच्या ... माक्षिकसहितेनाज्येन ... उल्लिख्य ... अक्षिमोक्षं ... राजी ...
+  दूर्वापुष्पाक्षतं ... स्वमन्त्रेण ... सम्प्रोक्ष्य माक्षिकयुतेन घृतेन सिक्त्वा
+  संशोधयेत् ... पयसा भसितेन चूर्णैः ... क्वाथेन मृद्भिः ... ।। २६-२७ ।।
+rule_type: sequence
+params:
+  bali: milk_food_quarters
+  laying: facing_prasada
+  netronmilana: [golden_needle, honey_ghee_gold_cup, raji_durva_pushpa_akshata_own_mantra]
+  devi_shodhana: [honey_ghee_sprinkle, milk, bhasma, churna, kvatha, mrid, kshira_tree_milks]
+applicability: Seshasamuccaya Patala 7, verses 26-27.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 26
+  passage_chars: 550
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0163 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 26-27 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Image-taking + eye-opening + Devi purification program
+  (bali -> lay -> netra -> shodhana dravyas); consecration quest content.'
+status: partial
+review: hand

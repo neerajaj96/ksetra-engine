@@ -461,3 +461,12 @@
 
 ## 2026-10-05 (cont.137) — demo lamps (460 rules... see gate)
 - 3 flickering lamp posts (E/W/N) in demo; 3 omnis, well under budget.
+
+## 2026-10-05 (cont.138) — slot lamps + 460 confirmed
+- Demo lamps brighten on night slots. Total rules verified 460.
+
+## 2026-10-05 (cont.139) — Matri adhivasa (461 rules)
+- Rule SESHA-P7V05 (nidi-kamala-kachhapa + stations + joint prarthana + left bricks).
+
+## 2026-10-05 (cont.140) — netra-shodhana (462 rules)
+- Rule SESHA-P7V26B (bali -> lay facing -> golden-needle eyes -> Devi shodhana dravyas).

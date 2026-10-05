@@ -1,0 +1,32 @@
+id: SESHA-P7V05-matriadhi
+claim_en: >-
+  Matri (and Chamunda) adhivasa: lay nidi-kalasha-kamala-kachhapa (treasure-pot,
+  lotus, tortoise) as for Shiva; in nine stations or at Chamunda's seat alone;
+  one joint prarthana at the very end covers both options; lay the first bricks
+  to the mothers' left.
+claim_sa: ... निधिकलशकमलकच्छपविन्यासः ... मातृषु तु पुनश्चामुण्ड्यां च ...
+  नवसु स्थानेष्वपि वा ... अर्थना तु ... सर्वावसाने सकृदेव ... दारामवामे
+  प्रथमेष्टकानां न्यासं विदध्याज्जननीषु ... ।। ५ ।।
+rule_type: sequence
+params:
+  vinyasa: [nidhi_kalasha, kamala, kachhapa]
+  stations: [nine, chamunda_seat_alone]
+  prarthana: once_at_end
+  first_bricks: mothers_left
+applicability: Seshasamuccaya Patala 7, verse 5.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 5
+  passage_chars: 550
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0158 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Matri adhivasa program (vinyasa + stations + joint prarthana
+  + left-side bricks); Matri-shrine content.'
+status: partial
+review: hand
