@@ -458,3 +458,6 @@
 
 ## 2026-10-05 (cont.136) — demo weather (460 rules... see gate)
 - ksetra.tscn: Rain particles + R-key monsoon toggle (storm + wetness via DayNight).
+
+## 2026-10-05 (cont.137) — demo lamps (460 rules... see gate)
+- 3 flickering lamp posts (E/W/N) in demo; 3 omnis, well under budget.
