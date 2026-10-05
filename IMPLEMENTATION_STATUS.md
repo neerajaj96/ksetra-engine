@@ -431,3 +431,9 @@
 
 ## 2026-10-05 (cont.127) — chaitanya transfer (455 rules)
 - Rule SESHA-P6V31B (fire-chaitanya -> kumbha -> snapana -> nyasa). Expiation arc now triggers -> homa -> transfer -> bath.
+
+## 2026-10-05 (cont.128) — maintenance clock (456 rules)
+- Rule SESHA-P6V60B (1-month soft, 12-year hard renovation cycle). Jirnoddharana scheduler span sourced.
+
+## 2026-10-05 (cont.129) — nishkramana program (457 rules)
+- Rule SESHA-P6V70B (jiva-kalasha -> procession -> conch recall). Maintenance clock sourced (V60B).
