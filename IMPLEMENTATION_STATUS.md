@@ -455,3 +455,6 @@
 
 ## 2026-10-05 (cont.135) — demo day-night live
 - ksetra.tscn gained DayNight node (lighting_preset.gd): full keyframed day-night + storm/wetness path in demo. CHECK OK, boots clean.
+
+## 2026-10-05 (cont.136) — demo weather (460 rules... see gate)
+- ksetra.tscn: Rain particles + R-key monsoon toggle (storm + wetness via DayNight).
