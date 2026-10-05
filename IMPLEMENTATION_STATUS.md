@@ -527,3 +527,8 @@
 - Scheduler 8 programs: +start_bali_circuit/+start_dhvaja/+start_shuddhi + kala-avadhi 1mo/12yr; inventory +7 step costs, no new stocks. BALI/DHVAJA/SHUDDHI OK headless.
 - Demo: B/D/S keys, Tantri + Marar role figures, generalized rite label. Kalari fixes: HUD rain/shadow via DayNight, save restores Ksetra/School, ambience ksetra drone + DayNight storm/night.
 - All 13 headless proofs + PROOF + kalari CHECK/JSON + scene boots green.
+
+## 2026-10-05 (cont.157) — circular sanctum opened + DEPLOYED v0.24.0-ksetra
+- Circular pada: hollow 10-segment ring (gh/8, facing-axis door gap, pilaster kept clear); linga darshana through gap; Rudra crown into roof undercroft recorded. Circular 80 -> 87 nodes, provenance-closed.
+- sync_all.py now carries ksetra_rules.json to kalari/data (closed stale-provenance drift class).
+- kalari v0.24.0-ksetra (code 30): 487-rule export, flagship v2, 8 programs, HUD rain/shadow via DayNight, save restores Ksetra/School, ksetra drone bed. CI export-android SUCCESS (50s) -> Release published with kalari-debug.apk.
