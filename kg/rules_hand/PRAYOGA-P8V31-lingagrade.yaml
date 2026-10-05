@@ -1,0 +1,31 @@
+id: PRAYOGA-P8V31-lingagrade
+claim_en: >-
+  The linga is threefold and three-parted (trimukha/trividha); measure the
+  garbhalaya in fifths and thirds; the madhyama linga ninefold-divided by
+  fifths; the adhama linga half the garbhagriha.
+claim_sa: ... लिङ्गं त्रिभिन्नं त्रिविधं पृथक् च ।। ३१ ।। ... पञ्च विभाजिते
+  त्रिभिः ... गर्भालये मेयं मध्यमलिङ्गम् ... नवधा ... पञ्चभिः । ... गर्भगृहार्धसम्मितम्
+  ... अधमम् ...
+rule_type: measure
+params:
+  linga: threefold_three_parted
+  garbhalaya: [fifths, thirds]
+  madhyama: ninefold_fifths
+  adhama: half_garbhagriha
+applicability: Prayogamanjari Patala 8, verse 31 (short OCR anchor, series
+  continues across pages). Hand-reviewed (PRAYOGA batch).
+source:
+  work: Prayogamanjari
+  edition: Shripuram-OCR-partial
+  patala: 8
+  verse: 31
+  passage_chars: 204
+  commentary: none extracted yet
+  translator: none
+  ocr_page: PRAYOGA-p0054 (render dpi300, -l san --psm 6)
+  note: OCR layer; short anchor, upgrade on re-read
+layer: OCR
+game_abstraction: 'Linga grade measures (madhyama/adhama from garbhalaya
+  divisions); figure-size selector.'
+status: partial
+review: hand

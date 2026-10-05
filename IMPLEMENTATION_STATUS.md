@@ -371,3 +371,9 @@
 
 ## 2026-10-05 (cont.107) — stone testing (438 rules)
 - Rule PRAYOGA-P8V01 (shila-pariksha gender/smear/discoloration program).
+
+## 2026-10-05 (cont.108) — stone marks (439 rules)
+- Rule PRAYOGA-P8V24 (prize vs reject stone marks/forms).
+
+## 2026-10-05 (cont.109) — MILESTONE 440 rules
+- Rules PRAYOGA stone-marks + linga grades. 5 texts yielding; corpus OCR-complete.
