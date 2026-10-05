@@ -1,0 +1,27 @@
+id: TS-P1V70B-outerring
+claim_en: >-
+  Outside the 32-ring: Sharva, Skanda, Aryama, Jambhaka, Pinchaka on the
+  cardinals; Charaki, Vidari, Putanika, Paparaksasi on the corners; devas, asuras,
+  gandharvas, yakshas, pitris, nagas, rakshasas, pishachas and grahas in the
+  eight directions from the east, invoked as deva-grahebhyo namah and the like.
+rule_type: role
+params:
+  cardinals: [Sharva, Skanda, Aryama, Jambhaka, Pinchaka]
+  corners: [Charaki, Vidari, Putanika, Paparaksasi]
+  eight_directions: [deva, asura, gandharva, yaksha, pitri, naga, rakshasa, pishacha, graha]
+  graha_mantra: deva_grahebhyo_namah
+applicability: Tantrasamuccaya Patala 1, verses 69-70; verses + Vimarshini +
+  Vivarana. Hand-reviewed (mandala batch). Anchored at V70.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 70
+  passage_chars: 1483
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Outermost mandala ring roster (cardinals/corners/8-dir);
+  completes the 3-ring mandala data (32 + 12 + outer + Brahma).'
+status: gated
+review: hand

@@ -389,3 +389,9 @@
 
 ## 2026-10-05 (cont.113) — mandala krama (444 rules)
 - Rule V68B (Hari/Durga inner+outer; others 32->12->Brahma). Mandala batch complete: V60B grid, V64B mantra order, V65B roster, V68B master order.
+
+## 2026-10-05 (cont.114) — mandala complete (445 rules)
+- Rule V70B (outermost ring). 3-ring mandala data: 32 + 12 + outer + Brahma, with orders and mantras.
+
+## 2026-10-05 (cont.115) — vastu-raksha (446 rules)
+- Rule V73B (bali -> Brahma prasanna -> mid-prakara raksha; vastu-devatas never dismissed). P1 curated end-to-end (V1-83 anchors).
