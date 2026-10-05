@@ -341,3 +341,15 @@
 
 ## 2026-10-05 (cont.97) — ALL 4 PDFs COMPLETE (431 rules)
 - KALASHA 403/403. Corpus: TS PRIMARY_CLEAN + PRAYOGA/NARAYANATMAKA/SESHA/KALASHA OCR_COMPLETE (1155 pages total).
+
+## 2026-10-05 (cont.98) — checkpoint pushed (431 rules)
+- ksetra 6620b72 + kalari 1d8e797 pushed (no tag).
+
+## 2026-10-05 (cont.99) — travel integration scoped (P6, not started)
+- Seamless travel (HUD button + world_loader zone + builder-in-village) is a new workstream; demo stays standalone proof. KG depth continues meanwhile.
+
+## 2026-10-05 (cont.100) — Skanda snapana (432 rules)
+- Rule V107B (gayatri bath -> cloth -> 10 upacharas -> nirajana -> punyaha).
+
+## 2026-10-05 (cont.101) — snana table (433 rules)
+- Rule NARAYANA snana-mantras (ordered baths 7/8/9/11+).

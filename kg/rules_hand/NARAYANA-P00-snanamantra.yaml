@@ -1,0 +1,29 @@
+id: NARAYANA-P00-snanamantra
+claim_en: >-
+  Bathing-mantras in order: Durga with abhivyakti(?)-sukta, then Suvarna-sukta
+  seventh, Shatru-varga eighth by rule, Giri... ninth, Rama-sukta bathing again
+  the eleventh supreme, Samudra-Jyeshtha group (and more following).
+claim_sa: स्नानमन्त्रानथेतेषां सांप्रतं प्रवदामि ते । दुर्गाभिस्वस्तिसूक्तेन ...
+  सप्तमम् अष्टमं ... नवकम् ... रमासूक्तेन ... एकादशं परम् ... ।।
+rule_type: sequence
+params:
+  rite: snana_mantra_table
+  order: [Durga, Suvarna_7th, Shatruvarga_8th, Giri_9th, Rama_11th, Samudra_Jyeshtha]
+applicability: Narayanatmakam (snana-mantra section); 300dpi tesseract
+  san/psm6 OCR read (variants possible, e.g. abhisva-). V00 section anchor.
+  Hand-reviewed (NARAYANA batch).
+source:
+  work: Narayanatmakam
+  edition: Shripuram-OCR-partial
+  patala: 0
+  verse: 0
+  passage_chars: 700
+  commentary: none extracted yet
+  translator: none
+  ocr_page: NARAYANATMAKA-p0220 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Snana-mantra table (ordered baths 7/8/9/11+); abhisheka
+  scheduler content.'
+status: partial
+review: hand
