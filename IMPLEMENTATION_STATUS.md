@@ -1,18 +1,18 @@
 # Implementation Status
 
-## Proven (headless + pytest, 2026-10-05)
-- KG GATE OK: 269 rules (144 PRIMARY + 125 TRANSLATION), fail-closed gate.
-- PROOF OK (pytest): 9 levels + 23 nodes + 5 constraints, provenance-closed; uttara 12h = 8.64m.
-- WORLD OK (Godot 4.6.3 arm64 headless): 106 semantic nodes, 0 missing provenance.
-- SCHEDULER OK: nitya 5-slot cycle usha->pantheeradi->ucha->deeparadhana->athazha, data-driven.
-- PROVENANCE OK: 23/23 nodes resolve OBJECT->RULE->SOURCE in-engine.
-- PERF AUDIT OK: 0 builder lights, 7 shared opaque mats, dressing LOD.
+## Proven (headless + pytest, 2026-10-05) — canonical 487 / 33 / 235-89 / 8 programs
+- KG GATE OK: 487 rules (177 PRIMARY + 247 TRANSLATION + 61 OCR + 2 OBSERVED; 284 seed + 203 hand), fail-closed gate.
+- PROOF OK (pytest): 9 levels + 33 nodes + 5 constraints, provenance-closed (56-entry provenance_index); uttara 12h = 8.64m.
+- WORLD OK (Godot 4.6.3 arm64 headless): 235 square / 89 circular engine nodes, 0 missing provenance.
+- SCHEDULER OK: 8 programs (nitya 5-slot + adhivasa/ankurarpana/upachara/homa-prelude/bali_circuit/dhvaja/shuddhi), data-driven.
+- PROVENANCE OK: 33/33 nodes resolve OBJECT->RULE->SOURCE in-engine.
+- PERF AUDIT OK: 0 builder lights, 7 shared opaque mats, dressing LOD (see tools/perf_audit.py:36 NOTE 235/89).
 
 ## Open items (honest)
 - Garbha proportion: conventional 1/2 (OPEN; pin against TS P2 garbha verses next pass).
 - PDF verse contents: PARTIAL (encoding); structure-level only (C-PDF-ENCODING).
-- 141 quarantined anchors: commentary citations beyond per-patala caps + EN-less fragments (preserved, not rules).
-- Structure-default bucket (116): weakest typing; hand-review priority for builder-critical rules.
+- 151 quarantined anchors (M1 snapshot said 141): commentary citations beyond per-patala caps + EN-less fragments (preserved, not rules).
+- Structure-default bucket (116, M1 snapshot — recount needed): weakest typing; hand-review priority for builder-critical rules.
 - Kalari integration: mapped (ARCHITECTURE.md), not yet copied (keeps kalari gate green).
 - Second ksetra / streaming / GDExtension: future.
 
@@ -522,7 +522,7 @@
 
 ## 2026-10-05 (cont.156) — FLAGSHIP v2: Sesha-first + hollow sanctum (487 rules)
 - 10 new SESHA OCR rules (P3 mantra-mula/anga, P4 brahma/parikalasha, P5 savana/bali-krama, P8 kshetrapala/digbandha, P9 dhvaja-vahana/sthapana). KG 487.
-- Spec flagship v2 (33 nodes): +nidhi_deposit, palika_row, kautuka_shayya, brahma_kalasha, bali_circuit, dhvaja_vahana, shuddhi_station, japa_mandapa, mula_bimba; 26-entry provenance_index.
+- Spec flagship v2 (33 nodes): +nidhi_deposit, palika_row, kautuka_shayya, brahma_kalasha, bali_circuit, dhvaja_vahana, shuddhi_station, japa_mandapa, mula_bimba; 56-entry provenance_index (33 complex nodes).
 - Builder: hollow pada (gh/8 walls + east door gap + lintel), sopana x3 steps, octagonal dwaja, rishabha, deposit set, palika-16, kautuka/shayya, 5 kalashas, kshetrapala, 8 parita flags, shuddhi platform, japa hall, pitha + standing Vishnu + dvarapalas. Square 205 nodes / circular 80, all provenance-closed, 0 builder lights, 7 mats.
 - Scheduler 8 programs: +start_bali_circuit/+start_dhvaja/+start_shuddhi + kala-avadhi 1mo/12yr; inventory +7 step costs, no new stocks. BALI/DHVAJA/SHUDDHI OK headless.
 - Demo: B/D/S keys, Tantri + Marar role figures, generalized rite label. Kalari fixes: HUD rain/shadow via DayNight, save restores Ksetra/School, ambience ksetra drone + DayNight storm/night.

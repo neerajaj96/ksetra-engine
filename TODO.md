@@ -1,14 +1,14 @@
 # TODO (autonomous loop)
 - [completed] M0 scaffold + manifest
 - [completed] M0 ingest 5 sources
-- [completed] M0 normalize (410 verse anchors)
-- [completed] M1 ontology + 269 rules + gate
-- [completed] M1b contradictions (5) + PDF probes
-- [completed] M2 vishnu-dvitala.v1.json + builder (106 nodes) + provenance lookup
+- [completed] M0 normalize (435 TS anchors; +658 SESHA +410 PRAYOGA +71 KALASHA passages)
+- [completed] M1 ontology + 487 rules (284+203; 177/247/61/2) + gate
+- [completed] M1b contradictions (7) + PDF probes
+- [completed] M2 vishnu-dvitala.v1.json (33 nodes/56 index/9 levels/5 constr) + builder (235 square/89 circular engine) + provenance lookup
 - [completed] M3 scheduler sim + kalari integration map
 - [completed] M4 perf audit + full gates + docs
-- [next] PDF OCR/font-map recovery (mal tessdata)
-- [next] Garbha 9-method rules from P2 later verses
-- [next] Structure-bucket (116) hand review
-- [next] Kalari copy + check.py + APK via CI
-- [next] Second patala batch (P5-8 pratishtha/snapana) when Unni Part II sourced
+- [done] PDF OCR 1155pp COMPLETE (texts.yaml OCR_COMPLETE)
+- [done] Garbha9 TS-P2V18B gated
+- [next] Structure-bucket recount (116 snapshot vs quarantine 151)
+- [done] Kalari copy + travel + APK to v0.25.0
+- [next] Masadhipa monthly + kol/danda anchors (OPEN x5 in 3 files) + per-ring streaming

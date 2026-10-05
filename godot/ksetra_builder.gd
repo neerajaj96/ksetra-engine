@@ -26,7 +26,7 @@ func _m(hasta: float) -> float:
 	return Loader.hasta_to_m(hasta)
 
 func _box(parent: Node, nm: String, mat: Material, size: Vector3, pos: Vector3,
-		prov: Array, collide := true, lod_end := 0.0) -> CSGBox3D:
+		prov: Array, collide := true, lod_end := 0.0, craft := {}) -> CSGBox3D:
 	var b := CSGBox3D.new()
 	b.name = nm
 	b.material = mat
@@ -38,6 +38,8 @@ func _box(parent: Node, nm: String, mat: Material, size: Vector3, pos: Vector3,
 		b.visibility_range_end = lod_end
 		b.visibility_range_fade_mode = GeometryInstance3D.VISIBILITY_RANGE_FADE_SELF
 	b.set_meta("provenance", prov)
+	if not craft.is_empty():
+		b.set_meta("craft_visual", craft)
 	parent.add_child(b)
 	return b
 
@@ -252,6 +254,12 @@ static func _detail_albedo(kind: String) -> ImageTexture:
 
 static func _detail_height(kind: String) -> ImageTexture:
 	return _detail_images(kind)[1]
+
+static func _craft(node: Node, kind: String, basis: String, replaces: String) -> void:
+	# CRAFT-VISUAL metadata (visual craft only, never canon; see kg/ontology.md).
+	# kind: profile|massing|material|placement. Faces/tala/yoni/dimensions stay prov-only.
+	node.set_meta("craft_visual", {"kind": kind, "basis": basis,
+		"status": "OPEN-adjacent", "replaces": replaces})
 
 func _build_all() -> void:
 	var pr: Dictionary = spec["prasada"]

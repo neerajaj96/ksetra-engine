@@ -14,3 +14,12 @@ game_abstraction, status (gated/partial/SOURCE_REQUIRED), contradicts[].
 
 Provenance chain required: GAME OBJECT -> RULE -> KNOWLEDGE ENTITY -> SOURCE.
 Contradictions are nodes, never merged.
+
+## CRAFT-VISUAL metadata (visual craft only, never canon)
+Every engine mesh carries `provenance` (rule ids, fail-closed). Where close-range
+fidelity needs decisions the sources do not fix (silhouette interpolation, material
+weathering, placement dressing), the node ALSO carries `craft_visual`:
+{kind: profile|massing|material|placement, basis: "Kerala field convention" | "craft interpolation",
+status: OPEN-adjacent, replaces: <prior approximation>}.
+Rules: faces/tala/yoni/dimensions/rites stay prov-only; craft_visual never invents
+canon, never overrides a rule, and is enforced by tools/craft_audit.py.
