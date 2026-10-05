@@ -401,3 +401,6 @@
 
 ## 2026-10-05 (cont.117) — bera arrangement (447 rules)
 - Rule SESHA-P10V38B (mula/yaga/snana layout + para/dasha avahanas + sthirikarana).
+
+## 2026-10-05 (cont.118) — snapana mandala (448 rules)
+- Rule KALASHA-P4V160B (109/209 grid + lotus25 + central kumbha gold/gems/gandhodaka).
