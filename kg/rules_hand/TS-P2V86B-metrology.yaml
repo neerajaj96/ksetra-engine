@@ -1,0 +1,29 @@
+id: TS-P2V86B-metrology
+claim_en: >-
+  Best idols divide length by ten (dash tala), middle by nine (nava tala),
+  lowest by eight (ashta tala; Devis ashtatala); one tala divided by twelve is
+  the angula; two angulas a kala (with golaka); one-eighth angula is the yava.
+  Best in stone, middle in wood, lowest in gem (or as desired).
+rule_type: measure
+params:
+  tala_grades: {uttama: 10, madhyama: 9, adhama: 8, devi: 8}
+  angula: tala / 12
+  kala: 2_angula
+  yava: angula / 8
+  media: {uttama: stone, madhyama: wood, adhama: gem}
+applicability: Tantrasamuccaya Patala 2, verse 86; verse + Vimarshini
+  (+Sattvata quote) + Vivarana. Hand-reviewed (metrology batch). Keystone -
+  resolves C-METROLOGY yava rate to PRIMARY-anchored.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 86
+  passage_chars: 1827
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Unit system: tala/angula/yava/kala/golaka with grade table;
+  ALL measure params now convertible (update C-METROLOGY to resolved).'
+status: gated
+review: hand

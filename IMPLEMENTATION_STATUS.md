@@ -377,3 +377,15 @@
 
 ## 2026-10-05 (cont.109) — MILESTONE 440 rules
 - Rules PRAYOGA stone-marks + linga grades. 5 texts yielding; corpus OCR-complete.
+
+## 2026-10-05 (cont.110) — pitha segments (441 rules)
+- Rule V83B (27|32-segment altar programs).
+
+## 2026-10-05 (cont.111) — METROLOGY KEYSTONE (442 rules)
+- Rule V86B (tala grades + angula/kala/yava/golaka + media). C-METROLOGY yava RESOLVED to PRIMARY.
+
+## 2026-10-05 (cont.112) — full 32 roster (443 rules)
+- Rule V65B (complete ordered roster; closes queued subset). Metrology keystone held.
+
+## 2026-10-05 (cont.113) — mandala krama (444 rules)
+- Rule V68B (Hari/Durga inner+outer; others 32->12->Brahma). Mandala batch complete: V60B grid, V64B mantra order, V65B roster, V68B master order.

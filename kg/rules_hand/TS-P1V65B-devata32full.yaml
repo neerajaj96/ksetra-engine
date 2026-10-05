@@ -1,0 +1,27 @@
+id: TS-P1V65B-devata32full
+claim_en: >-
+  The thirty-two outer-ring mandala deities in pradakshina order from Ishana:
+  Ishana, Parjanya, Jayanta, Indra, Surya, Satyaka, Bhrisha, Antariksha, Vahni,
+  Pusha, Vitatha, Grihakshata, Yama, Gandharva, Bhringaraja, Mriga, Pitrs,
+  Dauvarika, Sugriva, Pushpadanta, Varuna, Asura, Shosha, Roga, Vayu, Naga,
+  Mukhya, Bhallataka, Soma, Argalaka, Diti, Uditi.
+rule_type: role
+params:
+  count: 32
+  order: pradakshina_from_ishana
+  roster: [Ishana, Parjanya, Jayanta, Indra, Surya, Satyaka, Bhrisha, Antariksha, Vahni, Pusha, Vitatha, Grihakshata, Yama, Gandharva, Bhringaraja, Mriga, Pitrs, Dauvarika, Sugriva, Pushpadanta, Varuna, Asura, Shosha, Roga, Vayu, Naga, Mukhya, Bhallataka, Soma, Argalaka, Diti, Uditi]
+applicability: Tantrasamuccaya Patala 1, verses 65-67; verses + Vimarshini +
+  Vivarana. Hand-reviewed (mandala batch). Completes the queued V67B roster.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 1
+  verse: 65
+  passage_chars: 552
+  commentary: Vimarshini+Vivarana across V65-67 anchors
+  translator: N.P. Unni
+layer: PRIMARY
+game_abstraction: 'Full 32-station mandala roster (ordered); survey mini-rite
+  invocation data; replaces queued subset.'
+status: gated
+review: hand

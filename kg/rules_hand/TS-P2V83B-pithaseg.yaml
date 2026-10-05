@@ -1,0 +1,21 @@
+id: TS-P2V83B-pithaseg
+claim_en: >-
+  Conceive the altar stone (pitha) in twenty-seven segments (or thirty-two),
+  with measures arranged per segment program.
+rule_type: measure
+params:
+  pitha_segments: [27, 32]
+applicability: Tantrasamuccaya Patala 2, verses 83-84; Unni EN + commentaries.
+  Hand-reviewed (pitha batch). Anchored at V83.
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 2
+  verse: 83
+  passage_chars: 1335
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Pitha segmentation options (27|32); altar builder params.'
+status: gated
+review: hand

@@ -22,7 +22,7 @@ source:
   commentary: Vimarshini+Vivarana in verse-anchored passage
   translator: N.P. Unni
 layer: TRANSLATION
-game_abstraction: 'Murti-digit proportion table (yava units; yava-angula rate
-  OPEN pending TS metrology curation); deity-figure generator input.'
+game_abstraction: 'Murti-digit proportion table (yava units; yava = angula/8 per
+  TS-P2V86B-metrology); deity-figure generator input.'
 status: gated
 review: hand

@@ -57,4 +57,4 @@ contradictions:
       source: {work: Tantrasamuccaya, patala: 2, verse: 1, layer: TRANSLATION}
     - claim: "1 angula = 8 yava; 1 kol = 24 angula; 4 kol = 1 danda (Kerala metrology surveys)"
       source: {work: INTERPRETATION, note: "Srinivas/Prabha-Ramakrishnan surveys; TS verse attestation pending", layer: INTERPRETATION}
-  policy: Builder uses hasta/angula only; yava/kol/danda params recorded raw in rules, never converted, until a TS verse anchor is curated.
+  policy: RESOLVED for yava (TS-P2V86B: yava = angula/8, PRIMARY). Builder uses hasta/angula/yava. kol/danda params stay raw until verse anchors.
