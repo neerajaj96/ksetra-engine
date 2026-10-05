@@ -452,3 +452,6 @@
 
 ## 2026-10-05 (cont.134) — monthly still queued, P9 mapped as homa-mandala
 - PRAYOGA P9V6-10 = kunda-mandala geometry + homa order (not month rites). Monthly program awaits masadhipa table completion.
+
+## 2026-10-05 (cont.135) — demo day-night live
+- ksetra.tscn gained DayNight node (lighting_preset.gd): full keyframed day-night + storm/wetness path in demo. CHECK OK, boots clean.
