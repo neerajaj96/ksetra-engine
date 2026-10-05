@@ -582,3 +582,6 @@
 
 ## 2026-10-05 — DEPLOYED v0.28.0-ksetra (487 rules, 311/106 nodes)
 - kalari 91634e9 tagged v0.28.0-ksetra (code 35). CI export-android SUCCESS (50s) -> Release published with kalari-debug.apk.
+
+## 2026-10-05 — DEPLOYED v0.28.1-ksetra (487 rules, 311/106 nodes)
+- kalari 8035370 tagged v0.28.1-ksetra (code 36). Tree clean at v0.28.0; full gate battery re-verified green (KG/CRAFT/VISUAL/PERF/PROOF, 14/14 headless, TRAVERSE, CHECK/JSON/editor/ksetra+main boots). CI export-android SUCCESS (52s) -> Release published with kalari-debug.apk.
