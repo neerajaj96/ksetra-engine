@@ -23,11 +23,13 @@ def main():
                 os.path.join(KALARI, "data", "ksetra_vishnu_dvitala.json"))
     shutil.copy(os.path.join(BASE, "spec", "shiva-ekatala-circular.v1.json"),
                 os.path.join(KALARI, "data", "ksetra_shiva_ekatala.json"))
+    shutil.copy(os.path.join(BASE, "godot_test", "data", "ksetra_rules.json"),
+                os.path.join(KALARI, "data", "ksetra_rules.json"))
     shutil.copy(os.path.join(BASE, "spec", "vishnu-dvitala.v1.json"),
                 os.path.join(TEST, "spec.json"))
     shutil.copy(os.path.join(BASE, "spec", "shiva-ekatala-circular.v1.json"),
                 os.path.join(TEST, "spec2.json"))
-    print("SYNC ALL OK:", len(MODULES), "modules + 2 specs")
+    print("SYNC ALL OK:", len(MODULES), "modules + 2 specs + rules json")
 
 if __name__ == "__main__":
     raise SystemExit(main())
