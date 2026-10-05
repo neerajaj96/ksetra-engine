@@ -395,3 +395,9 @@
 
 ## 2026-10-05 (cont.115) — vastu-raksha (446 rules)
 - Rule V73B (bali -> Brahma prasanna -> mid-prakara raksha; vastu-devatas never dismissed). P1 curated end-to-end (V1-83 anchors).
+
+## 2026-10-05 (cont.116) — vishuva noted, monthly deferred
+- PRAYOGA P9V126-127 are equinox yoga-dhyana (not festival calendar); monthly program still awaits masadhipa table completion.
+
+## 2026-10-05 (cont.117) — bera arrangement (447 rules)
+- Rule SESHA-P10V38B (mula/yaga/snana layout + para/dasha avahanas + sthirikarana).
