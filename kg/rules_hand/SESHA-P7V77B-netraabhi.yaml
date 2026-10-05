@@ -1,0 +1,34 @@
+id: SESHA-P7V77B-netraabhi
+claim_en: >-
+  Anoint with ghee by mula, purify each with masura-pishta and waters, open the
+  eyes with the netra-mantra; worship the vishtara/pitha seat with own mantras,
+  perform avahana and padya; abhisheka with one's own purified kumbhas in the
+  purana order, smear gandha-heaps, and give clothing and the rest in order with
+  the dhruva-panchaka mantra - then the full upachara chain (uttariya, bhushana,
+  padya, arghya, achamana, jala-gandha-pushpa, dhupa, deepa, pranati).
+claim_sa: ... आज्येन ... अञ्जयित्वा ... तोयैश्च शोधयित्वा नेत्रमन्त्रेणाक्ष्युन्मीलनं
+  ... स्वैर्विम्बशुद्धिकुम्भैः पूरणवत् ... अभिषिच्य ... गन्धोत्करैरालिप्य ...
+  ध्रुवपञ्चकाख्यमनुना वस्त्रादि ... ।। ७७-७८ ।।
+rule_type: sequence
+params:
+  prep: [ajya_anjana, masura_toya_shodhana]
+  netronmilana: netra_mantra
+  abhisheka: own_purified_kumbhas_purana_order
+  then: [gandha, dhruva_panchaka_vastra, full_upachara_chain]
+applicability: Seshasamuccaya Patala 7, verses 77-78.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 77
+  passage_chars: 550
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0174 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 77-78 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Netra-to-abhisheka program (anjana -> netra -> kumbha bath
+  -> vastra -> full upacharas); consecration quest content.'
+status: partial
+review: hand

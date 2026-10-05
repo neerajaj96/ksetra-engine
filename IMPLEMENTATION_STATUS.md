@@ -494,3 +494,9 @@
 
 ## 2026-10-05 (cont.148) — MILESTONE 470 rules
 - Rule SESHA-P7V70B (nidra-kalasha + directional kalashas + ashtamangala ring). All suites green; both repos current.
+
+## 2026-10-05 (cont.149) — netra-to-abhisheka (471 rules)
+- Rule SESHA-P7V77B (anjana -> netra -> kumbha bath -> vastra -> full upacharas).
+
+## 2026-10-05 (cont.150) — utthapana (472 rules)
+- Rule SESHA-P7V85B (cloth -> lift -> carry -> lay -> raksha + mantras).
