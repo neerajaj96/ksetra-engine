@@ -446,3 +446,9 @@
 
 ## 2026-10-05 (cont.132) — MILESTONE 460 rules
 - Rule SESHA-P6V107B (sanga/niranga doctrine, consort niches, outer-shrine facing, separate utsavas).
+
+## 2026-10-05 (cont.133) — SESHA P7 surveyed
+- P7 = pratishtha-puja program (bends into P10 bera content); no new rule (redundant with V98B/V107B). Monthly still queued.
+
+## 2026-10-05 (cont.134) — monthly still queued, P9 mapped as homa-mandala
+- PRAYOGA P9V6-10 = kunda-mandala geometry + homa order (not month rites). Monthly program awaits masadhipa table completion.
