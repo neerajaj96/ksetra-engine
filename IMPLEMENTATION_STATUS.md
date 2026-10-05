@@ -506,3 +506,6 @@
 
 ## 2026-10-05 (cont.152) — sampata stations (474 rules)
 - Rule SESHA-P7V97B (navarna rounds + body-point sampata stations + 108 offerings).
+
+## 2026-10-05 (cont.153) — MILESTONE 475 rules
+- Rule SESHA-P7V102B (5 purpose-homas -> rakshya ghrita).
