@@ -443,3 +443,6 @@
 
 ## 2026-10-05 (cont.131) — anga-shuddhi (459 rules)
 - Rule SESHA-P6V103B (shesha-dravya / 7x / gavya remedies for limb impurity).
+
+## 2026-10-05 (cont.132) — MILESTONE 460 rules
+- Rule SESHA-P6V107B (sanga/niranga doctrine, consort niches, outer-shrine facing, separate utsavas).

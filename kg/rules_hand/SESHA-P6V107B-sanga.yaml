@@ -1,0 +1,36 @@
+id: SESHA-P6V107B-sanga
+claim_en: >-
+  Sanga (with-limbs) vs niranga installation: one guru serves the chief only,
+  land-taking for the chief; rakshoghna-homa rites separate, utsava always
+  separate; an independent deity set with or without its limbs counts niranga;
+  consorts - Saraswati with Brahma, Lakshmi with Hari, Uma with Shambhu - in
+  alinda niches or sub-shrines; outer-shrine deities face the deity or share
+  its direction, installed with it or in due time, each with limbs.
+claim_sa: ... गुरोर्वृतिरेकस्य प्रधानस्यैव ... उत्सवस्तु पृथगेव ... स्वातन्त्रयेण
+  स्थाप्यः ... निरङ्गम् ... सरस्वती ... ब्रह्मणः ... हरेर्लक्ष्मीः ... शम्भोरुमा ...
+  तत्सम्मुखं तत्समदिङ्मुखं वा ... प्रतिष्ठां विदध्यात् ... ।। १०७-१११ ।।
+rule_type: structure
+params:
+  guru: chief_only
+  utsava: always_separate
+  niranga: independent_without_limbs
+  consorts: {Brahma: Saraswati, Hari: Lakshmi, Shambhu: Uma}
+  consort_locus: [alinda, upashrine]
+  outer_shrines: [face_deity, share_direction, with_or_later]
+applicability: Seshasamuccaya Patala 6, verses 107-111.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 6
+  verse: 107
+  passage_chars: 500
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0154/p0155 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 107-111 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Deity-household layout doctrine (sanga/niranga, consort
+  niches, outer-shrine facing, separate utsavas); complex planning data.'
+status: partial
+review: hand
