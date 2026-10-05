@@ -353,3 +353,12 @@
 
 ## 2026-10-05 (cont.101) — snana table (433 rules)
 - Rule NARAYANA snana-mantras (ordered baths 7/8/9/11+).
+
+## 2026-10-05 (cont.102) — workshop handover (434 rules)
+- Rule V31B (gifted sculptor sets idol on stool). Checkpoint pushed (both repos).
+
+## 2026-10-05 (cont.103) — Subrahmanya abhisheka (435 rules)
+- Rule V106B (9 kalashas + 9 mantras).
+
+## 2026-10-05 (cont.104) — MILESTONE: corpus complete (435 rules)
+- ALL PDFs OCR-complete: PRAYOGA 187, NARAYANATMAKA 285, SESHA 280, KALASHA 403 = 1155 pages (~3MB text). texts.yaml all OCR_COMPLETE.

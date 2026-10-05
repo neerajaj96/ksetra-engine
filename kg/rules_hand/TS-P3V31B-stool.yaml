@@ -1,0 +1,23 @@
+id: TS-P3V31B-stool
+claim_en: >-
+  The preceptor shall engage the sculptor - presented with fitting gifts and
+  thereby pleased - to set the idol upon a wooden stool in the posture of its
+  consecration.
+rule_type: sequence
+params:
+  steps: [gift_sculptor, sculptor_sets_idol_wooden_stool]
+applicability: Tantrasamuccaya Patala 3, verse 31; Unni EN + commentaries.
+  Hand-reviewed (workshop batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 3
+  verse: 31
+  passage_chars: 2288
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Workshop handover (gift -> stool placement); craft quest
+  content with V48B temple receipt.'
+status: gated
+review: hand

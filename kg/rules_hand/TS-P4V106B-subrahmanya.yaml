@@ -1,0 +1,26 @@
+id: TS-P4V106B-subrahmanya
+claim_en: >-
+  For Subrahmanya pour abhisheka from nine kalashas in order - kusha-water
+  through gandha-water - with nine mantras (astra, kavaca, mula, hridaya;
+  Agnimile, Ishe-tva, Shanno-devi pratikas).
+rule_type: sequence
+params:
+  deity: Subrahmanya
+  kalashas: 9
+  order: kusha_to_gandha
+  mantras: 9
+applicability: Tantrasamuccaya Patala 4, verse 106; verse + Vimarshini + Vivarana.
+  Hand-reviewed (abhisheka batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 106
+  passage_chars: 1075
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Subrahmanya abhisheka (9 kalashas + 9 mantras); abhisheka
+  scheduler content.'
+status: gated
+review: hand
