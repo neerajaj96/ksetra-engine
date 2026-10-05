@@ -101,6 +101,19 @@ func _ready() -> void:
 	_floor(10.0, 2.0, 0.0, "courtyard")
 	# Sanctum climb verified as step geometry + walk ramp (see _check_sopana).
 	_check_sopana(b)
+	# Auxiliary spaces: kulam curb step, kavu grove floor (outside the ring
+	# wall), hall plinths (geometry: roofs overhead defeat downward rays).
+	_floor(-13.3, 10.15, 0.2, "kulam north curb")
+	_floor(-16.5, -13.0, 0.0, "kavu grove floor")
+	_floor(6.32, -4.2, 0.0, "thidappalli fetch apron")
+	var japa := _find_node(b, "JapaMandapa_Plinth")
+	if japa == null or not (japa is CSGBox3D):
+		_errs.append("JapaMandapa_Plinth missing")
+	elif absf((japa as Node3D).position.y + (japa as CSGBox3D).size.y / 2.0 - 0.4) > 0.01:
+		_errs.append("japa plinth top != 0.4")
+	for mmi in ["PalikaSet", "BrahmaKalashaSet", "ParitaFlagSet", "KavuTrunkSet", "KavuCrownSet"]:
+		if _find_node(b, mmi) == null:
+			_errs.append("instanced set missing: " + mmi)
 	# Open gates (short rays through each wall line, expect empty).
 	_ray(Vector3(27.6, 1, 0), Vector3(25.6, 1, 0), "maryada gate", false)
 	_ray(Vector3(19.6, 1, 0), Vector3(17.6, 1, 0), "vilakku gate", false)
@@ -109,9 +122,19 @@ func _ready() -> void:
 	# Sanctum barrier holds at the door gap.
 	var hit := _ray(Vector3(4.5, 2, 0), Vector3(1.5, 2, 0), "sanctum barrier", true, "SanctumBarrier")
 	if not hit.is_empty():
-		var hx: float = (hit.get("position") as Vector3).x
+		var hx: float = (hit["position"] as Vector3).x
 		if hx < 1.9 or hx > 2.5:
 			_errs.append("barrier at x=%.2f, want 1.9..2.5" % hx)
+	# Circular-slice smoke: west branch builds, door frame + linga present.
+	var b2 = Node3D.new()
+	b2.set_script(Builder)
+	add_child(b2)
+	if not b2.build_from("res://spec2.json"):
+		_errs.append("circular BUILD FAIL: " + str(b2.errors))
+	else:
+		for cn in ["DoorFrame", "LingaBrahma", "GopuraJambL", "ConeRafter_0"]:
+			if _find_node(b2, cn) == null:
+				_errs.append("circular node missing: " + cn)
 	if _errs.is_empty():
 		print("TRAVERSE OK: gopura->courtyard->mandapa walkable, barrier holds at door")
 		get_tree().quit(0)

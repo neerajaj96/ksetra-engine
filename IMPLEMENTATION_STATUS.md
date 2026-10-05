@@ -556,3 +556,13 @@
 
 ## 2026-10-05 — DEPLOYED v0.26.0-ksetra (487 rules, 404/108 nodes)
 - kalari 4175a25 tagged v0.26.0-ksetra (code 33). CI export-android SUCCESS (55s) -> Release published with kalari-debug.apk.
+
+## 2026-10-05 (cont.160) — HERO ASSET + MATERIAL + RENDERING QUALITY (487 rules, 420/147 nodes)
+- Roofs finished: Mukha/Namaskara battens + rafters, hall rafters, gable assemblies (ridge/rafters/battens/fascia) both slices, cone batten rings + fascia. No bare pyramid silhouette remains.
+- Shared render meshes: _shared_box/_shared_lathe + _mmi MultiMesh; palika-16, kavu 18, parita-8, kalasha-5 collapsed 45 draws -> 6 MMIs (collision-free dressing only; provenance on sets; LOD kept).
+- Sculpt (canon-safe): sacred-thread/waistband bands, dvarapala Oma pedestals + staves, murti backplates, rishabha dewlap/tail/hoof band. No faces, no tala changes.
+- Materials: roughness_texture variation (verified Godot 4 API names; normal_map stays forbidden) on stone/grain; stone age-blotch + grain contrast; zero binaries, zero warnings.
+- Vegetation: ksetra planting hook (FoliageManager.setup_ksetra: 60 grass + 12 reeds + 8 bushes, verge/tank/grove bands, LOD45) wired in world_loader.
+- Camera: explicit hit_from_inside=false + second roofline ray + far=70. Traverse extended (kulam curb, kavu floor, hall plinths, MMI sets, circular smoke).
+- Perf: LOD helper for small dressing (25m); PerfHUD debug-only overlay (FPS/ms/draws/tris/mem/nodes) toggled from Settings. Occluders/streaming deferred to on-device measurement (documented).
+- Budgets hold: <=430/<=150. All gates green.
