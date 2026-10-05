@@ -566,3 +566,6 @@
 - Camera: explicit hit_from_inside=false + second roofline ray + far=70. Traverse extended (kulam curb, kavu floor, hall plinths, MMI sets, circular smoke).
 - Perf: LOD helper for small dressing (25m); PerfHUD debug-only overlay (FPS/ms/draws/tris/mem/nodes) toggled from Settings. Occluders/streaming deferred to on-device measurement (documented).
 - Budgets hold: <=430/<=150. All gates green.
+
+## 2026-10-05 — DEPLOYED v0.27.0-ksetra (487 rules, 420/147 nodes)
+- kalari 51669ca tagged v0.27.0-ksetra (code 34). CI export-android SUCCESS (49s) -> Release published with kalari-debug.apk.
