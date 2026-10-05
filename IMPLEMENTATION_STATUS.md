@@ -410,3 +410,9 @@
 
 ## 2026-10-05 (cont.120) — MILESTONE 450 rules
 - Rules: homa-counts, Durga-patala entry, snana table, vastumandala batch. 5 texts yielding; corpus OCR-complete.
+
+## 2026-10-05 (cont.121) — prop set (452 rules)
+- Rule V66B (Subrahmanya 8-item prop set).
+
+## 2026-10-05 (cont.122) — ashtamangala (453 rules)
+- Rules V66B (Subrahmanya 8) + V67B (ashtamangala shared set). P4 hand coverage complete (V01-115 key verses).

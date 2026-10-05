@@ -1,0 +1,24 @@
+id: TS-P4V67B-ashtamangala
+claim_en: >-
+  For Ganapati and Shasta apply the eight auspicious items (ashtamangala) as
+  for Shiva (or Vishnu): mirror, full water pot, ox, chamara pair, shrivatsa,
+  svastika, conch and lamp (bhauma-deepa).
+rule_type: material
+params:
+  deities: [Ganapati, Shasta]
+  ashtamangala: [mirror, full_pot, ox, chamara_pair, shrivatsa, svastika, conch, lamp]
+applicability: Tantrasamuccaya Patala 4, verse 67; verse + Vimarshini + Vivarana.
+  Hand-reviewed (props batch).
+source:
+  work: Tantrasamuccaya
+  edition: Unni-2006-Nag-reprint
+  patala: 4
+  verse: 67
+  passage_chars: 448
+  commentary: Vimarshini+Vivarana in verse-anchored passage
+  translator: N.P. Unni
+layer: TRANSLATION
+game_abstraction: 'Ashtamangala prop set (8 items, deity-shared with Shiva/
+  Vishnu variants); festival-prop inventory content.'
+status: gated
+review: hand
