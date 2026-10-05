@@ -332,3 +332,6 @@
 
 ## 2026-10-05 (cont.94) — nine-kunda homa (429 rules)
 - Rule SESHA-P6V16B (center-Virabhadra 9-kunda expiation homa + kalasha-abhisheka).
+
+## 2026-10-05 (cont.95) — checkpoint pushed (429 rules)
+- ksetra-engine 8d804e9 pushed master; kalari-game 970ccdd pushed main (no tag; release stays v0.22.0-ksetra).
