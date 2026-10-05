@@ -1,0 +1,29 @@
+id: NARAYANA-P13V00-durgapatala
+claim_en: >-
+  Here begins the Durga section (trayodasha patala): after obeisance to Vishnu
+  the proven Lord, taught is goddess Durga's supreme prakriti-yaga - the deity
+  here, the surrounding light, the light of lights.
+claim_sa: ... नमस्कृत्वा प्रमेयाय विष्णवे प्रभविष्णवे । दुर्गां देवीं च वक्ष्येहं
+  प्रकृतेर्यागमुत्तमम् । देवतेह परिर्ज्योति ज्योतिषां ...
+rule_type: deity
+params:
+  section: Durga_patala_13
+  rite: prakriti_yaga_uttama
+  opens_with: Vishnu_obeisance
+applicability: Narayanatmakam, trayodasha patala opening.
+  300dpi tesseract san/psm6 OCR. V00 section anchor. Hand-reviewed (NARAYANA batch).
+source:
+  work: Narayanatmakam
+  edition: Shripuram-OCR-partial
+  patala: 13
+  verse: 0
+  passage_chars: 900
+  commentary: none extracted yet
+  translator: none
+  ocr_page: NARAYANATMAKA-p0200 (render dpi300, -l san --psm 6)
+  note: OCR layer; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Durga-section entry (prakriti-yaga); future Devi-slice
+  program hook.'
+status: partial
+review: hand

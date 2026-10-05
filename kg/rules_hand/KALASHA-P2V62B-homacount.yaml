@@ -1,0 +1,31 @@
+id: KALASHA-P2V62B-homacount
+claim_en: >-
+  Offer cooked (pakva) oblations with purna-mantra again and again; pour ghee
+  with vyoma-mantra to fullness; then all offer in Isha/Brahma order - ghee
+  three thousand with panchakshara, and eight thousand each of samit, sarpi,
+  vrihi, tila, laja.
+claim_sa: ... पक्वहोमात् ... पूनामन्त्रं सकृत् सकृत् । हुत्वाज्यं व्योममनुना ततः
+  पूर्णं ... ।। ६३ ।। ... पञ्चभिस्त्रिसहस्राज्यं ... पञ्चाक्षरेण च ।। ६४ ।।
+  समित्सर्पिर्व्रीहितिललाजान्यष्टसहस्रकम् ...
+rule_type: sequence
+params:
+  counts: {ghee_panchakshara: 3000, samit_sarpi_vrihi_tila_laja_each: 8000}
+  order: Isha_Brahma
+  mantra: [purna, vyoma]
+applicability: Kalashachandrika Patala 2, verses 62-64.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (KALASHA batch).
+source:
+  work: Kalashachandrika
+  edition: Shripuram-OCR-partial
+  patala: 2
+  verse: 62
+  passage_chars: 700
+  commentary: none extracted yet
+  translator: none
+  ocr_page: KALASHA-p0026 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 62-64 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Great-homa count program (3k ghee + 8k x5); fire-count
+  tracker content for festival homas.'
+status: partial
+review: hand

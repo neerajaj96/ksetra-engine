@@ -404,3 +404,9 @@
 
 ## 2026-10-05 (cont.118) — snapana mandala (448 rules)
 - Rule KALASHA-P4V160B (109/209 grid + lotus25 + central kumbha gold/gems/gandhodaka).
+
+## 2026-10-05 (cont.119) — great-homa counts (449 rules)
+- Rule KALASHA-P2V62B (3k ghee + 8k x5, Isha/Brahma order).
+
+## 2026-10-05 (cont.120) — MILESTONE 450 rules
+- Rules: homa-counts, Durga-patala entry, snana table, vastumandala batch. 5 texts yielding; corpus OCR-complete.
