@@ -6,8 +6,9 @@ const Builder = preload("res://godot/ksetra_builder.gd")
 
 var _errs: Array = []
 
-func _ray(from: Vector3, to: Vector3, label: String, expect_hit: bool, want_name := "") -> Dictionary:
+func _ray(from: Vector3, to: Vector3, label: String, expect_hit: bool, want_name := "", exclude: Array = []) -> Dictionary:
 	var q := PhysicsRayQueryParameters3D.create(from, to)
+	q.exclude = exclude
 	var hit := get_world_3d().direct_space_state.intersect_ray(q)
 	var got := not hit.is_empty()
 	if got != expect_hit:
@@ -42,27 +43,32 @@ func _find_node(n: Node, nm: String) -> Node:
 	return null
 
 func _check_sopana(b: Node) -> void:
-	# Step treads are verified as geometry (tops monotonic, contiguous run,
-	# rises within snap): physics rays stay for corridor/barrier (StaticBody).
+	# Tread plates ride the walk ramp (tops follow the 24deg slope +0.045, so
+	# no riser walls the climb): assert monotonic run, even spacing, and that
+	# the run meets the adhishthana. Ramp physics asserted below.
 	var tops: Array = []
-	var spans: Array = []
+	var xs: Array = []
 	for si in range(5):
-		var n := _find_node(b, "Sopana%d" % (si + 1))
-		if n == null or not (n is CSGBox3D):
-			_errs.append("Sopana%d missing" % (si + 1))
+		var n := _find_node(b, "SopanaTread_%d" % (si + 1))
+		if n == null or not (n is MeshInstance3D):
+			_errs.append("SopanaTread_%d missing" % (si + 1))
 			return
-		var box := n as CSGBox3D
-		var top: float = (box as Node3D).position.y + box.size.y / 2.0
-		tops.append(top)
-		spans.append([(box as Node3D).position.x - box.size.x / 2.0, (box as Node3D).position.x + box.size.x / 2.0])
+		var mi := n as MeshInstance3D
+		tops.append((mi as Node3D).position.y + 0.03)
+		xs.append((mi as Node3D).position.x)
 	for si in range(5):
-		if absf(float(tops[si]) - (0.2 + float(si) * 0.2)) > 0.01:
-			_errs.append("Sopana%d top %.2f, want %.2f" % [si + 1, float(tops[si]), 0.2 + float(si) * 0.2])
+		if si > 0 and float(tops[si]) <= float(tops[si - 1]):
+			_errs.append("treads not rising at %d" % (si + 1))
 	for si in range(4):
-		if float(spans[si][0]) > float(spans[si + 1][1]) + 0.05:
-			_errs.append("sopana run gap between steps %d/%d" % [si + 1, si + 2])
-	if float(spans[4][0]) > 2.6:
-		_errs.append("top step west edge %.2f misses adhishthana" % float(spans[4][0]))
+		var d := float(tops[si + 1]) - float(tops[si])
+		if d < 0.1 or d > 0.25:
+			_errs.append("tread rise %.2f out of [0.1,0.25]" % d)
+		if absf(float(xs[si]) - float(xs[si + 1]) - 0.4) > 0.01:
+			_errs.append("tread spacing off at %d" % (si + 1))
+	if float(tops[4]) < 0.9 or float(tops[4]) > 1.05:
+		_errs.append("top tread %.2f misses adhishthana 1.08" % float(tops[4]))
+	if float(xs[4]) > 2.8:
+		_errs.append("top tread west edge misses adhishthana")
 	var ramp := _find_node(b, "SopanaRamp")
 	if ramp == null:
 		_errs.append("SopanaRamp missing")
@@ -111,16 +117,59 @@ func _ready() -> void:
 		_errs.append("JapaMandapa_Plinth missing")
 	elif absf((japa as Node3D).position.y + (japa as CSGBox3D).size.y / 2.0 - 0.4) > 0.01:
 		_errs.append("japa plinth top != 0.4")
-	for mmi in ["PalikaSet", "BrahmaKalashaSet", "ParitaFlagSet", "KavuTrunkSet", "KavuCrownSet"]:
+	for mmi in ["PalikaSet", "BrahmaKalashaSet", "ParitaFlagSet", "KavuTrunkSet", "KavuCrownSet", "KavuCrownTopSet"]:
 		if _find_node(b, mmi) == null:
 			_errs.append("instanced set missing: " + mmi)
+	# Pradakshina ring floor samples (between the 8 bali stones, r = uh + 2.5).
+	for bi in range(8):
+		var bang := TAU * float(bi) / 8.0
+		_floor(cos(bang) * 11.14, sin(bang) * 11.14, 0.0, "pradakshina %d" % bi)
 	# Open gates (short rays through each wall line, expect empty).
 	_ray(Vector3(27.6, 1, 0), Vector3(25.6, 1, 0), "maryada gate", false)
 	_ray(Vector3(19.6, 1, 0), Vector3(17.6, 1, 0), "vilakku gate", false)
 	_ray(Vector3(15.6, 1, 0), Vector3(14.0, 1, 0), "nalambalam gate", false)
 	_ray(Vector3(14.5, 1, 1.0), Vector3(12.5, 1, 1.0), "gopura passage", false)
-	# Sanctum barrier holds at the door gap.
-	var hit := _ray(Vector3(4.5, 2, 0), Vector3(1.5, 2, 0), "sanctum barrier", true, "SanctumBarrier")
+	# Scripted capsule walker: real move_and_slide traversal down the east axis.
+	# Same body spec as the fighter (r0.4/h1.8, snap 0.3); ends pressed against
+	# the sanctum barrier, proving both walkability AND permission hold.
+	var walker := CharacterBody3D.new()
+	walker.name = "ProveWalker"
+	var wcol := CollisionShape3D.new()
+	var wcap := CapsuleShape3D.new()
+	wcap.radius = 0.4
+	wcap.height = 1.8
+	wcol.shape = wcap
+	wcol.position = Vector3(0, 0.9, 0)
+	walker.add_child(wcol)
+	walker.floor_snap_length = 0.3
+	walker.position = Vector3(28, 1.0, 0)
+	add_child(walker)
+	var legs := [Vector3(20, 0, 0), Vector3(14.5, 0, 1.0), Vector3(12.0, 0, 1.0),
+		Vector3(11.0, 0, 2.5), Vector3(10.0, 0, 2.0), Vector3(9.0, 0, 2.0),
+		Vector3(5.0, 0, 2.0), Vector3(4.9, 0, 0.1), Vector3(3.6, 0, 0.1),
+		Vector3(1.0, 0, 0)]
+	var vy := 0.0
+	for leg in legs:
+		var target: Vector3 = leg
+		var t := 0.0
+		while t < 10.0:
+			await get_tree().physics_frame
+			t += get_physics_process_delta_time()
+			var to := target - walker.position
+			to.y = 0.0
+			if to.length() < 0.6:
+				break
+			var dir := to.normalized()
+			vy -= 9.8 * get_physics_process_delta_time()
+			if walker.is_on_floor():
+				vy = -0.5
+			walker.velocity = Vector3(dir.x * 3.0, vy, dir.z * 3.0)
+			walker.move_and_slide()
+	if walker.position.x > 3.2 or walker.position.x < 1.85:
+		_errs.append("walker holds at x=%.2f, want pressed at barrier 1.85..3.2" % walker.position.x)
+	# Sanctum barrier holds at the door gap (ray proof alongside the walker;
+	# walker excluded so its own capsule never shadows the barrier).
+	var hit := _ray(Vector3(4.5, 2, 0), Vector3(1.5, 2, 0), "sanctum barrier", true, "SanctumBarrier", [walker.get_rid()])
 	if not hit.is_empty():
 		var hx: float = (hit["position"] as Vector3).x
 		if hx < 1.9 or hx > 2.5:
@@ -132,7 +181,7 @@ func _ready() -> void:
 	if not b2.build_from("res://spec2.json"):
 		_errs.append("circular BUILD FAIL: " + str(b2.errors))
 	else:
-		for cn in ["DoorFrame", "LingaBrahma", "GopuraJambL", "ConeRafter_0"]:
+		for cn in ["DoorFrame", "LingaBrahma", "GopuraJambL", "ConeRafterSet", "ConeDressSet"]:
 			if _find_node(b2, cn) == null:
 				_errs.append("circular node missing: " + cn)
 	if _errs.is_empty():

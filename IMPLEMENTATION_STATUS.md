@@ -569,3 +569,13 @@
 
 ## 2026-10-05 — DEPLOYED v0.27.0-ksetra (487 rules, 420/147 nodes)
 - kalari 51669ca tagged v0.27.0-ksetra (code 34). CI export-android SUCCESS (49s) -> Release published with kalari-debug.apk.
+
+## 2026-10-05 (cont.161) — HERO ARCHITECTURE + REAL-TIME WORLD QUALITY (487 rules, 311/106 nodes)
+- Roofs finished honestly: Mukha/Namaskara denser rafters + battens, hall rafter sets, gable assemblies both slices, cone batten/fascia rings; gopura sala caps + ridge knobs; TierBand dup removed.
+- Render/collision split: beams/battens/struts/corbels/cone dressing collapsed into instanced MMI sets via shared unit mesh (_aimed/_unit_box); hidden proxies kept (SopanaRamp, DwajaPole proxy); RishabhaHorn collide fixed.
+- Hero detail: flush tread plates on ramps (both slices, climb verified by walker), raised mukhamandapa clear height (head-wedge found by contact dump, fixed), chakra 8-spoke, padma 8-petal, door hinges/bolts, adhishthana arris beads.
+- Materials: 128px maps, Sobel normal_texture (correct Godot 4 name; normal_map stays forbidden), moss 8th mat on grove/tank stones, cavity + anisotropy bakes. Zero warnings.
+- Vegetation: procedural leaf/blade alpha cards + crossed quads in builder canopies and all FoliageManager sets (sway shader extended, backward compatible); kavu roots, leaf litter, tile debris MMI sets; ksetra planting hook live.
+- Traversal: walker rerouted around mandapa slabs/pillar omas (wide-margin waypoints), Koothambalam set back off pradakshina ring, second camera ray + far=70, traverse extended (ring samples, aux floors, MMI sets, circular smoke).
+- Perf: LOD on small dressing; PerfHUD benchmark mode (7 ksetra stations -> user://benchmark.json, 3-state Settings toggle). Occluders/streaming deferred to on-device numbers (documented).
+- Budgets hold: <=430/<=150 (actual 311/106). All gates green.
