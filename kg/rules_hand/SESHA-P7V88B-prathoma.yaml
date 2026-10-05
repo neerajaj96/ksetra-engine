@@ -1,0 +1,32 @@
+id: SESHA-P7V88B-prathoma
+claim_en: >-
+  Pratishtha-homa: kindled fire, offer trimadhura-soaked palasha, udumbara and
+  ashvattha sticks with tila, a thousand with bhur-adi in order; then with
+  shadakshara and avarana-family mantras offer ghee; dedicate the sampata to
+  Eka-Vira (Matris: divide shares to Virabhadra-adi); Bhairavi tattva-homa with
+  own mantras; murtipas continue sampata-pouring and the rest.
+claim_sa: ... त्रिमधुराप्लुतान् ... पलाशोदुम्बराश्वत्थसमिधस्तिलांश्च ... असुसहस्रं
+  जुहोतु ... षडक्षरेणावरणमन्त्रकैरपि ... सर्पिर्जुहोतु ... सम्पातं ... एकवीर्या
+  समर्पयेत् ... तत्त्वहवनं स्वेज्याकृदम्बासु तु स्वैर्मन्त्रैः ... ।। ८८-९० ।।
+rule_type: sequence
+params:
+  offerings_1000: [palasha, udumbara, ashvattha, tila]
+  then: [shadakshara_avarana_ghee, sampata_eka_vira, matri_shares_virabhadra, tattva_homa_own_mantras]
+  murtipa_continue: sampata_pouring
+applicability: Seshasamuccaya Patala 7, verses 88-90.
+  300dpi tesseract san/psm6 OCR. Hand-reviewed (SESHA batch).
+source:
+  work: Seshasamuccaya
+  edition: Shripuram-OCR-partial
+  patala: 7
+  verse: 88
+  passage_chars: 550
+  commentary: auto-commentary in OCR anchor (unverified)
+  translator: none
+  ocr_page: SESHA-p0177 (render dpi300, -l san --psm 6)
+  note: OCR layer; verses 88-90 combined; upgrade after edition cross-check
+layer: OCR
+game_abstraction: 'Pratishtha-homa program (1000x + shadakshara + sampata +
+  tattva-homa); installation fire content.'
+status: partial
+review: hand

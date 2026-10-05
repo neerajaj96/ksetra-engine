@@ -500,3 +500,9 @@
 
 ## 2026-10-05 (cont.150) — utthapana (472 rules)
 - Rule SESHA-P7V85B (cloth -> lift -> carry -> lay -> raksha + mantras).
+
+## 2026-10-05 (cont.151) — pratishtha-homa (473 rules)
+- Rule SESHA-P7V88B (1000x + shadakshara + sampata + tattva-homa).
+
+## 2026-10-05 (cont.152) — sampata stations (474 rules)
+- Rule SESHA-P7V97B (navarna rounds + body-point sampata stations + 108 offerings).
